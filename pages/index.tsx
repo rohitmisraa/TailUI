@@ -1,70 +1,99 @@
 import Head from 'next/head'
 import Image from 'next/image'
-import styles from '../styles/Home.module.css'
+import Nav from '../components/nav'
+// import styles from '../styles/Home.module.css'
+import SVG from "../svg"
+import Link from 'next/link'
+
 
 export default function Home() {
   return (
-    <div className={styles.container}>
+    <div className="w-screen h-screen overflow-x-hidden">
       <Head>
         <title>Tailui</title>
         <meta name="description" content="Tailui a free and open source components library for Tailwind css." />
         <link rel="icon" href="/favicon.ico" />
-        {/* <script src="https://cdn.tailwindcss.com"></script> */}
+        <script src="https://cdn.tailwindcss.com"></script>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/solid.min.css" integrity="sha512-6/gTF62BJ06BajySRzTm7i8N2ZZ6StspU9uVWDdoBiuuNu5rs1a8VwiJ7skCz2BcvhpipLKfFerXkuzs+npeKA==" crossOrigin="anonymous" referrerPolicy="no-referrer" />
+        <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500&display=swap" rel="stylesheet"></link>
       </Head>
-      <h1 className='bg-red-600'>Hello</h1>
-      <main className={styles.main}>
-        <h1 className="text-green-900">
-          Welcome to <a href="https://nextjs.org">Next.js!</a>
-        </h1>
+      <Nav/>
+      <div className='w-screen h-full bg-red-300 flex'>
+        <div className='w-[400px] h-full bg-white border-r-[1px] border-gray-400 pl-20 pt-10'>
+          <div className='my-2'>
+            <div className='flex cursor-pointer'>
+              <div className='h-5 w-5 bg-purple mr-4 relative top-1 rounded-md p-[2px]'>
+                {SVG.docs}
+              </div>
+              <span className=' font-Rubik text-xl font-medium'>Documentation</span>
+              <div className='relative top-2 ml-4'>{SVG.down_arrow}</div>
+              </div>
+            <div className='ml-20 font-Rubik'>
+              <ul className='list-disc text-xl font-Rubik text-grey-dark'>
+                <li className='text-black font-medium my-3'><Link href={'/'}>Getting Started</Link></li>
+                <li className='my-3'><Link href={'/'}>Theme Guide</Link></li>
+                <li className='my-3'><Link href={'/'}>About TailUI</Link></li>
+                <li className='my-3'><Link href={'/'}>How to contribute?</Link></li>
+              </ul>
+            </div>
+          </div>
 
-        <p className={styles.description}>
-          Get started by editing{' '}
-          <code className={styles.code}>pages/index.js</code>
-        </p>
 
-        <div className={styles.grid}>
-          <a href="https://nextjs.org/docs" className={styles.card}>
-            <h2>Documentation &rarr;</h2>
-            <p>Find in-depth information about Next.js features and API.</p>
-          </a>
+          <div className='my-5'>
+            <div className='flex cursor-pointer'>
+              <div className='h-5 w-5 bg-purple mr-4 relative top-1 rounded-md p-[2px]'>
+              {SVG.block}
+              </div>
+              <span className=' font-Rubik text-xl text-grey-dark'>Components</span>
+              <div className='relative top-2 ml-4'>{SVG.down_arrow}</div>
+              </div>
+            <div className='ml-20 font-Rubik'>
+              <ul className='list-disc text-xl font-Rubik text-grey-dark'>
+                <li className='my-3'><Link href={'/'}>Buttons</Link></li>
+                <li className='my-3'><Link href={'/'}>Button Groups</Link></li>
+                <li className='my-3'><Link href={'/'}>Cards</Link></li>
+                <li className='my-3'><Link href={'/'}>Footer</Link></li>
+                <li className='my-3'><Link href={'/'}>Input</Link></li>
+                <li className='my-3'><Link href={'/'}>Navbar</Link></li>
+                <li className='my-3'><Link href={'/'}>Hero</Link></li>
+              </ul>
+            </div>
+          </div>
 
-          <a href="https://nextjs.org/learn" className={styles.card}>
-            <h2>Learn &rarr;</h2>
-            <p>Learn about Next.js in an interactive course with quizzes!</p>
-          </a>
-
-          <a
-            href="https://github.com/vercel/next.js/tree/canary/examples"
-            className={styles.card}
-          >
-            <h2>Examples &rarr;</h2>
-            <p>Discover and deploy boilerplate example Next.js projects.</p>
-          </a>
-
-          <a
-            href="https://vercel.com/new?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
-            className={styles.card}
-          >
-            <h2>Deploy &rarr;</h2>
-            <p>
-              Instantly deploy your Next.js site to a public URL with Vercel.
-            </p>
-          </a>
+          <div className='my-5'>
+            <div className='flex cursor-pointer'>
+              <div className='h-5 w-5 bg-purple mr-4 relative top-1 rounded-md p-[2px]'>
+              {SVG.table}
+              </div>
+              <span className=' font-Rubik text-xl text-grey-dark'>Web Blocks</span>
+              <div className='relative top-2 ml-4'>{SVG.down_arrow}</div>
+              </div>
+            <div className='ml-20 font-Rubik'>
+              <ul className='list-disc text-xl font-Rubik text-grey-dark'>
+                <li className='my-3'><Link href={'/'}>Single Page</Link></li>
+                <li className='my-3'><Link href={'/'}>Portfolios</Link></li>
+                <li className='my-3'><Link href={'/'}>Error Pages</Link></li>
+                <li className='my-3'><Link href={'/'}>Success Pages</Link></li>
+              </ul>
+            </div>
+          </div>
         </div>
-      </main>
+        <div className='w-[750px] h-full bg-white'>
 
-      <footer className={styles.footer}>
-        <a
-          href="https://vercel.com?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Powered by{' '}
-          <span className={styles.logo}>
-            <Image src="/vercel.svg" alt="Vercel Logo" width={72} height={16} />
-          </span>
-        </a>
-      </footer>
+        </div>
+        <div className='w-96 h-full bg-white border-l-[1px] border-gray-500 pt-8 pl-16'>
+          <ul className=' text-lg font-Rubik text-grey-dark'>
+              <li className='my-1'><Link href={'/'}>Buttons</Link></li>
+              <li className='my-1'><Link href={'/'}>Button Groups</Link></li>
+              <li className='my-1'><Link href={'/'}>Cards</Link></li>
+              <li className='my-1'><Link href={'/'}>Footer</Link></li>
+              <li className='my-1'><Link href={'/'}>Input</Link></li>
+              <li className='my-1'><Link href={'/'}>Navbar</Link></li>
+              <li className='my-1'><Link href={'/'}>Hero</Link></li>
+          </ul>
+        </div>
+      </div>
+      
     </div>
   )
 }
