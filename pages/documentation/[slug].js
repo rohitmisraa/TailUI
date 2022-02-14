@@ -19,7 +19,7 @@ export default function docPage({
 }
 
 export async function getStaticPaths() {
-    const files = fs.readdirSync(path.join('posts'))
+    const files = fs.readdirSync(path.join('posts/documentation'))
     const paths = files.map(__filename => ({
         params: {
             slug: __filename.replace('.md', '')
@@ -31,7 +31,7 @@ export async function getStaticPaths() {
     }
 }
 export async function getStaticProps({params: { slug }}) {
-    const Markedwithmeta = fs.readFileSync(path.join('posts', slug + '.md'), 'utf-8')
+    const Markedwithmeta = fs.readFileSync(path.join('posts/documentation', slug + '.md'), 'utf-8')
     const {data: frontmatter, content} = matter(Markedwithmeta);
     return {
         props: {
