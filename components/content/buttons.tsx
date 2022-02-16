@@ -1,3 +1,8 @@
+import Head from "next/head";
+import Drawer from "../../components/layouts/Drawer";
+import Footer from "../../components/layouts/Footerdoc";
+import Stamps from "../../components/layouts/Stamps";
+import Nav from "../../components/layouts/nav";
 
 
 
@@ -164,7 +169,6 @@ export default function Buttons() {
 
         </div>
         {/* ---Bt 1--- */}
-
     </div>
   )
 }

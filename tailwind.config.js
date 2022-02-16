@@ -2,6 +2,18 @@ module.exports = {
     content: ['./pages/**/*.{js,ts,jsx,tsx}', './components/**/*.{js,ts,jsx,tsx}'],
     theme: {
       extend: {
+        textColor: {
+            skin: {
+              light: 'var(--color-text-light)',
+              dark: 'var(--color-text-dark)',
+            },
+          },
+          backgroundColor: {
+            skin: {
+              fill: 'var(--fill-dark)',
+              base: 'var(--color-background)'
+            }
+          },
         fontFamily: {
           'Rubik': ['Rubik', 'sans-serif'],
         },

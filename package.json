@@ -11,7 +11,7 @@
     "build": "next build",
     "start": "next start",
     "lint": "next lint",
-    "nodemon": "nodemon -e js,tsx",
+    "nodemon": "nodemon -x npm run tail  -e js,tsx,css",
     "tail": "tailwindcss build ./styles/main.css -o ./styles/globals.css"
   },
   "dependencies": {
