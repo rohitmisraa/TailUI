@@ -4,7 +4,7 @@ import SVG from '../../svg'
 
 export default function drawer() {
   return (
-    <div className='w-1/3 lg:w-[300px] hidden xl:w-[300px] xl:block h-full border-r-[1px] border-gray-400 pl-5 pr-3 pt-10 overflow-scroll fixed z-10'>
+    <div className='w-1/3 lg:w-[300px] hidden xl:w-[300px] lg:block h-full border-r-[1px] border-gray-400 pl-5 pr-3 pt-10 overflow-scroll fixed z-10'>
           <div className='my-2'>
             <div className='flex cursor-pointer'>
               <div className='h-5 w-5 bg-gradient-to-r from-gr_violet-1 to-gr_violet-2 mr-4 relative top-1 rounded-md p-[2px]'>
@@ -35,12 +35,12 @@ export default function drawer() {
               <ul className='list-disc text-xl font-Rubik text-skin-light'>
               
                 <li className='my-3'><Link href={'/components/buttons'}>Buttons</Link></li>
-                <li className='my-3'><Link href={'/'}>Button Groups</Link></li>
-                <li className='my-3'><Link href={'/'}>Cards</Link></li>
-                <li className='my-3'><Link href={'/'}>Footer</Link></li>
-                <li className='my-3'><Link href={'/'}>Input</Link></li>
-                <li className='my-3'><Link href={'/'}>Navbar</Link></li>
-                <li className='my-3'><Link href={'/'}>Hero</Link></li>
+                <li className='my-3'><Link href={'/components/button-groups'}>Button Groups</Link></li>
+                <li className='my-3'><Link href={'/components/cards'}>Cards</Link></li>
+                <li className='my-3'><Link href={'/components/footers'}>Footer</Link></li>
+                <li className='my-3'><Link href={'/components/input-fields'}>Input</Link></li>
+                <li className='my-3'><Link href={'/components/navbars'}>Navbar</Link></li>
+                <li className='my-3'><Link href={'/components/'}>Hero</Link></li>
               </ul>
             </div>
           </div>

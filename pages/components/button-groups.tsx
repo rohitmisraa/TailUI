@@ -3,11 +3,12 @@ import Drawer from "../../components/layouts/Drawer";
 import Footer from "../../components/layouts/Footerdoc";
 import Stamps from "../../components/layouts/Stamps";
 import Nav from "../../components/layouts/nav";
-import ButtonsD from "../../components/content/components/buttons";
+import ButtonsD from "../../components/content/components/button-groups";
+import Headr from "../../components/headr";
 
 
 
-export default function Buttons() {
+export default function ButtonGroups() {
     return (
         <div className="w-full overflow-x-hidden bg-skin-base ">
             <Head>
@@ -23,7 +24,7 @@ export default function Buttons() {
             <div className='xl:w-[1480px] h-full flex pt-16 m-auto'>
                 <Drawer />
                 <div className='w-full xl:w-7/12 h-auto lg:ml-[300px] xl:ml-[300px]'>
-
+                    <Headr />
                     <ButtonsD />
 
                 </div>

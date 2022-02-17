@@ -3,11 +3,11 @@ import Drawer from "../../components/layouts/Drawer";
 import Footer from "../../components/layouts/Footerdoc";
 import Stamps from "../../components/layouts/Stamps";
 import Nav from "../../components/layouts/nav";
-import ButtonsD from "../../components/content/components/buttons";
+import InputD from "../../components/content/components/inputs";
 
 
 
-export default function Buttons() {
+export default function InputFields() {
     return (
         <div className="w-full overflow-x-hidden bg-skin-base ">
             <Head>
@@ -24,7 +24,7 @@ export default function Buttons() {
                 <Drawer />
                 <div className='w-full xl:w-7/12 h-auto lg:ml-[300px] xl:ml-[300px]'>
 
-                    <ButtonsD />
+                    <InputD />
 
                 </div>
                 <div className="h-full w-[350px] hidden xl:block">
