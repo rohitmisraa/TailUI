@@ -492,8 +492,8 @@ Ensure the default browser behavior of the `hidden` attribute.
   position: relative;
 }
 
-.top-1 {
-  top: 0.25rem;
+.bottom-1 {
+  bottom: 0.25rem;
 }
 
 .left-4 {
@@ -506,6 +506,10 @@ Ensure the default browser behavior of the `hidden` attribute.
 
 .right-4 {
   right: 1rem;
+}
+
+.top-1 {
+  top: 0.25rem;
 }
 
 .top-2 {
@@ -547,14 +551,14 @@ Ensure the default browser behavior of the `hidden` attribute.
   margin-bottom: 2.5rem;
 }
 
-.my-2 {
-  margin-top: 0.5rem;
-  margin-bottom: 0.5rem;
-}
-
 .my-3 {
   margin-top: 0.75rem;
   margin-bottom: 0.75rem;
+}
+
+.my-2 {
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
 }
 
 .my-1 {
@@ -676,6 +680,12 @@ Ensure the default browser behavior of the `hidden` attribute.
   width: 300px;
 }
 
+.w-min {
+  width: -webkit-min-content;
+  width: -moz-min-content;
+  width: min-content;
+}
+
 .w-96 {
   width: 24rem;
 }
@@ -720,6 +730,12 @@ Ensure the default browser behavior of the `hidden` attribute.
   margin-left: calc(0.75rem * calc(1 - var(--tw-space-x-reverse)));
 }
 
+.space-x-5 > :not([hidden]) ~ :not([hidden]) {
+  --tw-space-x-reverse: 0;
+  margin-right: calc(1.25rem * var(--tw-space-x-reverse));
+  margin-left: calc(1.25rem * calc(1 - var(--tw-space-x-reverse)));
+}
+
 .overflow-auto {
   overflow: auto;
 }
@@ -730,6 +746,10 @@ Ensure the default browser behavior of the `hidden` attribute.
 
 .overflow-x-hidden {
   overflow-x: hidden;
+}
+
+.whitespace-pre-line {
+  white-space: pre-line;
 }
 
 .rounded {
@@ -769,6 +789,10 @@ Ensure the default browser behavior of the `hidden` attribute.
 
 .border-2 {
   border-width: 2px;
+}
+
+.border {
+  border-width: 1px;
 }
 
 .border-\[1px\] {
@@ -843,19 +867,6 @@ Ensure the default browser behavior of the `hidden` attribute.
   background-color: rgb(6 28 63 / var(--tw-bg-opacity));
 }
 
-.bg-cl-grey-light {
-  --tw-bg-opacity: 1;
-  background-color: rgb(208 206 206 / var(--tw-bg-opacity));
-}
-
-.bg-gray-400\/10 {
-  background-color: rgb(156 163 175 / 0.1);
-}
-
-.bg-white\/5 {
-  background-color: rgb(255 255 255 / 0.05);
-}
-
 .bg-cl-cyan {
   --tw-bg-opacity: 1;
   background-color: rgb(0 180 216 / var(--tw-bg-opacity));
@@ -869,6 +880,19 @@ Ensure the default browser behavior of the `hidden` attribute.
 .bg-cl-violet {
   --tw-bg-opacity: 1;
   background-color: rgb(114 9 183 / var(--tw-bg-opacity));
+}
+
+.bg-cl-grey-light {
+  --tw-bg-opacity: 1;
+  background-color: rgb(208 206 206 / var(--tw-bg-opacity));
+}
+
+.bg-gray-400\/10 {
+  background-color: rgb(156 163 175 / 0.1);
+}
+
+.bg-white\/5 {
+  background-color: rgb(255 255 255 / 0.05);
 }
 
 .bg-gradient-to-r {
@@ -900,11 +924,6 @@ Ensure the default browser behavior of the `hidden` attribute.
   --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to, rgb(239 35 60 / 0));
 }
 
-.from-gr_pink-1 {
-  --tw-gradient-from: rgba(251,10,40,1);
-  --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to, rgb(251 10 40 / 0));
-}
-
 .from-gr_yellow-1 {
   --tw-gradient-from: rgba(255,170,0,1);
   --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to, rgb(255 170 0 / 0));
@@ -913,6 +932,11 @@ Ensure the default browser behavior of the `hidden` attribute.
 .from-gr_green-1 {
   --tw-gradient-from: rgba(37,162,68,1);
   --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to, rgb(37 162 68 / 0));
+}
+
+.from-gr_pink-1 {
+  --tw-gradient-from: rgba(251,10,40,1);
+  --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to, rgb(251 10 40 / 0));
 }
 
 .to-gr_violet-2 {
@@ -935,16 +959,16 @@ Ensure the default browser behavior of the `hidden` attribute.
   --tw-gradient-to: rgba(239,84,35,1);
 }
 
-.to-gr_pink-2 {
-  --tw-gradient-to: rgba(249,39,203,1);
-}
-
 .to-gr_yellow-2 {
   --tw-gradient-to: rgba(240,210,54,1);
 }
 
 .to-gr_green-2 {
   --tw-gradient-to: rgba(91,223,45,1);
+}
+
+.to-gr_pink-2 {
+  --tw-gradient-to: rgba(249,39,203,1);
 }
 
 .object-contain {
@@ -1035,12 +1059,20 @@ Ensure the default browser behavior of the `hidden` attribute.
   padding-top: 2.5rem;
 }
 
+.pb-10 {
+  padding-bottom: 2.5rem;
+}
+
 .pt-8 {
   padding-top: 2rem;
 }
 
 .pb-40 {
   padding-bottom: 10rem;
+}
+
+.pb-5 {
+  padding-bottom: 1.25rem;
 }
 
 .text-left {

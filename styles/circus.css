@@ -17,12 +17,12 @@ code.hljs {
 
 .hljs {
     color: #a7a7a7;
-    background: #191919
+    background: #19191900
 }
 
 .hljs ::selection, .hljs::selection {
-    background-color: #303030;
-    color: #a7a7a7
+    background-color: #360246;
+    color: #03a6bb
 }
 
 .hljs-comment {

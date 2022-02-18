@@ -45,7 +45,7 @@ export default function drawer() {
             </div>
           </div>
 
-          <div className='my-5'>
+          <div className='my-5 pb-10'>
             <div className='flex cursor-pointer'>
               <div className='h-5 w-5 bg-gradient-to-r from-gr_violet-1 to-gr_violet-2 mr-4 relative top-1 rounded-md p-[2px]'>
               {SVG.table}

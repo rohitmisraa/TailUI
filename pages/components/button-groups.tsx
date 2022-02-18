@@ -24,7 +24,7 @@ export default function ButtonGroups() {
             <div className='xl:w-[1480px] h-full flex pt-16 m-auto'>
                 <Drawer />
                 <div className='w-full xl:w-7/12 h-auto lg:ml-[300px] xl:ml-[300px]'>
-                    <Headr />
+                    {/* <Headr /> */}
                     <ButtonsD />
 
                 </div>
