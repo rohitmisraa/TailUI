@@ -4,14 +4,14 @@ import SVG from '../../svg'
 
 export default function drawer() {
   return (
-    <div className='w-1/3 lg:w-[300px] hidden xl:w-[300px] lg:block h-full border-r-[1px] border-gray-400 pl-5 pr-3 pt-10 overflow-scroll fixed z-10'>
+    <div className='text-skin-dark'>
           <div className='my-2'>
             <div className='flex cursor-pointer'>
               <div className='h-5 w-5 bg-gradient-to-r from-gr_violet-1 to-gr_violet-2 mr-4 relative top-1 rounded-md p-[2px]'>
                 {SVG.docs}
               </div>
               <span className=' font-Rubik text-xl text-skin-dark font-medium'>Documentation</span>
-              <div className='relative top-2 ml-4 fill-text-skin-dark'>{SVG.down_arrow}</div>
+              {/* <div className='relative top-2 ml-4 fill-text-skin-dark'>{SVG.down_arrow}</div> */}
               </div>
             <div className='ml-20 font-Rubik'>
               <ul className='list-disc text-xl font-Rubik text-skin-light'>
@@ -29,7 +29,7 @@ export default function drawer() {
               {SVG.block}
               </div>
               <span className=' font-Rubik text-xl text-skin-light'>Components</span>
-              <div className='relative top-2 ml-4'>{SVG.down_arrow}</div>
+              {/* <div className='relative top-2 ml-4'>{SVG.down_arrow}</div> */}
               </div>
             <div className='ml-20 font-Rubik'>
               <ul className='list-disc text-xl font-Rubik text-skin-light'>
@@ -51,7 +51,7 @@ export default function drawer() {
               {SVG.table}
               </div>
               <span className=' font-Rubik text-xl text-skin-light'>Web Blocks</span>
-              <div className='relative top-2 ml-4'>{SVG.down_arrow}</div>
+              {/* <div className='relative top-2 ml-4'>{SVG.down_arrow}</div> */}
               </div>
             <div className='ml-20 font-Rubik'>
               <ul className='list-disc text-xl font-Rubik text-skin-light'>

@@ -296,14 +296,15 @@ export default function Inputs() {
             <h2 className='text-2xl font-medium text-skin-dark my-5'>Username simple card</h2>
             <p className='my-4 text-skin-light'>The card has simple input field.</p>
 
-            <div className="grid w-96 shadow-lg py-10 px-4 border-[1px] border-gray-300 rounded-md">
+            <div className='overflow-auto pb-10 sm:pb-0'>
+            <div className="grid w-96 shadow-lg py-10 px-4 border-[1px] text-skin-dark border-gray-300 rounded-md">
                 <span>Username</span>
                 <input
                     type="text" name="username" id="username" placeholder="enter your username"
                     className="appearance-none border-2 border-gray-300 rounded-lg py-1 px-5 focus:outline-none focus:ring-2 focus:ring-cl-blue focus:border-transparent "
                 />
             </div>
-
+            </div>
             <div className=' w-full bg-cl-blue-dark rounded-xl my-3'>
                 <div className='h-12 flex justify-between pt-3'>
                     <button className='relative bottom-1 left-4 text-white' onClick={codeshow7}>
@@ -335,12 +336,14 @@ export default function Inputs() {
             <h2 className='text-2xl font-medium text-skin-dark my-5'>Password input card</h2>
             <p className='my-4 text-skin-light'>The card has simple input field.</p>
 
-            <div className="grid w-96 shadow-lg py-10 px-4 border-[1px] border-gray-300 rounded-md">
+            <div className='overflow-auto pb-10 sm:pb-0'>
+            <div className="grid w-96 shadow-lg py-10 text-skin-dark px-4 border-[1px] border-gray-300 rounded-md">
                 <span>Password</span>
                 <input
                     type="password" name="password" id="password" placeholder="enter your password"
                     className="appearance-none border-2 border-gray-300 rounded-lg py-1 px-5 focus:outline-none focus:ring-2 focus:ring-cl-blue focus:border-transparent "
                 />
+            </div>
             </div>
 
             <div className=' w-full bg-cl-blue-dark rounded-xl my-3'>

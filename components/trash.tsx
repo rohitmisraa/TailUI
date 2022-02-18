@@ -23,8 +23,8 @@ export default function trash() {
 
 
 
-      <h2 className='text-2xl font-medium text-skin-dark my-5'>Un-rounded Buttons</h2>
-      <p className='my-4 text-skin-light'>The buttons have rounded corners.</p>
+      <h2 className='text-2xl font-medium text-skin-dark my-8'>Simple Navbars</h2>
+      <p className='my-8 text-skin-light'>Simple navbars with icon and some links.</p>
 
       {/* code-- */}
 
@@ -34,8 +34,8 @@ export default function trash() {
             {code1 ? SVG.down : SVG.arrow_right}
           </button>
         </div>
-        <div style={{ height: code1 ? '400px' : '0', display: code1 ? 'block' : 'none' }} className='w-full bg-cl-blue-dark rounded-xl'>
-          <pre className='px-5 block overflow-auto whitespace-pr'><code className='px-5 overflow-auto h-96 block text-white language-html' id='code1'>
+        <div style={{ maxHeight: code1 ? '400px' : '0', display: code1 ? 'block' : 'none' }} className='w-full bg-cl-blue-dark rounded-xl pb-5'>
+                    <pre className='px-5 block overflow-auto whitespace-pr'><code className='px-5 pb-5 overflow-auto h-max-96 block text-white language-html' id='code1'>
 
             {/* code-- */}
 

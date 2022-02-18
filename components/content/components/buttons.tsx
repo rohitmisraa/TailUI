@@ -103,7 +103,7 @@ export default function Buttons() {
             <p className='my-4 text-skin-light'>Buttons allows users to perform on click activities.</p>
             <h2 className='text-2xl font-medium text-skin-dark my-5'>Default Buttons</h2>
             <p className='my-4 text-skin-light'>The buttons have very little rounded corners.</p>
-            <div className="flex justify-between my-10 space-x-3">
+            <div className="flex justify-between my-10 space-x-3 overflow-auto pb-10 sm:pb-0">
                 <button className="py-1 px-6 bg-cl-blue text-white text-base rounded-lg">Default</button>
                 <button className="py-1 px-6 bg-cl-secondary text-cl-blue-dark text-base rounded-lg">Default</button>
                 <button className="py-1 px-6 bg-cl-red text-white text-base rounded-lg">Red</button>
@@ -139,7 +139,7 @@ export default function Buttons() {
             {/* ---Bt 2--- */}
             <h2 className='text-2xl font-medium text-skin-dark my-5'>Rounded Buttons</h2>
             <p className='my-4 text-skin-light'>The buttons have rounded corners.</p>
-            <div className="flex justify-between my-10">
+            <div className="flex justify-between my-10 space-x-3 overflow-auto pb-10 sm:pb-0">
                 <button className="py-1 px-6 bg-cl-blue text-white text-base rounded-full">Default</button>
                 <button className="py-1 px-6 bg-cl-secondary text-cl-blue-dark text-base rounded-full">Secondary</button>
                 <button className="py-1 px-6 bg-cl-red text-white text-base rounded-full">Red</button>
@@ -171,7 +171,7 @@ export default function Buttons() {
             {/* ---Bt 1--- */}
             <h2 className='text-2xl font-medium text-skin-dark my-5'>Un-rounded Buttons</h2>
             <p className='my-4 text-skin-light'>The buttons does not have rounded corners.</p>
-            <div className="flex justify-between my-10">
+            <div className="flex justify-between my-10 space-x-3 overflow-auto pb-10 sm:pb-0">
                 <button className="py-1 px-6 bg-cl-blue text-white text-base ">Default</button>
                 <button className="py-1 px-6 bg-cl-secondary text-cl-blue-dark text-base ">Secondary</button>
                 <button className="py-1 px-6 bg-cl-red text-white text-base ">Red</button>
@@ -205,7 +205,7 @@ export default function Buttons() {
             <h2 className='text-2xl font-medium text-skin-dark my-5'>Secondary Buttons</h2>
             <p className='my-4 text-skin-light'>The buttons have border and text.</p>
 
-            <div className="flex justify-between my-10 w-max space-x-5">
+            <div className="flex justify-between my-10  w-max space-x-5 overflow-auto pb-10 sm:pb-0">
                 <button className="py-1 px-6 border-2 border-cl-blue text-cl-blue text-base rounded-lg">Default</button>
                 <button className="py-1 px-6 border-2 border-cl-blue text-cl-blue text-base rounded-full">Default</button>
                 <button className="py-1 px-6 border-2 border-cl-blue text-cl-blue text-base ">Default</button>
@@ -264,7 +264,7 @@ export default function Buttons() {
             <h2 className='text-2xl font-medium text-skin-dark my-5'>Gradient Buttons Default</h2>
             <p className='my-4 text-skin-light'>The buttons have little rounded corners with gradient background.</p>
 
-            <div className="flex justify-between my-10">
+            <div className="flex justify-between my-10 space-x-3 overflow-auto pb-10 sm:pb-0">
                 <button className="py-1 px-6 bg-gradient-to-r from-gr_blue-1 to-gr_blue-2 text-white text-base rounded-lg">Default</button>
                 <button className="py-1 px-6 bg-gradient-to-r from-gr_red-1 to-gr_red-2 text-white text-base rounded-lg">Red</button>
                 <button className="py-1 px-6 bg-gradient-to-r from-gr_yellow-1 to-gr_yellow-2 text-white text-base rounded-lg">Yellow</button>
@@ -300,7 +300,7 @@ export default function Buttons() {
             <h2 className='text-2xl font-medium text-skin-dark my-5'>Gradient Buttons Rounded</h2>
             <p className='my-4 text-skin-light'>The buttons have rounded corners with gradient background.</p>
 
-            <div className="flex justify-between my-10">
+            <div className="flex justify-between my-10 space-x-3 overflow-auto pb-10 sm:pb-0">
                 <button className="py-1 px-6 bg-gradient-to-r from-gr_blue-1 to-gr_blue-2 text-white text-base rounded-full">Default</button>
                 <button className="py-1 px-6 bg-gradient-to-r from-gr_pink-1 to-gr_pink-2 text-white text-base rounded-full">Pink</button>
                 <button className="py-1 px-6 bg-gradient-to-r from-gr_orange-1 to-gr_orange-2 text-white text-base rounded-full">Orange</button>
@@ -337,7 +337,7 @@ export default function Buttons() {
             <h2 className='text-2xl font-medium text-skin-dark my-5'>Gradient Buttons unRounded</h2>
             <p className='my-4 text-skin-light'>The buttons does not have rounded corners but has gradient background.</p>
 
-            <div className="flex justify-between my-10">
+            <div className="flex justify-between my-10 space-x-3 overflow-auto pb-10 sm:pb-0">
                 <button className="py-1 px-6 bg-gradient-to-r from-gr_blue-1 to-gr_blue-2 text-white text-base ">Default</button>
                 <button className="py-1 px-6 bg-gradient-to-r from-gr_red-1 to-gr_red-2 text-white text-base ">Red</button>
                 <button className="py-1 px-6 bg-gradient-to-r from-gr_yellow-1 to-gr_yellow-2 text-white text-base ">Yellow</button>
@@ -374,27 +374,30 @@ export default function Buttons() {
             {/* ---Bt 1--- */}
             <h2 className='text-2xl font-medium text-skin-dark my-5'>Buttons with right icons</h2>
             <p className='my-4 text-skin-light'>The buttons have icon align to right.</p>
+            <div className='overflow-auto pb-10 sm:pb-0 w-full'>
+    
+                <div className="flex justify-between my-10 w-max space-x-5 ">
+                    <button className="py-1 px-6 bg-gradient-to-r from-gr_blue-1 to-gr_blue-2 text-white text-base rounded-lg">
+                        Default
+                        <span className="float-right relative top-1 ml-3">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" width="15" height="15" fill="white" ><path d="M190.5 66.9l22.2-22.2c9.4-9.4 24.6-9.4 33.9 0L441 239c9.4 9.4 9.4 24.6 0 33.9L246.6 467.3c-9.4 9.4-24.6 9.4-33.9 0l-22.2-22.2c-9.5-9.5-9.3-25 .4-34.3L311.4 296H24c-13.3 0-24-10.7-24-24v-32c0-13.3 10.7-24 24-24h287.4L190.9 101.2c-9.8-9.3-10-24.8-.4-34.3z" /></svg>
+                        </span>
+                    </button>
+                    <button className="py-1 px-6 bg-gradient-to-r from-gr_violet-1 to-gr_violet-2 text-white text-base rounded-full">
+                        Default
+                        <span className="float-right relative top-1 ml-3">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" width="15" height="15" fill="white" ><path d="M190.5 66.9l22.2-22.2c9.4-9.4 24.6-9.4 33.9 0L441 239c9.4 9.4 9.4 24.6 0 33.9L246.6 467.3c-9.4 9.4-24.6 9.4-33.9 0l-22.2-22.2c-9.5-9.5-9.3-25 .4-34.3L311.4 296H24c-13.3 0-24-10.7-24-24v-32c0-13.3 10.7-24 24-24h287.4L190.9 101.2c-9.8-9.3-10-24.8-.4-34.3z" /></svg>
+                        </span>
+                    </button>
+                    <button className="py-1 px-6 bg-gradient-to-r from-gr_orange-1 to-gr_orange-2 text-white text-base">
+                        Default
+                        <span className="float-right relative top-1 ml-3">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" width="15" height="15" fill="white" ><path d="M190.5 66.9l22.2-22.2c9.4-9.4 24.6-9.4 33.9 0L441 239c9.4 9.4 9.4 24.6 0 33.9L246.6 467.3c-9.4 9.4-24.6 9.4-33.9 0l-22.2-22.2c-9.5-9.5-9.3-25 .4-34.3L311.4 296H24c-13.3 0-24-10.7-24-24v-32c0-13.3 10.7-24 24-24h287.4L190.9 101.2c-9.8-9.3-10-24.8-.4-34.3z" /></svg>
+                        </span>
+                    </button>
 
-            <div className="flex justify-between my-10 w-max space-x-5">
-                <button className="py-1 px-6 bg-gradient-to-r from-gr_blue-1 to-gr_blue-2 text-white text-base rounded-lg">
-                    Default
-                    <span className="float-right relative top-1 ml-3">
-                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" width="15" height="15" fill="white" ><path d="M190.5 66.9l22.2-22.2c9.4-9.4 24.6-9.4 33.9 0L441 239c9.4 9.4 9.4 24.6 0 33.9L246.6 467.3c-9.4 9.4-24.6 9.4-33.9 0l-22.2-22.2c-9.5-9.5-9.3-25 .4-34.3L311.4 296H24c-13.3 0-24-10.7-24-24v-32c0-13.3 10.7-24 24-24h287.4L190.9 101.2c-9.8-9.3-10-24.8-.4-34.3z" /></svg>
-                    </span>
-                </button>
-                <button className="py-1 px-6 bg-gradient-to-r from-gr_violet-1 to-gr_violet-2 text-white text-base rounded-full">
-                    Default
-                    <span className="float-right relative top-1 ml-3">
-                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" width="15" height="15" fill="white" ><path d="M190.5 66.9l22.2-22.2c9.4-9.4 24.6-9.4 33.9 0L441 239c9.4 9.4 9.4 24.6 0 33.9L246.6 467.3c-9.4 9.4-24.6 9.4-33.9 0l-22.2-22.2c-9.5-9.5-9.3-25 .4-34.3L311.4 296H24c-13.3 0-24-10.7-24-24v-32c0-13.3 10.7-24 24-24h287.4L190.9 101.2c-9.8-9.3-10-24.8-.4-34.3z" /></svg>
-                    </span>
-                </button>
-                <button className="py-1 px-6 bg-gradient-to-r from-gr_orange-1 to-gr_orange-2 text-white text-base">
-                    Default
-                    <span className="float-right relative top-1 ml-3">
-                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" width="15" height="15" fill="white" ><path d="M190.5 66.9l22.2-22.2c9.4-9.4 24.6-9.4 33.9 0L441 239c9.4 9.4 9.4 24.6 0 33.9L246.6 467.3c-9.4 9.4-24.6 9.4-33.9 0l-22.2-22.2c-9.5-9.5-9.3-25 .4-34.3L311.4 296H24c-13.3 0-24-10.7-24-24v-32c0-13.3 10.7-24 24-24h287.4L190.9 101.2c-9.8-9.3-10-24.8-.4-34.3z" /></svg>
-                    </span>
-                </button>
-
+                </div>
+            
             </div>
 
             <div className=' w-full bg-cl-blue-dark rounded-xl '>
@@ -437,28 +440,30 @@ export default function Buttons() {
             <h2 className='text-2xl font-medium text-skin-dark my-5'>Buttons with left icons</h2>
             <p className='my-4 text-skin-light'>The buttons have icon align to left.</p>
 
-            <div className="flex justify-between my-10 w-max space-x-5">
-                <button className="py-1 px-6 bg-gradient-to-r from-gr_blue-1 to-gr_blue-2 text-white text-base rounded-lg">
-                    Default
-                    <span className="float-left relative top-1 mr-3">
-                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" width="15" height="15" fill="white" ><path d="M190.5 66.9l22.2-22.2c9.4-9.4 24.6-9.4 33.9 0L441 239c9.4 9.4 9.4 24.6 0 33.9L246.6 467.3c-9.4 9.4-24.6 9.4-33.9 0l-22.2-22.2c-9.5-9.5-9.3-25 .4-34.3L311.4 296H24c-13.3 0-24-10.7-24-24v-32c0-13.3 10.7-24 24-24h287.4L190.9 101.2c-9.8-9.3-10-24.8-.4-34.3z" /></svg>
-                    </span>
-                </button>
-                <button className="py-1 px-6 bg-gradient-to-r from-gr_green-1 to-gr_green-2 text-white text-base rounded-full">
-                    Default
-                    <span className="float-right relative top-1 ml-3">
-                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" width="15" height="15" fill="white" ><path d="M190.5 66.9l22.2-22.2c9.4-9.4 24.6-9.4 33.9 0L441 239c9.4 9.4 9.4 24.6 0 33.9L246.6 467.3c-9.4 9.4-24.6 9.4-33.9 0l-22.2-22.2c-9.5-9.5-9.3-25 .4-34.3L311.4 296H24c-13.3 0-24-10.7-24-24v-32c0-13.3 10.7-24 24-24h287.4L190.9 101.2c-9.8-9.3-10-24.8-.4-34.3z" /></svg>
-                    </span>
-                </button>
-                <button className="py-1 px-6 bg-gradient-to-r from-gr_red-1 to-gr_red-2 text-white text-base">
-                    Default
-                    <span className="float-right relative top-1 ml-3">
-                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" width="15" height="15" fill="white" ><path d="M190.5 66.9l22.2-22.2c9.4-9.4 24.6-9.4 33.9 0L441 239c9.4 9.4 9.4 24.6 0 33.9L246.6 467.3c-9.4 9.4-24.6 9.4-33.9 0l-22.2-22.2c-9.5-9.5-9.3-25 .4-34.3L311.4 296H24c-13.3 0-24-10.7-24-24v-32c0-13.3 10.7-24 24-24h287.4L190.9 101.2c-9.8-9.3-10-24.8-.4-34.3z" /></svg>
-                    </span>
-                </button>
+            <div className='overflow-auto pb-10 sm:pb-0 w-full'>
 
+                <div className="flex justify-between my-10 w-max space-x-5 ">
+                    <button className="py-1 px-6 bg-gradient-to-r from-gr_blue-1 to-gr_blue-2 text-white text-base rounded-lg">
+                        Default
+                        <span className="float-left relative top-1 mr-3">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" width="15" height="15" fill="white" ><path d="M190.5 66.9l22.2-22.2c9.4-9.4 24.6-9.4 33.9 0L441 239c9.4 9.4 9.4 24.6 0 33.9L246.6 467.3c-9.4 9.4-24.6 9.4-33.9 0l-22.2-22.2c-9.5-9.5-9.3-25 .4-34.3L311.4 296H24c-13.3 0-24-10.7-24-24v-32c0-13.3 10.7-24 24-24h287.4L190.9 101.2c-9.8-9.3-10-24.8-.4-34.3z" /></svg>
+                        </span>
+                    </button>
+                    <button className="py-1 px-6 bg-gradient-to-r from-gr_green-1 to-gr_green-2 text-white text-base rounded-full">
+                        Default
+                        <span className="float-right relative top-1 ml-3">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" width="15" height="15" fill="white" ><path d="M190.5 66.9l22.2-22.2c9.4-9.4 24.6-9.4 33.9 0L441 239c9.4 9.4 9.4 24.6 0 33.9L246.6 467.3c-9.4 9.4-24.6 9.4-33.9 0l-22.2-22.2c-9.5-9.5-9.3-25 .4-34.3L311.4 296H24c-13.3 0-24-10.7-24-24v-32c0-13.3 10.7-24 24-24h287.4L190.9 101.2c-9.8-9.3-10-24.8-.4-34.3z" /></svg>
+                        </span>
+                    </button>
+                    <button className="py-1 px-6 bg-gradient-to-r from-gr_red-1 to-gr_red-2 text-white text-base">
+                        Default
+                        <span className="float-right relative top-1 ml-3">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" width="15" height="15" fill="white" ><path d="M190.5 66.9l22.2-22.2c9.4-9.4 24.6-9.4 33.9 0L441 239c9.4 9.4 9.4 24.6 0 33.9L246.6 467.3c-9.4 9.4-24.6 9.4-33.9 0l-22.2-22.2c-9.5-9.5-9.3-25 .4-34.3L311.4 296H24c-13.3 0-24-10.7-24-24v-32c0-13.3 10.7-24 24-24h287.4L190.9 101.2c-9.8-9.3-10-24.8-.4-34.3z" /></svg>
+                        </span>
+                    </button>
+
+                </div>
             </div>
-
             <div className=' w-full bg-cl-blue-dark rounded-xl'>
                 <div className='h-12 flex justify-between pt-3'>
                     <button className='relative bottom-1 left-4 text-white' onClick={codeshow10}>
