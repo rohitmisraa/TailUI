@@ -113,11 +113,12 @@ export default function Buttongroups() {
 
             <h2 className='text-2xl font-medium text-skin-dark my-5'>Button Groups</h2>
             <p className='my-4 text-skin-light'>The buttons groups have very less rounded corners.</p>
-
-            <div className="flex rounded-lg bg-cl-blue py-1 w-max my-10">
-                <button className="py-1 px-6 text-white rounded-lg">Button 1</button>
-                <button className="py-1 px-6 text-white rounded-lg">Button 2</button>
-                <button className="py-1 px-6 text-white rounded-lg">Button 3</button>
+            <div className='overflow-auto pb-10 sm:pb-0'>
+                <div className="flex rounded-lg bg-cl-blue py-1 w-max my-10">
+                    <button className="py-1 px-6 text-white rounded-lg">Button 1</button>
+                    <button className="py-1 px-6 text-white rounded-lg">Button 2</button>
+                    <button className="py-1 px-6 text-white rounded-lg">Button 3</button>
+                </div>
             </div>
 
             <div className=' w-full bg-cl-blue-dark rounded-xl'>
@@ -130,9 +131,9 @@ export default function Buttongroups() {
                     <pre className='px-5 block overflow-auto whitespace-pr'><code className='px-5 overflow-auto h-96 block text-white language-html' id='code1'>
 
                         &lt;div className="flex rounded-lg bg-cl-blue py-1 w-max my-10"&gt;<br />
-                            &lt;button className="py-1 px-6 text-white rounded-lg"&gt;<br />Button 1&lt;/button&gt;<br />
-                            &lt;button className="py-1 px-6 text-white rounded-lg"&gt;<br />Button 2&lt;/button&gt;<br />
-                            &lt;button className="py-1 px-6 text-white rounded-lg"&gt;<br />Button 3&lt;/button&gt;<br />
+                        &lt;button className="py-1 px-6 text-white rounded-lg"&gt;<br />Button 1&lt;/button&gt;<br />
+                        &lt;button className="py-1 px-6 text-white rounded-lg"&gt;<br />Button 2&lt;/button&gt;<br />
+                        &lt;button className="py-1 px-6 text-white rounded-lg"&gt;<br />Button 3&lt;/button&gt;<br />
                         &lt;/div&gt;<br />
                     </code>
                     </pre>
@@ -145,13 +146,13 @@ export default function Buttongroups() {
 
             <h2 className='text-2xl font-medium text-skin-dark my-5'>Secondary Button Groups</h2>
             <p className='my-4 text-skin-light'>The buttons have rounded corners.</p>
-
-            <div className="flex rounded-lg bg-white py-1 w-max my-10">
-                <button className="py-1 px-6 text-cl-blue-dark font-semibold rounded-l-lg border-2 border-cl-blue-dark">Button 1</button>
-                <button className="py-1 px-6 text-cl-blue-dark font-semibold border-2 border-cl-blue-dark">Button 2</button>
-                <button className="py-1 px-6 text-cl-blue-dark font-semibold rounded-r-lg border-2 border-cl-blue-dark">Button 3</button>
+            <div className='overflow-auto pb-10 sm:pb-0'>
+                <div className="flex rounded-lg bg-white py-1 w-max my-10">
+                    <button className="py-1 px-6 text-cl-blue-dark font-semibold rounded-l-lg border-2 border-cl-blue-dark">Button 1</button>
+                    <button className="py-1 px-6 text-cl-blue-dark font-semibold border-2 border-cl-blue-dark">Button 2</button>
+                    <button className="py-1 px-6 text-cl-blue-dark font-semibold rounded-r-lg border-2 border-cl-blue-dark">Button 3</button>
+                </div>
             </div>
-
             <div className=' w-full bg-cl-blue-dark rounded-xl'>
                 <div className='h-12 flex justify-between pt-3'>
                     <button className='relative bottom-1 left-4 text-white' onClick={codeshow2}>
@@ -162,9 +163,9 @@ export default function Buttongroups() {
                     <pre className='px-5 block overflow-auto whitespace-pr'><code className='px-5 overflow-auto h-96 block text-white language-html' id='code1'>
 
                         &lt;div className="flex rounded-lg bg-white py-1 w-max my-10"&gt;<br />
-                            &lt;button className="py-1 px-6 text-cl-blue-dark font-semibold rounded-l-lg border-2 border-cl-blue-dark"&gt;<br />Button 1&lt;/button&gt;<br />
-                            &lt;button className="py-1 px-6 text-cl-blue-dark font-semibold border-2 border-cl-blue-dark"&gt;<br />Button 2&lt;/button&gt;<br />
-                            &lt;button className="py-1 px-6 text-cl-blue-dark font-semibold rounded-r-lg border-2 border-cl-blue-dark"&gt;<br />Button 3&lt;/button&gt;<br />
+                        &lt;button className="py-1 px-6 text-cl-blue-dark font-semibold rounded-l-lg border-2 border-cl-blue-dark"&gt;<br />Button 1&lt;/button&gt;<br />
+                        &lt;button className="py-1 px-6 text-cl-blue-dark font-semibold border-2 border-cl-blue-dark"&gt;<br />Button 2&lt;/button&gt;<br />
+                        &lt;button className="py-1 px-6 text-cl-blue-dark font-semibold rounded-r-lg border-2 border-cl-blue-dark"&gt;<br />Button 3&lt;/button&gt;<br />
                         &lt;/div&gt;<br />
                     </code>
                     </pre>
@@ -177,13 +178,13 @@ export default function Buttongroups() {
             {/* ---Default Buttons--- */}
             <h2 className='text-2xl font-medium text-skin-dark my-5'>No-border Button Groups</h2>
             <p className='my-4 text-skin-light'>The button group have no border.</p>
-
-            <div className="flex rounded-lg bg-cl-secondary w-max py-1 my-10">
-                <button className="py-1 px-6 text-cl-blue-dark font-semibold rounded-lg">Button 1</button>
-                <button className="py-1 px-6 text-cl-blue-dark font-semibold rounded-lg">Button 2</button>
-                <button className="py-1 px-6 text-cl-blue-dark font-semibold rounded-lg">Button 3</button>
+            <div className='overflow-auto pb-10 sm:pb-0'>
+                <div className="flex rounded-lg bg-cl-secondary w-max py-1 my-10">
+                    <button className="py-1 px-6 text-cl-blue-dark font-semibold rounded-lg">Button 1</button>
+                    <button className="py-1 px-6 text-cl-blue-dark font-semibold rounded-lg">Button 2</button>
+                    <button className="py-1 px-6 text-cl-blue-dark font-semibold rounded-lg">Button 3</button>
+                </div>
             </div>
-
             <div className=' w-full bg-cl-blue-dark rounded-xl'>
                 <div className='h-12 flex justify-between pt-3'>
                     <button className='relative bottom-1 left-4 text-white' onClick={codeshow3}>
@@ -194,9 +195,9 @@ export default function Buttongroups() {
                     <pre className='px-5 block overflow-auto whitespace-pr'><code className='px-5 overflow-auto h-96 block text-white language-html' id='code1'>
 
                         &lt;div className="flex rounded-lg bg-cl-secondary w-max py-1 my-10"&gt;<br />
-                            &lt;button className="py-1 px-6 text-cl-blue-dark font-semibold rounded-lg"&gt;<br />Button 1&lt;/button&gt;<br />
-                            &lt;button className="py-1 px-6 text-cl-blue-dark font-semibold rounded-lg"&gt;<br />Button 2&lt;/button&gt;<br />
-                            &lt;button className="py-1 px-6 text-cl-blue-dark font-semibold rounded-lg"&gt;<br />Button 3&lt;/button&gt;<br />
+                        &lt;button className="py-1 px-6 text-cl-blue-dark font-semibold rounded-lg"&gt;<br />Button 1&lt;/button&gt;<br />
+                        &lt;button className="py-1 px-6 text-cl-blue-dark font-semibold rounded-lg"&gt;<br />Button 2&lt;/button&gt;<br />
+                        &lt;button className="py-1 px-6 text-cl-blue-dark font-semibold rounded-lg"&gt;<br />Button 3&lt;/button&gt;<br />
                         &lt;/div&gt;<br />
                     </code>
                     </pre>
@@ -211,12 +212,13 @@ export default function Buttongroups() {
             <h2 className='text-2xl font-medium text-skin-dark my-5'>Rounded Button Groups</h2>
             <p className='my-4 text-skin-light'>The button group have rounded corners.</p>
 
-            <div className="flex rounded-full bg-cl-blue py-1 w-max my-10">
-                <button className="py-1 px-6 text-white rounded-lg">Button 1</button>
-                <button className="py-1 px-6 text-white rounded-lg">Button 2</button>
-                <button className="py-1 px-6 text-white rounded-lg">Button 3</button>
+            <div className='overflow-auto pb-10 sm:pb-0'>
+                <div className="flex rounded-full bg-cl-blue py-1 w-max my-10">
+                    <button className="py-1 px-6 text-white rounded-lg">Button 1</button>
+                    <button className="py-1 px-6 text-white rounded-lg">Button 2</button>
+                    <button className="py-1 px-6 text-white rounded-lg">Button 3</button>
+                </div>
             </div>
-
             <div className=' w-full bg-cl-blue-dark rounded-xl'>
                 <div className='h-12 flex justify-between pt-3'>
                     <button className='relative bottom-1 left-4 text-white' onClick={codeshow4}>
@@ -227,9 +229,9 @@ export default function Buttongroups() {
                     <pre className='px-5 block overflow-auto whitespace-pr'><code className='px-5 overflow-auto h-96 block text-white language-html' id='code1'>
 
                         &lt;div className="flex rounded-full bg-cl-blue py-1 w-max my-10"&gt;<br />
-                            &lt;button className="py-1 px-6 text-white rounded-lg"&gt;<br />Button 1&lt;/button&gt;<br />
-                            &lt;button className="py-1 px-6 text-white rounded-lg"&gt;<br />Button 2&lt;/button&gt;<br />
-                            &lt;button className="py-1 px-6 text-white rounded-lg"&gt;<br />Button 3&lt;/button&gt;<br />
+                        &lt;button className="py-1 px-6 text-white rounded-lg"&gt;<br />Button 1&lt;/button&gt;<br />
+                        &lt;button className="py-1 px-6 text-white rounded-lg"&gt;<br />Button 2&lt;/button&gt;<br />
+                        &lt;button className="py-1 px-6 text-white rounded-lg"&gt;<br />Button 3&lt;/button&gt;<br />
                         &lt;/div&gt;<br />
 
                     </code>
@@ -243,10 +245,12 @@ export default function Buttongroups() {
             <h2 className='text-2xl font-medium text-skin-dark my-5'>Un-Rounded Button Groups</h2>
             <p className='my-4 text-skin-light'>The button group have no-rounded corners.</p>
 
-            <div className="flex bg-cl-blue py-1 w-max my-10">
-                <button className="py-1 px-6 text-white rounded-lg">Button 1</button>
-                <button className="py-1 px-6 text-white rounded-lg">Button 2</button>
-                <button className="py-1 px-6 text-white rounded-lg">Button 3</button>
+            <div className='overflow-auto pb-10 sm:pb-0'>
+                <div className="flex bg-cl-blue py-1 w-max my-10">
+                    <button className="py-1 px-6 text-white rounded-lg">Button 1</button>
+                    <button className="py-1 px-6 text-white rounded-lg">Button 2</button>
+                    <button className="py-1 px-6 text-white rounded-lg">Button 3</button>
+                </div>
             </div>
             <div className=' w-full bg-cl-blue-dark rounded-xl'>
                 <div className='h-12 flex justify-between pt-3'>
@@ -258,9 +262,9 @@ export default function Buttongroups() {
                     <pre className='px-5 block overflow-auto whitespace-pr'><code className='px-5 overflow-auto h-96 block text-white language-html' id='code1'>
 
                         &lt;div className="flex bg-cl-blue py-1 w-max my-10"&gt;<br />
-                            &lt;button className="py-1 px-6 text-white rounded-lg"&gt;<br />Button 1&lt;/button&gt;<br />
-                            &lt;button className="py-1 px-6 text-white rounded-lg"&gt;<br />Button 2&lt;/button&gt;<br />
-                            &lt;button className="py-1 px-6 text-white rounded-lg"&gt;<br />Button 3&lt;/button&gt;<br />
+                        &lt;button className="py-1 px-6 text-white rounded-lg"&gt;<br />Button 1&lt;/button&gt;<br />
+                        &lt;button className="py-1 px-6 text-white rounded-lg"&gt;<br />Button 2&lt;/button&gt;<br />
+                        &lt;button className="py-1 px-6 text-white rounded-lg"&gt;<br />Button 3&lt;/button&gt;<br />
                         &lt;/div&gt;<br />
                     </code>
                     </pre>
@@ -274,11 +278,12 @@ export default function Buttongroups() {
             {/* ---Default Buttons--- */}
             <h2 className='text-2xl font-medium text-skin-dark my-5'>Default Button Groups</h2>
             <p className='my-4 text-skin-light'>The button group have less rounded corners with gradient background.</p>
-
-            <div className="flex bg-gradient-to-r from-gr_blue-1 to-gr_blue-2 rounded-lg py-1 w-max my-10">
-                <button className="py-1 px-6 text-white rounded-lg  hover:bg-blue-600">Button 1</button>
-                <button className="py-1 px-6 text-white rounded-lg  hover:bg-blue-600">Button 2</button>
-                <button className="py-1 px-6 text-white rounded-lg  hover:bg-blue-600">Button 3</button>
+            <div className='overflow-auto pb-10 sm:pb-0'>
+                <div className="flex bg-gradient-to-r from-gr_blue-1 to-gr_blue-2 rounded-lg py-1 w-max my-10">
+                    <button className="py-1 px-6 text-white rounded-lg  hover:bg-blue-600">Button 1</button>
+                    <button className="py-1 px-6 text-white rounded-lg  hover:bg-blue-600">Button 2</button>
+                    <button className="py-1 px-6 text-white rounded-lg  hover:bg-blue-600">Button 3</button>
+                </div>
             </div>
 
             <div className=' w-full bg-cl-blue-dark rounded-xl'>
@@ -291,9 +296,9 @@ export default function Buttongroups() {
                     <pre className='px-5 block overflow-auto whitespace-pr'><code className='px-5 overflow-auto h-96 block text-white language-html' id='code1'>
 
                         &lt;div className="flex bg-gradient-to-r from-gr_blue-1 to-gr_blue-2 rounded-lg py-1 w-max my-10"&gt;<br />
-                            &lt;button className="py-1 px-6 text-white rounded-lg  hover:bg-blue-600"&gt;<br />Button 1&lt;/button&gt;<br />
-                            &lt;button className="py-1 px-6 text-white rounded-lg  hover:bg-blue-600"&gt;<br />Button 2&lt;/button&gt;<br />
-                            &lt;button className="py-1 px-6 text-white rounded-lg  hover:bg-blue-600"&gt;<br />Button 3&lt;/button&gt;<br />
+                        &lt;button className="py-1 px-6 text-white rounded-lg  hover:bg-blue-600"&gt;<br />Button 1&lt;/button&gt;<br />
+                        &lt;button className="py-1 px-6 text-white rounded-lg  hover:bg-blue-600"&gt;<br />Button 2&lt;/button&gt;<br />
+                        &lt;button className="py-1 px-6 text-white rounded-lg  hover:bg-blue-600"&gt;<br />Button 3&lt;/button&gt;<br />
                         &lt;/div&gt;<br />
 
                     </code>
@@ -307,12 +312,13 @@ export default function Buttongroups() {
             <h2 className='text-2xl font-medium text-skin-dark my-5'>Rounded Button Groups</h2>
             <p className='my-4 text-skin-light'>The button group have rounded corners with gradient background.</p>
 
-            <div className="flex bg-gradient-to-r from-gr_orange-1 to-gr_orange-2 rounded-full py-1 w-max my-10 px-2">
-                <button className="py-1 px-6 text-white rounded-lg  hover:bg-orange-600">Button 1</button>
-                <button className="py-1 px-6 text-white rounded-lg  hover:bg-orange-600">Button 2</button>
-                <button className="py-1 px-6 text-white rounded-lg  hover:bg-orange-600">Button 3</button>
+            <div className='overflow-auto pb-10 sm:pb-0'>
+                <div className="flex bg-gradient-to-r from-gr_orange-1 to-gr_orange-2 rounded-full py-1 w-max my-10 px-2">
+                    <button className="py-1 px-6 text-white rounded-lg  hover:bg-orange-600">Button 1</button>
+                    <button className="py-1 px-6 text-white rounded-lg  hover:bg-orange-600">Button 2</button>
+                    <button className="py-1 px-6 text-white rounded-lg  hover:bg-orange-600">Button 3</button>
+                </div>
             </div>
-
             <div className=' w-full bg-cl-blue-dark rounded-xl'>
                 <div className='h-12 flex justify-between pt-3'>
                     <button className='relative bottom-1 left-4 text-white' onClick={codeshow7}>
@@ -323,9 +329,9 @@ export default function Buttongroups() {
                     <pre className='px-5 block overflow-auto whitespace-pr'><code className='px-5 overflow-auto h-96 block text-white language-html' id='code1'>
 
                         &lt;div className="flex bg-gradient-to-r from-gr_orange-1 to-gr_orange-2 rounded-full py-1 w-max my-10 px-2"&gt;<br />
-                            &lt;button className="py-1 px-6 text-white rounded-lg  hover:bg-orange-600"&gt;<br />Button 1&lt;/button&gt;<br />
-                            &lt;button className="py-1 px-6 text-white rounded-lg  hover:bg-orange-600"&gt;<br />Button 2&lt;/button&gt;<br />
-                            &lt;button className="py-1 px-6 text-white rounded-lg  hover:bg-orange-600"&gt;<br />Button 3&lt;/button&gt;<br />
+                        &lt;button className="py-1 px-6 text-white rounded-lg  hover:bg-orange-600"&gt;<br />Button 1&lt;/button&gt;<br />
+                        &lt;button className="py-1 px-6 text-white rounded-lg  hover:bg-orange-600"&gt;<br />Button 2&lt;/button&gt;<br />
+                        &lt;button className="py-1 px-6 text-white rounded-lg  hover:bg-orange-600"&gt;<br />Button 3&lt;/button&gt;<br />
                         &lt;/div&gt;<br />
 
                     </code>
@@ -339,12 +345,13 @@ export default function Buttongroups() {
             <h2 className='text-2xl font-medium text-skin-dark my-5'>Un-Rounded Button Groups</h2>
             <p className='my-4 text-skin-light'>The button group have no-rounded corners with gradient background.</p>
 
-            <div className="flex bg-gradient-to-r from-gr_violet-1 to-gr_violet-2 py-1 w-max my-10 px-2">
-                <button className="py-1 px-6 text-white  hover:bg-violet-600">Button 1</button>
-                <button className="py-1 px-6 text-white  hover:bg-violet-600">Button 2</button>
-                <button className="py-1 px-6 text-white  hover:bg-violet-600">Button 3</button>
+            <div className='overflow-auto pb-10 sm:pb-0'>
+                <div className="flex bg-gradient-to-r from-gr_violet-1 to-gr_violet-2 py-1 w-max my-10 px-2">
+                    <button className="py-1 px-6 text-white  hover:bg-violet-600">Button 1</button>
+                    <button className="py-1 px-6 text-white  hover:bg-violet-600">Button 2</button>
+                    <button className="py-1 px-6 text-white  hover:bg-violet-600">Button 3</button>
+                </div>
             </div>
-
             <div className=' w-full bg-cl-blue-dark rounded-xl'>
                 <div className='h-12 flex justify-between pt-3'>
                     <button className='relative bottom-1 left-4 text-white' onClick={codeshow8}>
@@ -355,9 +362,9 @@ export default function Buttongroups() {
                     <pre className='px-5 block overflow-auto whitespace-pr'><code className='px-5 overflow-auto h-96 block text-white language-html' id='code1'>
 
                         &lt;div className="flex bg-gradient-to-r from-gr_violet-1 to-gr_violet-2 py-1 w-max my-10 px-2"&gt;<br />
-                            &lt;button className="py-1 px-6 text-white  hover:bg-violet-600"&gt;<br />Button 1&lt;/button&gt;<br />
-                            &lt;button className="py-1 px-6 text-white  hover:bg-violet-600"&gt;<br />Button 2&lt;/button&gt;<br />
-                            &lt;button className="py-1 px-6 text-white  hover:bg-violet-600"&gt;<br />Button 3&lt;/button&gt;<br />
+                        &lt;button className="py-1 px-6 text-white  hover:bg-violet-600"&gt;<br />Button 1&lt;/button&gt;<br />
+                        &lt;button className="py-1 px-6 text-white  hover:bg-violet-600"&gt;<br />Button 2&lt;/button&gt;<br />
+                        &lt;button className="py-1 px-6 text-white  hover:bg-violet-600"&gt;<br />Button 3&lt;/button&gt;<br />
                         &lt;/div&gt;<br />
 
                     </code>
@@ -370,12 +377,13 @@ export default function Buttongroups() {
             <h2 className='text-2xl font-medium text-skin-dark my-5'>Text only Button Groups</h2>
             <p className='my-4 text-skin-light'>The buttons have transparent background with only text.</p>
 
-            <div className="flex py-1 w-max my-10 px-2">
-                <button className="py-1 px-6 text-cl-blue  hover:bg-violet-600">Button 1</button>
-                <button className="py-1 px-6 text-cl-blue  hover:bg-violet-600">Button 2</button>
-                <button className="py-1 px-6 text-cl-blue  hover:bg-violet-600">Button 3</button>
+            <div className='overflow-auto pb-10 sm:pb-0'>
+                <div className="flex py-1 w-max my-10 px-2">
+                    <button className="py-1 px-6 text-cl-blue  hover:bg-violet-600">Button 1</button>
+                    <button className="py-1 px-6 text-cl-blue  hover:bg-violet-600">Button 2</button>
+                    <button className="py-1 px-6 text-cl-blue  hover:bg-violet-600">Button 3</button>
+                </div>
             </div>
-
             <div className=' w-full bg-cl-blue-dark rounded-xl'>
                 <div className='h-12 flex justify-between pt-3'>
                     <button className='relative bottom-1 left-4 text-white' onClick={codeshow9}>
@@ -386,9 +394,9 @@ export default function Buttongroups() {
                     <pre className='px-5 block overflow-auto whitespace-pr'><code className='px-5 overflow-auto h-96 block text-white language-html' id='code1'>
 
                         &lt;div className="flex py-1 w-max my-10 px-2"&gt;<br />
-                            &lt;button className="py-1 px-6 text-cl-blue  hover:bg-violet-600"&gt;<br />Button 1&lt;/button&gt;<br />
-                            &lt;button className="py-1 px-6 text-cl-blue  hover:bg-violet-600"&gt;<br />Button 2&lt;/button&gt;<br />
-                            &lt;button className="py-1 px-6 text-cl-blue  hover:bg-violet-600"&gt;<br />Button 3&lt;/button&gt;<br />
+                        &lt;button className="py-1 px-6 text-cl-blue  hover:bg-violet-600"&gt;<br />Button 1&lt;/button&gt;<br />
+                        &lt;button className="py-1 px-6 text-cl-blue  hover:bg-violet-600"&gt;<br />Button 2&lt;/button&gt;<br />
+                        &lt;button className="py-1 px-6 text-cl-blue  hover:bg-violet-600"&gt;<br />Button 3&lt;/button&gt;<br />
                         &lt;/div&gt;<br />
 
                     </code>
@@ -402,18 +410,20 @@ export default function Buttongroups() {
             <p className='my-4 text-skin-light'>The button group have rounded corners and aligned vertically.</p>
 
             <h2 className="text-base">Verticles</h2>
-            <div className="flex justify-between  w-min  space-x-5">
-                <div className="grid bg-gradient-to-r from-gr_orange-1 to-gr_orange-2 rounded-lg py-1 w-max my-10 px-2">
-                    <button className="py-1 px-6 text-white rounded-lg  hover:bg-orange-600">Button 1</button>
-                    <button className="py-1 px-6 text-white rounded-lg  hover:bg-orange-600">Button 2</button>
-                    <button className="py-1 px-6 text-white rounded-lg  hover:bg-orange-600">Button 3</button>
-                    <button className="py-1 px-6 text-white rounded-lg  hover:bg-orange-600">Button 4</button>
-                </div>
-                <div className="grid bg-gradient-to-r from-gr_cyan-1 to-gr_cyan-2 rounded-lg py-1 w-max my-10 px-2">
-                    <button className="py-1 px-6 text-white rounded-lg  hover:bg-cyan-600">Button 1</button>
-                    <button className="py-1 px-6 text-white rounded-lg  hover:bg-cyan-600">Button 2</button>
-                    <button className="py-1 px-6 text-white rounded-lg  hover:bg-cyan-600">Button 3</button>
-                    <button className="py-1 px-6 text-white rounded-lg  hover:bg-cyan-600">Button 4</button>
+            <div className='overflow-auto pb-10 sm:pb-0'>
+                <div className="flex justify-between  w-min  space-x-5">
+                    <div className="grid bg-gradient-to-r from-gr_orange-1 to-gr_orange-2 rounded-lg py-1 w-max my-10 px-2">
+                        <button className="py-1 px-6 text-white rounded-lg  hover:bg-orange-600">Button 1</button>
+                        <button className="py-1 px-6 text-white rounded-lg  hover:bg-orange-600">Button 2</button>
+                        <button className="py-1 px-6 text-white rounded-lg  hover:bg-orange-600">Button 3</button>
+                        <button className="py-1 px-6 text-white rounded-lg  hover:bg-orange-600">Button 4</button>
+                    </div>
+                    <div className="grid bg-gradient-to-r from-gr_cyan-1 to-gr_cyan-2 rounded-lg py-1 w-max my-10 px-2">
+                        <button className="py-1 px-6 text-white rounded-lg  hover:bg-cyan-600">Button 1</button>
+                        <button className="py-1 px-6 text-white rounded-lg  hover:bg-cyan-600">Button 2</button>
+                        <button className="py-1 px-6 text-white rounded-lg  hover:bg-cyan-600">Button 3</button>
+                        <button className="py-1 px-6 text-white rounded-lg  hover:bg-cyan-600">Button 4</button>
+                    </div>
                 </div>
             </div>
 
@@ -427,18 +437,18 @@ export default function Buttongroups() {
                     <pre className='px-5 block overflow-auto whitespace-pr'><code className='px-5 overflow-auto h-96 block text-white language-html' id='code1'>
 
                         &lt;div className="flex justify-between "&gt;<br />
-                            &lt;div className="grid bg-gradient-to-r from-gr_orange-1 to-gr_orange-2 rounded-lg py-1 w-max my-10 px-2"&gt;<br />
-                                &lt;button className="py-1 px-6 text-white rounded-lg  hover:bg-orange-600"&gt;<br />Button 1&lt;/button&gt;<br />
-                                &lt;button className="py-1 px-6 text-white rounded-lg  hover:bg-orange-600"&gt;<br />Button 2&lt;/button&gt;<br />
-                                &lt;button className="py-1 px-6 text-white rounded-lg  hover:bg-orange-600"&gt;<br />Button 3&lt;/button&gt;<br />
-                                &lt;button className="py-1 px-6 text-white rounded-lg  hover:bg-orange-600"&gt;<br />Button 4&lt;/button&gt;<br />
-                            &lt;/div&gt;<br />
-                            &lt;div className="grid bg-gradient-to-r from-gr_cyan-1 to-gr_cyan-2 rounded-lg py-1 w-max my-10 px-2"&gt;<br />
-                                &lt;button className="py-1 px-6 text-white rounded-lg  hover:bg-cyan-600"&gt;<br />Button 1&lt;/button&gt;<br />
-                                &lt;button className="py-1 px-6 text-white rounded-lg  hover:bg-cyan-600"&gt;<br />Button 2&lt;/button&gt;<br />
-                                &lt;button className="py-1 px-6 text-white rounded-lg  hover:bg-cyan-600"&gt;<br />Button 3&lt;/button&gt;<br />
-                                &lt;button className="py-1 px-6 text-white rounded-lg  hover:bg-cyan-600"&gt;<br />Button 4&lt;/button&gt;<br />
-                            &lt;/div&gt;<br />
+                        &lt;div className="grid bg-gradient-to-r from-gr_orange-1 to-gr_orange-2 rounded-lg py-1 w-max my-10 px-2"&gt;<br />
+                        &lt;button className="py-1 px-6 text-white rounded-lg  hover:bg-orange-600"&gt;<br />Button 1&lt;/button&gt;<br />
+                        &lt;button className="py-1 px-6 text-white rounded-lg  hover:bg-orange-600"&gt;<br />Button 2&lt;/button&gt;<br />
+                        &lt;button className="py-1 px-6 text-white rounded-lg  hover:bg-orange-600"&gt;<br />Button 3&lt;/button&gt;<br />
+                        &lt;button className="py-1 px-6 text-white rounded-lg  hover:bg-orange-600"&gt;<br />Button 4&lt;/button&gt;<br />
+                        &lt;/div&gt;<br />
+                        &lt;div className="grid bg-gradient-to-r from-gr_cyan-1 to-gr_cyan-2 rounded-lg py-1 w-max my-10 px-2"&gt;<br />
+                        &lt;button className="py-1 px-6 text-white rounded-lg  hover:bg-cyan-600"&gt;<br />Button 1&lt;/button&gt;<br />
+                        &lt;button className="py-1 px-6 text-white rounded-lg  hover:bg-cyan-600"&gt;<br />Button 2&lt;/button&gt;<br />
+                        &lt;button className="py-1 px-6 text-white rounded-lg  hover:bg-cyan-600"&gt;<br />Button 3&lt;/button&gt;<br />
+                        &lt;button className="py-1 px-6 text-white rounded-lg  hover:bg-cyan-600"&gt;<br />Button 4&lt;/button&gt;<br />
+                        &lt;/div&gt;<br />
                         &lt;/div&gt;<br />
 
                     </code>
@@ -451,12 +461,14 @@ export default function Buttongroups() {
             <h2 className='text-2xl font-medium text-skin-dark my-5'>Verticle button group</h2>
             <p className='my-4 text-skin-light'>The button group have rounded corners and aligned vertically with transparent background.</p>
 
-            <div className="flex justify-between  w-min  space-x-5">
-                <div className="grid bg-white rounded-lg py-1 w-max my-10 px-2 shadow-lg">
-                    <button className="py-1 px-6 text-cl-grey-dark rounded-lg  hover:bg-cl-grey-light">Button 1</button>
-                    <button className="py-1 px-6 text-cl-grey-dark rounded-lg  hover:bg-cl-grey-light">Button 2</button>
-                    <button className="py-1 px-6 text-cl-grey-dark rounded-lg  hover:bg-cl-grey-light">Button 3</button>
-                    <button className="py-1 px-6 text-cl-grey-dark rounded-lg  hover:bg-cl-grey-light">Button 4</button>
+            <div className='overflow-auto pb-10 sm:pb-0'>
+                <div className="flex justify-between  w-min  space-x-5">
+                    <div className="grid bg-white rounded-lg py-1 w-max my-10 px-2 shadow-lg">
+                        <button className="py-1 px-6 text-cl-grey-dark rounded-lg  hover:bg-cl-grey-light">Button 1</button>
+                        <button className="py-1 px-6 text-cl-grey-dark rounded-lg  hover:bg-cl-grey-light">Button 2</button>
+                        <button className="py-1 px-6 text-cl-grey-dark rounded-lg  hover:bg-cl-grey-light">Button 3</button>
+                        <button className="py-1 px-6 text-cl-grey-dark rounded-lg  hover:bg-cl-grey-light">Button 4</button>
+                    </div>
                 </div>
             </div>
 
@@ -470,12 +482,12 @@ export default function Buttongroups() {
                     <pre className='px-5 block overflow-auto whitespace-pr'><code className='px-5 overflow-auto h-96 block text-white language-html' id='code1'>
 
                         &lt;div className="flex justify-between"&gt;<br />
-                            &lt;div className="grid bg-white rounded-lg py-1 w-max my-10 px-2 shadow-lg"&gt;<br />
-                                &lt;button className="py-1 px-6 text-cl-grey-dark rounded-lg  hover:bg-cl-grey-light"&gt;<br />Button 1&lt;/button&gt;<br />
-                                &lt;button className="py-1 px-6 text-cl-grey-dark rounded-lg  hover:bg-cl-grey-light"&gt;<br />Button 2&lt;/button&gt;<br />
-                                &lt;button className="py-1 px-6 text-cl-grey-dark rounded-lg  hover:bg-cl-grey-light"&gt;<br />Button 3&lt;/button&gt;<br />
-                                &lt;button className="py-1 px-6 text-cl-grey-dark rounded-lg  hover:bg-cl-grey-light"&gt;<br />Button 4&lt;/button&gt;<br />
-                            &lt;/div&gt;<br />
+                        &lt;div className="grid bg-white rounded-lg py-1 w-max my-10 px-2 shadow-lg"&gt;<br />
+                        &lt;button className="py-1 px-6 text-cl-grey-dark rounded-lg  hover:bg-cl-grey-light"&gt;<br />Button 1&lt;/button&gt;<br />
+                        &lt;button className="py-1 px-6 text-cl-grey-dark rounded-lg  hover:bg-cl-grey-light"&gt;<br />Button 2&lt;/button&gt;<br />
+                        &lt;button className="py-1 px-6 text-cl-grey-dark rounded-lg  hover:bg-cl-grey-light"&gt;<br />Button 3&lt;/button&gt;<br />
+                        &lt;button className="py-1 px-6 text-cl-grey-dark rounded-lg  hover:bg-cl-grey-light"&gt;<br />Button 4&lt;/button&gt;<br />
+                        &lt;/div&gt;<br />
                         &lt;/div&gt;<br />
 
                     </code>
