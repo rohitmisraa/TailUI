@@ -2,7 +2,7 @@ import Link from 'next/link'
 
 export default function Footer() {
   return (
-    <div className='w-full py-3 bg-white pt-10'>
+    <div className='w-full py-3 bg-cl-secondary pt-10'>
             <div className='grid sm:grid-cols-4 grid-cols-2 md:px-40 max-w-[1400px] m-auto'>
                 <div className="h-10 w-32 flex my-10">
                     <img src="/assets/icon.png" alt="Logo" className="object-contain h-8 w-h-8"/>

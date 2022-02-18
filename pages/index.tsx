@@ -3,12 +3,13 @@ import fs from 'fs'
 import path from 'path'
 import matter from 'gray-matter'
 import Image from 'next/image'
-import Nav from '../components/nav'
+import Nav from '../components/layouts/nav'
+import Drawer from '../components/layouts/Drawer'
+import Stamps from '../components/layouts/Stamps'
 // import styles from '../styles/Home.module.css'
 import SVG from "../svg"
 import Link from 'next/link'
-import Buttons from '../components/Inputs'
-import Footer from '../components/Footer'
+import Footer from '../components/layouts/Footer'
 
 
 export default function Home({posts: {postdoc, postcomp}}) {
@@ -28,83 +29,12 @@ export default function Home({posts: {postdoc, postcomp}}) {
       </Head>
       <Nav/>
       <div className='w-screen lg:w-[1480px] h-full flex  m-auto'>
-        <div className='w-1/3 lg:w-[300px] hidden xl:block xl:w-[400px] h-full bg-white border-r-[1px] border-gray-400 pl-10 xl:pl-20 pt-10'>
-          <div className='my-2'>
-            <div className='flex cursor-pointer'>
-              <div className='h-5 w-5 bg-gradient-to-r from-gr_violet-1 to-gr_violet-2 mr-4 relative top-1 rounded-md p-[2px]'>
-                {SVG.docs}
-              </div>
-              <span className=' font-Rubik text-xl font-medium'>Documentation</span>
-              <div className='relative top-2 ml-4'>{SVG.down_arrow}</div>
-              </div>
-            <div className='ml-20 font-Rubik'>
-              <ul className='list-disc text-xl font-Rubik text-cl-grey-dark'>
-                <li className='text-black font-medium my-3'><Link href={'/'}>Getting Started</Link></li>
-                {postdoc.map((post, index) => (
-                  <li className='my-3'><Link href={`/documentation/${post.slug}`}>{post.documents.title}</Link></li>
-                  ))}
-                  <li className='my-3'><Link href={'/'}>Theme Guide</Link></li>
-                <li className='my-3'><Link href={'/'}>About TailUI</Link></li>
-                <li className='my-3'><Link href={'/'}>How to contribute?</Link></li>
-              </ul>
-            </div>
-          </div>
-          <div className='my-5'>
-            <div className='flex cursor-pointer'>
-              <div className='h-5 w-5  bg-gradient-to-r from-gr_violet-1 to-gr_violet-2 mr-4 relative top-1 rounded-md p-[2px]'>
-              {SVG.block}
-              </div>
-              <span className=' font-Rubik text-xl text-cl-grey-dark'>Components</span>
-              <div className='relative top-2 ml-4'>{SVG.down_arrow}</div>
-              </div>
-            <div className='ml-20 font-Rubik'>
-              <ul className='list-disc text-xl font-Rubik text-grey-dark'>
-              {postcomp.map((post, index) => (
-                  <li className='my-3'><Link href={`/components/${post.slug2}`}>{post.components.title}</Link></li>
-                  ))}
-                <li className='my-3'><Link href={'/components/button'}>Buttons</Link></li>
-                <li className='my-3'><Link href={'/'}>Button Groups</Link></li>
-                <li className='my-3'><Link href={'/'}>Cards</Link></li>
-                <li className='my-3'><Link href={'/'}>Footer</Link></li>
-                <li className='my-3'><Link href={'/'}>Input</Link></li>
-                <li className='my-3'><Link href={'/'}>Navbar</Link></li>
-                <li className='my-3'><Link href={'/'}>Hero</Link></li>
-              </ul>
-            </div>
-          </div>
-
-          <div className='my-5'>
-            <div className='flex cursor-pointer'>
-              <div className='h-5 w-5 bg-gradient-to-r from-gr_violet-1 to-gr_violet-2 mr-4 relative top-1 rounded-md p-[2px]'>
-              {SVG.table}
-              </div>
-              <span className=' font-Rubik text-xl text-grey-dark'>Web Blocks</span>
-              <div className='relative top-2 ml-4'>{SVG.down_arrow}</div>
-              </div>
-            <div className='ml-20 font-Rubik'>
-              <ul className='list-disc text-xl font-Rubik text-grey-dark'>
-                <li className='my-3'><Link href={'/blocks/website'}>Single Page</Link></li>
-                <li className='my-3'><Link href={'/'}>Portfolios</Link></li>
-                <li className='my-3'><Link href={'/'}>Error Pages</Link></li> 
-                <li className='my-3'><Link href={'/'}>Success Pages</Link></li>
-              </ul>
-            </div>
-          </div>
-        </div>
+        <Drawer />
         <div className='w-full xl:w-3/6 h-auto bg-white'>
-        <Buttons/>
+          
         </div>
-        <div className='hidden xl:block w-1/4 h-full bg-white border-l-[1px] border-gray-500 pt-8 xl:pl-10 float-right'>
-          <ul className=' text-lg font-Rubik text-grey-dark'>
-              <li className='my-1'><Link href={'/'}>Buttons</Link></li>
-              <li className='my-1'><Link href={'/'}>Button Groups</Link></li>
-              <li className='my-1'><Link href={'/'}>Cards</Link></li>
-              <li className='my-1'><Link href={'/'}>Footer</Link></li>
-              <li className='my-1'><Link href={'/'}>Input</Link></li>
-              <li className='my-1'><Link href={'/'}>Navbar</Link></li>
-              <li className='my-1'><Link href={'/'}>Hero</Link></li>
-          </ul>
-        </div>
+        <Stamps />
+        
       </div>
       <Footer/>
     </div>

@@ -3,10 +3,7 @@ import Head from 'next/head'
 
 export default function navbars() {
   return (
-    <div className="w-screen pb-40 bg-cl-secondary font-Rubik">
-        <Head>
-        <script src="https://cdn.tailwindcss.com"></script>
-        </Head>
+    <div className="w-screen pb-40 font-Rubik">
         <h1 className="text-2xl">Navbars</h1>
 
         {/* ---component--- */}
