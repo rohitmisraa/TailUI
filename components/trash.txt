@@ -1,6 +1,16 @@
-import React from 'react'
+import React, { useState } from 'react'
+import SVG from "../svg"
 
 export default function trash() {
+  const [code1, setcode1] = useState(false)
+  function codeshow1() {
+    if (code1) {
+        setcode1(false)
+    } else {
+        setcode1(true)
+
+    }
+}
   return (
     <div>
         {/* ---Bt 1--- */}

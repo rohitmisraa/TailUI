@@ -10,10 +10,6 @@ export default function Inputs() {
     const [code6, setcode6] = useState(false)
     const [code7, setcode7] = useState(false)
     const [code8, setcode8] = useState(false)
-    const [code9, setcode9] = useState(false)
-    const [code10, setcode10] = useState(false)
-    const [code11, setcode11] = useState(false)
-
     function codeshow1() {
         if (code1) {
             setcode1(false)
@@ -78,30 +74,7 @@ export default function Inputs() {
 
         }
     }
-    function codeshow9() {
-        if (code9) {
-            setcode9(false)
-        } else {
-            setcode9(true)
-
-        }
-    }
-    function codeshow10() {
-        if (code10) {
-            setcode10(false)
-        } else {
-            setcode10(true)
-
-        }
-    }
-    function codeshow11() {
-        if (code11) {
-            setcode11(false)
-        } else {
-            setcode11(true)
-
-        }
-    }
+    
     return (
         <div className="p-10">
             <h1 className='text-4xl font-bold text-skin-dark'>Input fields</h1>
@@ -126,8 +99,8 @@ export default function Inputs() {
                     <pre className='px-5 block overflow-auto whitespace-pr'><code className='px-5 pb-5 overflow-auto h-max-96 block text-white language-html' id='code1'>
 
                         &lt;input
-                        type="text" name="username" id="usernamer" placeholder="Username"<br />
-                        className="appearance-none border-2 border-gray-300 rounded-lg py-1 px-5 focus:outline-none focus:ring-2 focus:ring-cl-blue focus:border-transparent "
+                        type=&quot;text&quot; name=&quot;username&quot; id=&quot;usernamer&quot; placeholder=&quot;Username&quot;<br />
+                        className=&quot;appearance-none border-2 border-gray-300 rounded-lg py-1 px-5 focus:outline-none focus:ring-2 focus:ring-cl-blue focus:border-transparent &quot;
                         /&gt;<br />
 
                     </code>
@@ -156,8 +129,8 @@ export default function Inputs() {
                     <pre className='px-5 block overflow-auto whitespace-pr'><code className='px-5 pb-5 overflow-auto h-max-96 block text-white language-html' id='code1'>
 
                         &lt;input
-                        type="text" name="username" id="usernamer" placeholder="Username"<br />
-                        className="appearance-none border-2 border-gray-300 rounded-full py-1 px-5 focus:outline-none focus:ring-2 focus:ring-cl-violet focus:border-transparent "
+                        type=&quot;text&quot; name=&quot;username&quot; id=&quot;usernamer&quot; placeholder=&quot;Username&quot;<br />
+                        className=&quot;appearance-none border-2 border-gray-300 rounded-full py-1 px-5 focus:outline-none focus:ring-2 focus:ring-cl-violet focus:border-transparent &quot;
                         /&gt;<br />
 
                     </code>
@@ -186,8 +159,8 @@ export default function Inputs() {
                     <pre className='px-5 block overflow-auto whitespace-pr'><code className='px-5 pb-5 overflow-auto h-max-96 block text-white language-html' id='code1'>
 
                         &lt;input
-                        type="text" name="username" id="usernamer" placeholder="Username"<br />
-                        className="appearance-none border-2 border-gray-300 py-1 px-5 focus:outline-none focus:ring-2 focus:ring-cl-green focus:border-transparent "
+                        type=&quot;text&quot; name=&quot;username&quot; id=&quot;usernamer&quot; placeholder=&quot;Username&quot;<br />
+                        className=&quot;appearance-none border-2 border-gray-300 py-1 px-5 focus:outline-none focus:ring-2 focus:ring-cl-green focus:border-transparent &quot;
                         /&gt;<br />
 
                     </code>
@@ -217,8 +190,8 @@ export default function Inputs() {
                     <pre className='px-5 block overflow-auto whitespace-pr'><code className='px-5 pb-5 overflow-auto h-max-96 block text-white language-html' id='code1'>
 
                         &lt;input
-                        type="text" name="username" id="usernamer" placeholder="Username"<br />
-                        className="bg-cl-secondary placeholder:text-cl-grey-dark appearance-none border-2 border-gray-300 rounded-lg py-1 px-5 focus:bg-white focus:outline-none focus:ring-2 focus:ring-cl-blue focus:border-transparent "
+                        type=&quot;text&quot; name=&quot;username&quot; id=&quot;usernamer&quot; placeholder=&quot;Username&quot;<br />
+                        className=&quot;bg-cl-secondary placeholder:text-cl-grey-dark appearance-none border-2 border-gray-300 rounded-lg py-1 px-5 focus:bg-white focus:outline-none focus:ring-2 focus:ring-cl-blue focus:border-transparent &quot;
                         /&gt;<br />
 
                     </code>
@@ -247,8 +220,8 @@ export default function Inputs() {
                     <pre className='px-5 block overflow-auto whitespace-pr'><code className='px-5 pb-5 overflow-auto h-max-96 block text-white language-html' id='code1'>
 
                         &lt;input
-                        type="text" name="username" id="usernamer" placeholder="Username"<br />
-                        className="bg-cl-secondary placeholder:text-cl-grey-dark appearance-none border-2 border-gray-300 rounded-full py-1 px-5 focus:bg-white focus:outline-none focus:ring-2 focus:ring-cl-violet focus:border-transparent "
+                        type=&quot;text&quot; name=&quot;username&quot; id=&quot;usernamer&quot; placeholder=&quot;Username&quot;<br />
+                        className=&quot;bg-cl-secondary placeholder:text-cl-grey-dark appearance-none border-2 border-gray-300 rounded-full py-1 px-5 focus:bg-white focus:outline-none focus:ring-2 focus:ring-cl-violet focus:border-transparent &quot;
                         /&gt;<br />
 
                     </code>
@@ -278,8 +251,8 @@ export default function Inputs() {
                     <pre className='px-5 block overflow-auto whitespace-pr'><code className='px-5 pb-5 overflow-auto h-max-96 block text-white language-html' id='code1'>
 
                         &lt;input
-                        type="text" name="username" id="usernamer" placeholder="Username"<br />
-                        className="bg-cl-secondary placeholder:text-cl-grey-dark appearance-none border-2 border-gray-300 py-1 px-5 focus:bg-white focus:outline-none focus:ring-2 focus:ring-cl-green focus:border-transparent "
+                        type=&quot;text&quot; name=&quot;username&quot; id=&quot;usernamer&quot; placeholder=&quot;Username&quot;<br />
+                        className=&quot;bg-cl-secondary placeholder:text-cl-grey-dark appearance-none border-2 border-gray-300 py-1 px-5 focus:bg-white focus:outline-none focus:ring-2 focus:ring-cl-green focus:border-transparent &quot;
                         /&gt;<br />
 
                     </code>
@@ -314,11 +287,11 @@ export default function Inputs() {
                 <div style={{ maxHeight: code7 ? '400px' : '0', display: code7 ? 'block' : 'none' }} className='w-full bg-cl-blue-dark rounded-xl pb-5'>
                     <pre className='px-5 block overflow-auto whitespace-pr'><code className='px-5 pb-5 overflow-auto h-max-96 block text-white language-html' id='code1'>
 
-                        &lt;div className="grid w-96 shadow-lg py-10 px-4 border-[1px] border-gray-300 rounded-md"&gt;<br />
+                        &lt;div className=&quot;grid w-96 shadow-lg py-10 px-4 border-[1px] border-gray-300 rounded-md&quot;&gt;<br />
                             &lt;span&gt;<br />Username&lt;/span&gt;<br />
                             &lt;input<br />
-                                type="text" name="username" id="username" placeholder="enter your username"<br />
-                                className="appearance-none border-2 border-gray-300 rounded-lg py-1 px-5 focus:outline-none focus:ring-2 focus:ring-cl-blue focus:border-transparent "
+                                type=&quot;text&quot; name=&quot;username&quot; id=&quot;username&quot; placeholder=&quot;enter your username&quot;<br />
+                                className=&quot;appearance-none border-2 border-gray-300 rounded-lg py-1 px-5 focus:outline-none focus:ring-2 focus:ring-cl-blue focus:border-transparent &quot;
                             /&gt;<br />
                         &lt;/div&gt;<br />
 
@@ -355,11 +328,11 @@ export default function Inputs() {
                 <div style={{ maxHeight: code8 ? '400px' : '0', display: code8 ? 'block' : 'none' }} className='w-full bg-cl-blue-dark rounded-xl pb-5'>
                     <pre className='px-5 block overflow-auto whitespace-pr'><code className='px-5 pb-5 overflow-auto h-max-96 block text-white language-html' id='code1'>
 
-                        &lt;div className="grid w-96 shadow-lg py-10 px-4 border-[1px] border-gray-300 rounded-md"&gt;<br />
+                        &lt;div className=&quot;grid w-96 shadow-lg py-10 px-4 border-[1px] border-gray-300 rounded-md&quot;&gt;<br />
                             &lt;span&gt;<br />Password&lt;/span&gt;<br />
                             &lt;input<br />
-                                type="password" name="password" id="password" placeholder="enter your password"<br />
-                                className="appearance-none border-2 border-gray-300 rounded-lg py-1 px-5 focus:outline-none focus:ring-2 focus:ring-cl-blue focus:border-transparent "
+                                type=&quot;password&quot; name=&quot;password&quot; id=&quot;password&quot; placeholder=&quot;enter your password&quot;<br />
+                                className=&quot;appearance-none border-2 border-gray-300 rounded-lg py-1 px-5 focus:outline-none focus:ring-2 focus:ring-cl-blue focus:border-transparent &quot;
                             /&gt;<br />
                         &lt;/div&gt;<br />
 

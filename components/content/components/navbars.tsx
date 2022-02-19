@@ -1,17 +1,13 @@
 import React, { useState } from 'react'
 import SVG from "../../../svg"
 
-export default function navbars() {
+export default function Navbars() {
     const [code1, setcode1] = useState(false)
     const [code2, setcode2] = useState(false)
     const [code3, setcode3] = useState(false)
     const [code4, setcode4] = useState(false)
     const [code5, setcode5] = useState(false)
     const [code6, setcode6] = useState(false)
-    const [code7, setcode7] = useState(false)
-    const [code8, setcode8] = useState(false)
-    const [code9, setcode9] = useState(false)
-    const [code10, setcode10] = useState(false)
 
     function codeshow1() {
         if (code1) {
@@ -61,38 +57,6 @@ export default function navbars() {
 
         }
     }
-    function codeshow7() {
-        if (code7) {
-            setcode7(false)
-        } else {
-            setcode7(true)
-
-        }
-    }
-    function codeshow8() {
-        if (code8) {
-            setcode8(false)
-        } else {
-            setcode8(true)
-
-        }
-    }
-    function codeshow9() {
-        if (code9) {
-            setcode9(false)
-        } else {
-            setcode9(true)
-
-        }
-    }
-    function codeshow10() {
-        if (code10) {
-            setcode10(false)
-        } else {
-            setcode10(true)
-
-        }
-    }
     return (
         <div className="p-10 pb-40 font-Rubik">
             <h1 className='text-4xl font-bold text-skin-dark'>Navbars</h1>
@@ -125,15 +89,15 @@ export default function navbars() {
                 <div style={{ maxHeight: code1 ? '400px' : '0', display: code1 ? 'block' : 'none' }} className='w-full bg-cl-blue-dark rounded-xl pb-5 overflow-auto'>
                     <pre className='px-5 block whitespace-pr'><code className='px-5 pb-5 h-max-96 block text-white language-html' id='code1'>
 
-                        &lt;div className="py-3 px-20 w-screen bg-white flex justify-between"&gt;<br />
-                        &lt;div className="h-10 w-32 flex"&gt;<br />
-                        &lt;img src="/assets/icon.png" alt="Logo" className="object-contain h-8 w-h-8" /&gt;<br />
-                        &lt;span className="text-xl ml-3 relative top-1"&gt;<br />Tailui&lt;/span&gt;<br />
+                        &lt;div className=&quot;py-3 px-20 w-screen bg-white flex justify-between&quot;&gt;<br />
+                        &lt;div className=&quot;h-10 w-32 flex&quot;&gt;<br />
+                        &lt;img src=&quot;/assets/icon.png&quot; alt=&quot;Logo&quot; className=&quot;object-contain h-8 w-h-8&quot; /&gt;<br />
+                        &lt;span className=&quot;text-xl ml-3 relative top-1&quot;&gt;<br />Tailui&lt;/span&gt;<br />
                         &lt;/div&gt;<br />
-                        &lt;div className="flex py-1 w-max px-2 text-lg font-medium"&gt;<br />
-                        &lt;button className="py-1 px-6 text-cl-black-carbon  hover:relative hover:bottom-2"&gt;<br />Home&lt;/button&gt;<br />
-                        &lt;button className="py-1 px-6 text-cl-grey-dark  hover:relative hover:bottom-2"&gt;<br />About&lt;/button&gt;<br />
-                        &lt;button className="py-1 px-6 text-cl-grey-dark hover:relative hover:bottom-2"&gt;<br />Contact&lt;/button&gt;<br />
+                        &lt;div className=&quot;flex py-1 w-max px-2 text-lg font-medium&quot;&gt;<br />
+                        &lt;button className=&quot;py-1 px-6 text-cl-black-carbon  hover:relative hover:bottom-2&quot;&gt;<br />Home&lt;/button&gt;<br />
+                        &lt;button className=&quot;py-1 px-6 text-cl-grey-dark  hover:relative hover:bottom-2&quot;&gt;<br />About&lt;/button&gt;<br />
+                        &lt;button className=&quot;py-1 px-6 text-cl-grey-dark hover:relative hover:bottom-2&quot;&gt;<br />Contact&lt;/button&gt;<br />
                         &lt;/div&gt;<br />
                         &lt;/div&gt;<br />
 
@@ -174,16 +138,16 @@ export default function navbars() {
                 <div style={{ maxHeight: code2 ? '400px' : '0', display: code2 ? 'block' : 'none' }} className='w-full bg-cl-blue-dark rounded-xl pb-5 overflow-auto'>
                     <pre className='px-5 block whitespace-pr'><code className='px-5 pb-5 h-max-96 block text-white language-html' id='code1'>
 
-                        &lt;div className="py-3 px-20 w-screen bg-white flex justify-between"&gt;<br />
-                        &lt;div className="h-10 w-32 flex"&gt;<br />
-                        &lt;img src="/assets/icon.png" alt="Logo" className="object-contain h-8 w-h-8" /&gt;<br />
-                        &lt;span className="text-xl ml-3 relative top-1"&gt;<br />Tailui&lt;/span&gt;<br />
+                        &lt;div className=&quot;py-3 px-20 w-screen bg-white flex justify-between&quot;&gt;<br />
+                        &lt;div className=&quot;h-10 w-32 flex&quot;&gt;<br />
+                        &lt;img src=&quot;/assets/icon.png&quot; alt=&quot;Logo&quot; className=&quot;object-contain h-8 w-h-8&quot; /&gt;<br />
+                        &lt;span className=&quot;text-xl ml-3 relative top-1&quot;&gt;<br />Tailui&lt;/span&gt;<br />
                         &lt;/div&gt;<br />
-                        &lt;div className="flex py-1 w-max px-2 text-lg font-medium"&gt;<br />
-                        &lt;button className="py-1 px-6 text-cl-black-carbon hover:relative hover:bottom-2"&gt;<br />Home&lt;/button&gt;<br />
-                        &lt;button className="py-1 px-6 text-cl-grey-dark hover:relative hover:bottom-2"&gt;<br />About&lt;/button&gt;<br />
-                        &lt;button className="py-1 px-6 text-cl-grey-dark hover:relative hover:bottom-2"&gt;<br />Contact&lt;/button&gt;<br />
-                        &lt;svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 496 512" width="30" height="30" fill="#061C3F"&gt;<br />&lt;path d="M248 8C111 8 0 119 0 256s111 248 248 248 248-111 248-248S385 8 248 8zm0 96c48.6 0 88 39.4 88 88s-39.4 88-88 88-88-39.4-88-88 39.4-88 88-88zm0 344c-58.7 0-111.3-26.6-146.5-68.2 18.8-35.4 55.6-59.8 98.5-59.8 2.4 0 4.8.4 7.1 1.1 13 4.2 26.6 6.9 40.9 6.9 14.3 0 28-2.7 40.9-6.9 2.3-.7 4.7-1.1 7.1-1.1 42.9 0 79.7 24.4 98.5 59.8C359.3 421.4 306.7 448 248 448z" /&gt;<br />&lt;/svg&gt;<br />
+                        &lt;div className=&quot;flex py-1 w-max px-2 text-lg font-medium&quot;&gt;<br />
+                        &lt;button className=&quot;py-1 px-6 text-cl-black-carbon hover:relative hover:bottom-2&quot;&gt;<br />Home&lt;/button&gt;<br />
+                        &lt;button className=&quot;py-1 px-6 text-cl-grey-dark hover:relative hover:bottom-2&quot;&gt;<br />About&lt;/button&gt;<br />
+                        &lt;button className=&quot;py-1 px-6 text-cl-grey-dark hover:relative hover:bottom-2&quot;&gt;<br />Contact&lt;/button&gt;<br />
+                        &lt;svg xmlns=&quot;http://www.w3.org/2000/svg&quot; viewBox=&quot;0 0 496 512&quot; width=&quot;30&quot; height=&quot;30&quot; fill=&quot;#061C3F&quot;&gt;<br />&lt;path d=&quot;M248 8C111 8 0 119 0 256s111 248 248 248 248-111 248-248S385 8 248 8zm0 96c48.6 0 88 39.4 88 88s-39.4 88-88 88-88-39.4-88-88 39.4-88 88-88zm0 344c-58.7 0-111.3-26.6-146.5-68.2 18.8-35.4 55.6-59.8 98.5-59.8 2.4 0 4.8.4 7.1 1.1 13 4.2 26.6 6.9 40.9 6.9 14.3 0 28-2.7 40.9-6.9 2.3-.7 4.7-1.1 7.1-1.1 42.9 0 79.7 24.4 98.5 59.8C359.3 421.4 306.7 448 248 448z&quot; /&gt;<br />&lt;/svg&gt;<br />
                         &lt;/div&gt;<br />
                         &lt;/div&gt;<br />
 
@@ -238,30 +202,30 @@ export default function navbars() {
                 <div style={{ maxHeight: code3 ? '400px' : '0', display: code3 ? 'block' : 'none' }} className='w-full bg-cl-blue-dark rounded-xl pb-5 overflow-auto'>
                     <pre className='px-5 block whitespace-pr'><code className='px-5 pb-5 h-max-96 block text-white language-html' id='code1'>
 
-                        &lt;div className="py-3 px-20 w-screen bg-white flex justify-between"&gt;<br />
-                        &lt;div className='flex'&gt;<br />
-                        &lt;div className="h-10 w-32 flex"&gt;<br />
-                        &lt;img src="/assets/icon.png" alt="Logo" className="object-contain h-8 w-h-8" /&gt;<br />
-                        &lt;span className="text-xl ml-3 relative top-1"&gt;<br />Tailui&lt;/span&gt;<br />
+                        &lt;div className=&quot;py-3 px-20 w-screen bg-white flex justify-between&quot;&gt;<br />
+                        &lt;div className=&quot;flex&quot;&gt;<br />
+                        &lt;div className=&quot;h-10 w-32 flex&quot;&gt;<br />
+                        &lt;img src=&quot;/assets/icon.png&quot; alt=&quot;Logo&quot; className=&quot;object-contain h-8 w-h-8&quot; /&gt;<br />
+                        &lt;span className=&quot;text-xl ml-3 relative top-1&quot;&gt;<br />Tailui&lt;/span&gt;<br />
                         &lt;/div&gt;<br />
-                        &lt;div className="flex py-1 w-max px-2 text-lg font-medium"&gt;<br />
-                        &lt;button className="py-1 px-6 text-cl-black-carbon hover:relative hover:bottom-2"&gt;<br />Home&lt;/button&gt;<br />
-                        &lt;button className="py-1 px-6 text-cl-grey-dark  hover:relative hover:bottom-2"&gt;<br />About&lt;/button&gt;<br />
-                        &lt;button className="py-1 px-6 text-cl-grey-dark  hover:relative hover:bottom-2"&gt;<br />Contact&lt;/button&gt;<br />
+                        &lt;div className=&quot;flex py-1 w-max px-2 text-lg font-medium&quot;&gt;<br />
+                        &lt;button className=&quot;py-1 px-6 text-cl-black-carbon hover:relative hover:bottom-2&quot;&gt;<br />Home&lt;/button&gt;<br />
+                        &lt;button className=&quot;py-1 px-6 text-cl-grey-dark  hover:relative hover:bottom-2&quot;&gt;<br />About&lt;/button&gt;<br />
+                        &lt;button className=&quot;py-1 px-6 text-cl-grey-dark  hover:relative hover:bottom-2&quot;&gt;<br />Contact&lt;/button&gt;<br />
                         &lt;/div&gt;<br />
                         &lt;/div&gt;<br />
 
-                        &lt;div className="flex py-1 w-max px-2"&gt;<br />
+                        &lt;div className=&quot;flex py-1 w-max px-2&quot;&gt;<br />
 
-                        &lt;div className='flex bg-cl-secondary rounded-full'&gt;<br />
+                        &lt;div className=&quot;flex bg-cl-secondary rounded-full&quot;&gt;<br />
                         &lt;input
-                        type="text" name="username" id="usernamer" placeholder="Username"
-                        className="bg-cl-secondary placeholder:text-cl-grey-dark appearance-none border-2 border-gray-300 rounded-l-full py-1 px-5 focus:bg-white focus:outline-none focus:ring-2 focus:ring-cl-violet focus:border-transparent "
+                        type=&quot;text&quot; name=&quot;username&quot; id=&quot;usernamer&quot; placeholder=&quot;Username&quot;
+                        className=&quot;bg-cl-secondary placeholder:text-cl-grey-dark appearance-none border-2 border-gray-300 rounded-l-full py-1 px-5 focus:bg-white focus:outline-none focus:ring-2 focus:ring-cl-violet focus:border-transparent &quot;
                         /&gt;<br />
-                        &lt;button className="py-1 px-6 bg-cl-blue text-white text-base rounded-full"&gt;<br />Search&lt;/button&gt;<br />
+                        &lt;button className=&quot;py-1 px-6 bg-cl-blue text-white text-base rounded-full&quot;&gt;<br />Search&lt;/button&gt;<br />
                         &lt;/div&gt;<br />
-                        &lt;div className='w-6'&gt;<br />&lt;/div&gt;<br />
-                        &lt;svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 496 512" width="30" height="30" fill="#061C3F"&gt;<br />&lt;path d="M248 8C111 8 0 119 0 256s111 248 248 248 248-111 248-248S385 8 248 8zm0 96c48.6 0 88 39.4 88 88s-39.4 88-88 88-88-39.4-88-88 39.4-88 88-88zm0 344c-58.7 0-111.3-26.6-146.5-68.2 18.8-35.4 55.6-59.8 98.5-59.8 2.4 0 4.8.4 7.1 1.1 13 4.2 26.6 6.9 40.9 6.9 14.3 0 28-2.7 40.9-6.9 2.3-.7 4.7-1.1 7.1-1.1 42.9 0 79.7 24.4 98.5 59.8C359.3 421.4 306.7 448 248 448z" /&gt;<br />&lt;/svg&gt;<br />
+                        &lt;div className=&quot;w-6&quot;&gt;<br />&lt;/div&gt;<br />
+                        &lt;svg xmlns=&quot;http://www.w3.org/2000/svg&quot; viewBox=&quot;0 0 496 512&quot; width=&quot;30&quot; height=&quot;30&quot; fill=&quot;#061C3F&quot;&gt;<br />&lt;path d=&quot;M248 8C111 8 0 119 0 256s111 248 248 248 248-111 248-248S385 8 248 8zm0 96c48.6 0 88 39.4 88 88s-39.4 88-88 88-88-39.4-88-88 39.4-88 88-88zm0 344c-58.7 0-111.3-26.6-146.5-68.2 18.8-35.4 55.6-59.8 98.5-59.8 2.4 0 4.8.4 7.1 1.1 13 4.2 26.6 6.9 40.9 6.9 14.3 0 28-2.7 40.9-6.9 2.3-.7 4.7-1.1 7.1-1.1 42.9 0 79.7 24.4 98.5 59.8C359.3 421.4 306.7 448 248 448z&quot; /&gt;<br />&lt;/svg&gt;<br />
                         &lt;/div&gt;<br />
                         &lt;/div&gt;<br />
 
@@ -301,16 +265,16 @@ export default function navbars() {
                 <div style={{ maxHeight: code4 ? '400px' : '0', display: code4 ? 'block' : 'none' }} className='w-full bg-cl-blue-dark rounded-xl pb-5 overflow-auto'>
                     <pre className='px-5 block whitespace-pr'><code className='px-5 pb-5 h-max-96 block text-white language-html' id='code1'>
 
-                        &lt;div className="py-3 px-20 w-screen bg-white flex justify-between"&gt;<br />
-                        &lt;span className="text-xl ml-3 relative top-1"&gt;<br />Tailui&lt;/span&gt;<br />
-                        &lt;div className='flex bg-cl-secondary rounded-full'&gt;<br />
+                        &lt;div className=&quot;py-3 px-20 w-screen bg-white flex justify-between&quot;&gt;<br />
+                        &lt;span className=&quot;text-xl ml-3 relative top-1&quot;&gt;<br />Tailui&lt;/span&gt;<br />
+                        &lt;div className=&quot;flex bg-cl-secondary rounded-full&quot;&gt;<br />
                         &lt;input
-                        type="text" name="username" id="usernamer" placeholder="Username"
-                        className="bg-cl-secondary placeholder:text-cl-grey-dark appearance-none border-2 border-gray-300 rounded-l-full py-1 px-5 focus:bg-white focus:outline-none focus:ring-2 focus:ring-cl-violet focus:border-transparent "
+                        type=&quot;text&quot; name=&quot;username&quot; id=&quot;usernamer&quot; placeholder=&quot;Username&quot;
+                        className=&quot;bg-cl-secondary placeholder:text-cl-grey-dark appearance-none border-2 border-gray-300 rounded-l-full py-1 px-5 focus:bg-white focus:outline-none focus:ring-2 focus:ring-cl-violet focus:border-transparent &quot;
                         /&gt;<br />
-                        &lt;button className="py-1 px-6 bg-cl-blue text-white text-base rounded-full"&gt;<br />Search&lt;/button&gt;<br />
+                        &lt;button className=&quot;py-1 px-6 bg-cl-blue text-white text-base rounded-full&quot;&gt;<br />Search&lt;/button&gt;<br />
                         &lt;/div&gt;<br />
-                        &lt;svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 496 512" width="30" height="30" fill="#061C3F"&gt;<br />&lt;path d="M248 8C111 8 0 119 0 256s111 248 248 248 248-111 248-248S385 8 248 8zm0 96c48.6 0 88 39.4 88 88s-39.4 88-88 88-88-39.4-88-88 39.4-88 88-88zm0 344c-58.7 0-111.3-26.6-146.5-68.2 18.8-35.4 55.6-59.8 98.5-59.8 2.4 0 4.8.4 7.1 1.1 13 4.2 26.6 6.9 40.9 6.9 14.3 0 28-2.7 40.9-6.9 2.3-.7 4.7-1.1 7.1-1.1 42.9 0 79.7 24.4 98.5 59.8C359.3 421.4 306.7 448 248 448z" /&gt;<br />&lt;/svg&gt;<br />
+                        &lt;svg xmlns=&quot;http://www.w3.org/2000/svg&quot; viewBox=&quot;0 0 496 512&quot; width=&quot;30&quot; height=&quot;30&quot; fill=&quot;#061C3F&quot;&gt;<br />&lt;path d=&quot;M248 8C111 8 0 119 0 256s111 248 248 248 248-111 248-248S385 8 248 8zm0 96c48.6 0 88 39.4 88 88s-39.4 88-88 88-88-39.4-88-88 39.4-88 88-88zm0 344c-58.7 0-111.3-26.6-146.5-68.2 18.8-35.4 55.6-59.8 98.5-59.8 2.4 0 4.8.4 7.1 1.1 13 4.2 26.6 6.9 40.9 6.9 14.3 0 28-2.7 40.9-6.9 2.3-.7 4.7-1.1 7.1-1.1 42.9 0 79.7 24.4 98.5 59.8C359.3 421.4 306.7 448 248 448z&quot; /&gt;<br />&lt;/svg&gt;<br />
 
                         &lt;/div&gt;<br />
 
@@ -349,15 +313,15 @@ export default function navbars() {
                 <div style={{ maxHeight: code5 ? '400px' : '0', display: code5 ? 'block' : 'none' }} className='w-full bg-cl-blue-dark rounded-xl pb-5 overflow-auto'>
                     <pre className='px-5 block whitespace-pr'><code className='px-5 pb-5 h-max-96 block text-white language-html' id='code1'>
 
-                        &lt;div className="py-3 px-20 w-screen bg-white flex justify-between"&gt;<br />
-                        &lt;div className='flex bg-cl-secondary rounded-full'&gt;<br />
+                        &lt;div className=&quot;py-3 px-20 w-screen bg-white flex justify-between&quot;&gt;<br />
+                        &lt;div className=&quot;flex bg-cl-secondary rounded-full&quot;&gt;<br />
                         &lt;input
-                        type="text" name="username" id="usernamer" placeholder="Username"
-                        className="bg-cl-secondary placeholder:text-cl-grey-dark appearance-none border-2 border-gray-300 rounded-l-full py-1 px-5 focus:bg-white focus:outline-none focus:ring-2 focus:ring-cl-violet focus:border-transparent "
+                        type=&quot;text&quot; name=&quot;username&quot; id=&quot;usernamer&quot; placeholder=&quot;Username&quot;
+                        className=&quot;bg-cl-secondary placeholder:text-cl-grey-dark appearance-none border-2 border-gray-300 rounded-l-full py-1 px-5 focus:bg-white focus:outline-none focus:ring-2 focus:ring-cl-violet focus:border-transparent &quot;
                         /&gt;<br />
-                        &lt;button className="py-1 px-6 bg-cl-blue text-white text-base rounded-full"&gt;<br />Search&lt;/button&gt;<br />
+                        &lt;button className=&quot;py-1 px-6 bg-cl-blue text-white text-base rounded-full&quot;&gt;<br />Search&lt;/button&gt;<br />
                         &lt;/div&gt;<br />
-                        &lt;svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 496 512" width="30" height="30" fill="#061C3F"&gt;<br />&lt;path d="M248 8C111 8 0 119 0 256s111 248 248 248 248-111 248-248S385 8 248 8zm0 96c48.6 0 88 39.4 88 88s-39.4 88-88 88-88-39.4-88-88 39.4-88 88-88zm0 344c-58.7 0-111.3-26.6-146.5-68.2 18.8-35.4 55.6-59.8 98.5-59.8 2.4 0 4.8.4 7.1 1.1 13 4.2 26.6 6.9 40.9 6.9 14.3 0 28-2.7 40.9-6.9 2.3-.7 4.7-1.1 7.1-1.1 42.9 0 79.7 24.4 98.5 59.8C359.3 421.4 306.7 448 248 448z" /&gt;<br />&lt;/svg&gt;<br />
+                        &lt;svg xmlns=&quot;http://www.w3.org/2000/svg&quot; viewBox=&quot;0 0 496 512&quot; width=&quot;30&quot; height=&quot;30&quot; fill=&quot;#061C3F&quot;&gt;<br />&lt;path d=&quot;M248 8C111 8 0 119 0 256s111 248 248 248 248-111 248-248S385 8 248 8zm0 96c48.6 0 88 39.4 88 88s-39.4 88-88 88-88-39.4-88-88 39.4-88 88-88zm0 344c-58.7 0-111.3-26.6-146.5-68.2 18.8-35.4 55.6-59.8 98.5-59.8 2.4 0 4.8.4 7.1 1.1 13 4.2 26.6 6.9 40.9 6.9 14.3 0 28-2.7 40.9-6.9 2.3-.7 4.7-1.1 7.1-1.1 42.9 0 79.7 24.4 98.5 59.8C359.3 421.4 306.7 448 248 448z&quot; /&gt;<br />&lt;/svg&gt;<br />
 
                         &lt;/div&gt;<br />
 
@@ -411,30 +375,30 @@ export default function navbars() {
                 <div style={{ maxHeight: code6 ? '400px' : '0', display: code6 ? 'block' : 'none' }} className='w-full bg-cl-blue-dark rounded-xl pb-5 overflow-auto'>
                     <pre className='px-5 block whitespace-pr'><code className='px-5 pb-5 h-max-96 block text-white language-html' id='code1'>
 
-                        &lt;div className="py-3 px-20 w-screen bg-white flex justify-between rounded-full shadow-xl"&gt;<br />
-                        &lt;div className='flex'&gt;<br />
-                        &lt;div className="h-10 w-32 flex"&gt;<br />
-                        &lt;img src="/assets/icon.png" alt="Logo" className="object-contain h-8 w-h-8" /&gt;<br />
-                        &lt;span className="text-xl ml-3 relative top-1"&gt;<br />Tailui&lt;/span&gt;<br />
+                        &lt;div className=&quot;py-3 px-20 w-screen bg-white flex justify-between rounded-full shadow-xl&quot;&gt;<br />
+                        &lt;div className=&quot;flex&quot;&gt;<br />
+                        &lt;div className=&quot;h-10 w-32 flex&quot;&gt;<br />
+                        &lt;img src=&quot;/assets/icon.png&quot; alt=&quot;Logo&quot; className=&quot;object-contain h-8 w-h-8&quot; /&gt;<br />
+                        &lt;span className=&quot;text-xl ml-3 relative top-1&quot;&gt;<br />Tailui&lt;/span&gt;<br />
                         &lt;/div&gt;<br />
-                        &lt;div className="flex py-1 w-max px-2 text-lg font-medium"&gt;<br />
-                        &lt;button className="py-1 px-6 text-cl-black-carbon hover:relative hover:bottom-2"&gt;<br />Home&lt;/button&gt;<br />
-                        &lt;button className="py-1 px-6 text-cl-grey-dark  hover:relative hover:bottom-2"&gt;<br />About&lt;/button&gt;<br />
-                        &lt;button className="py-1 px-6 text-cl-grey-dark  hover:relative hover:bottom-2"&gt;<br />Contact&lt;/button&gt;<br />
+                        &lt;div className=&quot;flex py-1 w-max px-2 text-lg font-medium&quot;&gt;<br />
+                        &lt;button className=&quot;py-1 px-6 text-cl-black-carbon hover:relative hover:bottom-2&quot;&gt;<br />Home&lt;/button&gt;<br />
+                        &lt;button className=&quot;py-1 px-6 text-cl-grey-dark  hover:relative hover:bottom-2&quot;&gt;<br />About&lt;/button&gt;<br />
+                        &lt;button className=&quot;py-1 px-6 text-cl-grey-dark  hover:relative hover:bottom-2&quot;&gt;<br />Contact&lt;/button&gt;<br />
                         &lt;/div&gt;<br />
                         &lt;/div&gt;<br />
 
-                        &lt;div className="flex py-1 w-max px-2"&gt;<br />
+                        &lt;div className=&quot;flex py-1 w-max px-2&quot;&gt;<br />
 
-                        &lt;div className='flex bg-cl-secondary rounded-full'&gt;<br />
+                        &lt;div className=&quot;flex bg-cl-secondary rounded-full&quot;&gt;<br />
                         &lt;input
-                        type="text" name="username" id="usernamer" placeholder="Username"
-                        className="bg-cl-secondary placeholder:text-cl-grey-dark appearance-none border-2 border-gray-300 rounded-l-full py-1 px-5 focus:bg-white focus:outline-none focus:ring-2 focus:ring-cl-violet focus:border-transparent "
+                        type=&quot;text&quot; name=&quot;username&quot; id=&quot;usernamer&quot; placeholder=&quot;Username&quot;
+                        className=&quot;bg-cl-secondary placeholder:text-cl-grey-dark appearance-none border-2 border-gray-300 rounded-l-full py-1 px-5 focus:bg-white focus:outline-none focus:ring-2 focus:ring-cl-violet focus:border-transparent &quot;
                         /&gt;<br />
-                        &lt;button className="py-1 px-6 bg-cl-blue text-white text-base rounded-full"&gt;<br />Search&lt;/button&gt;<br />
+                        &lt;button className=&quot;py-1 px-6 bg-cl-blue text-white text-base rounded-full&quot;&gt;<br />Search&lt;/button&gt;<br />
                         &lt;/div&gt;<br />
-                        &lt;div className='w-6'&gt;<br />&lt;/div&gt;<br />
-                        &lt;svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 496 512" width="30" height="30" fill="#061C3F"&gt;<br />&lt;path d="M248 8C111 8 0 119 0 256s111 248 248 248 248-111 248-248S385 8 248 8zm0 96c48.6 0 88 39.4 88 88s-39.4 88-88 88-88-39.4-88-88 39.4-88 88-88zm0 344c-58.7 0-111.3-26.6-146.5-68.2 18.8-35.4 55.6-59.8 98.5-59.8 2.4 0 4.8.4 7.1 1.1 13 4.2 26.6 6.9 40.9 6.9 14.3 0 28-2.7 40.9-6.9 2.3-.7 4.7-1.1 7.1-1.1 42.9 0 79.7 24.4 98.5 59.8C359.3 421.4 306.7 448 248 448z" /&gt;<br />&lt;/svg&gt;<br />
+                        &lt;div className=&quot;w-6&quot;&gt;<br />&lt;/div&gt;<br />
+                        &lt;svg xmlns=&quot;http://www.w3.org/2000/svg&quot; viewBox=&quot;0 0 496 512&quot; width=&quot;30&quot; height=&quot;30&quot; fill=&quot;#061C3F&quot;&gt;<br />&lt;path d=&quot;M248 8C111 8 0 119 0 256s111 248 248 248 248-111 248-248S385 8 248 8zm0 96c48.6 0 88 39.4 88 88s-39.4 88-88 88-88-39.4-88-88 39.4-88 88-88zm0 344c-58.7 0-111.3-26.6-146.5-68.2 18.8-35.4 55.6-59.8 98.5-59.8 2.4 0 4.8.4 7.1 1.1 13 4.2 26.6 6.9 40.9 6.9 14.3 0 28-2.7 40.9-6.9 2.3-.7 4.7-1.1 7.1-1.1 42.9 0 79.7 24.4 98.5 59.8C359.3 421.4 306.7 448 248 448z&quot; /&gt;<br />&lt;/svg&gt;<br />
                         &lt;/div&gt;<br />
                         &lt;/div&gt;<br />
 

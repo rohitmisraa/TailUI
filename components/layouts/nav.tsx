@@ -3,7 +3,7 @@ import Drawer from "../../components/layouts/Drawer";
 import Link from 'next/link'
 import SVG from '../../svg'
 
-export default function nav() {
+export default function Nav() {
   const [sidemenu, setsidemenu] = useState(false)
   function showMenu() {
     if (sidemenu) {
@@ -57,9 +57,9 @@ export default function nav() {
               </div>
             <div className='ml-20 font-Rubik'>
               <ul className='list-disc text-xl font-Rubik text-skin-light'>
-                <li className='my-3'><Link href={'/'}>Home</Link></li>
-                <li className='my-3'><Link href={'/'}>Documentations</Link></li>
-                <li className='my-3'><Link href={'/'}>Components</Link></li>
+                <li className='my-3'><Link href={'/'} passHref>Home</Link></li>
+                <li className='my-3'><Link href={'/'} passHref>Documentations</Link></li>
+                <li className='my-3'><Link href={'/'} passHref>Components</Link></li>
               </ul>
             </div>
           </div>

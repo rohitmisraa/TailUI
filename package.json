@@ -11,6 +11,7 @@
     "build": "next build",
     "start": "next start",
     "lint": "next lint",
+    "export": "next export",
     "nodemon": "nodemon -x npm run tail  -e js,tsx,css",
     "tail": "tailwindcss build ./styles/main.css -o ./styles/globals.css"
   },
