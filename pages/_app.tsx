@@ -6,6 +6,7 @@ function MyApp({ Component, pageProps }) {
   return (
     <>
     <Head>
+    <script src="https://cdn.tailwindcss.com"></script>
     </Head>
     <div className='theme-dark font-Rubik'>
       

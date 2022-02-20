@@ -40,7 +40,7 @@ export default function Drawer() {
                 <li className='my-3'><Link href={'/components/footers'} passHref>Footer</Link></li>
                 <li className='my-3'><Link href={'/components/input-fields'} passHref>Input</Link></li>
                 <li className='my-3'><Link href={'/components/navbars'} passHref>Navbar</Link></li>
-                <li className='my-3'><Link href={'/components/'} passHref>Hero</Link></li>
+                <li className='my-3'><Link href={'/blocks/hero'} passHref>Hero</Link></li>
               </ul>
             </div>
           </div>
