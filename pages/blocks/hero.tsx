@@ -3,11 +3,11 @@ import Drawer from "../../components/layouts/Drawer";
 import Footer from "../../components/layouts/Footerdoc";
 import Stamps from "../../components/layouts/Stamps";
 import Nav from "../../components/layouts/nav";
-import ButtonsD from "../../components/content/components/buttons";
+import Content from "../../components/content/blocks/block1";
 
 
 
-export default function Buttons() {
+export default function HeroFitness() {
     return (
         <div className="w-full overflow-x-hidden bg-skin-base ">
             <Head>
@@ -23,7 +23,7 @@ export default function Buttons() {
                 </div>
                 <div className='w-full xl:w-7/12 h-auto lg:ml-[300px] xl:ml-[300px]'>
 
-                    <ButtonsD />
+                    <Content />
 
                 </div>
                 <div className="h-full w-[350px] hidden xl:block">

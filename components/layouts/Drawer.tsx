@@ -2,7 +2,7 @@ import Link from 'next/link'
 import SVG from '../../svg'
 
 
-export default function drawer() {
+export default function Drawer() {
   return (
     <div className='text-skin-dark'>
           <div className='my-2'>
@@ -17,9 +17,9 @@ export default function drawer() {
               <ul className='list-disc text-xl font-Rubik text-skin-light'>
                 <li className='text-skin-dark font-medium my-3'><Link href={'/'}>Getting Started</Link></li>
                 
-                  <li className='my-3'><Link href={'/'}>Theme Guide</Link></li>
-                <li className='my-3'><Link href={'/'}>About TailUI</Link></li>
-                <li className='my-3'><Link href={'/'}>How to contribute?</Link></li>
+                  <li className='my-3'><Link href={'/'} passHref>Theme Guide</Link></li>
+                <li className='my-3'><Link href={'/'} passHref>About TailUI</Link></li>
+                <li className='my-3'><Link href={'/'} passHref>How to contribute?</Link></li>
               </ul>
             </div>
           </div>
@@ -34,13 +34,13 @@ export default function drawer() {
             <div className='ml-20 font-Rubik'>
               <ul className='list-disc text-xl font-Rubik text-skin-light'>
               
-                <li className='my-3'><Link href={'/components/buttons'}>Buttons</Link></li>
-                <li className='my-3'><Link href={'/components/button-groups'}>Button Groups</Link></li>
-                <li className='my-3'><Link href={'/components/cards'}>Cards</Link></li>
-                <li className='my-3'><Link href={'/components/footers'}>Footer</Link></li>
-                <li className='my-3'><Link href={'/components/input-fields'}>Input</Link></li>
-                <li className='my-3'><Link href={'/components/navbars'}>Navbar</Link></li>
-                <li className='my-3'><Link href={'/components/'}>Hero</Link></li>
+                <li className='my-3'><Link href={'/components/buttons'} passHref>Buttons</Link></li>
+                <li className='my-3'><Link href={'/components/button-groups'} passHref>Button Groups</Link></li>
+                <li className='my-3'><Link href={'/components/cards'} passHref>Cards</Link></li>
+                <li className='my-3'><Link href={'/components/footers'} passHref>Footer</Link></li>
+                <li className='my-3'><Link href={'/components/input-fields'} passHref>Input</Link></li>
+                <li className='my-3'><Link href={'/components/navbars'} passHref>Navbar</Link></li>
+                <li className='my-3'><Link href={'/blocks/hero'} passHref>Hero</Link></li>
               </ul>
             </div>
           </div>
@@ -55,10 +55,10 @@ export default function drawer() {
               </div>
             <div className='ml-20 font-Rubik'>
               <ul className='list-disc text-xl font-Rubik text-skin-light'>
-                <li className='my-3'><Link href={'/blocks/website'}>Single Page</Link></li>
-                <li className='my-3'><Link href={'/'}>Portfolios</Link></li>
-                <li className='my-3'><Link href={'/'}>Error Pages</Link></li> 
-                <li className='my-3'><Link href={'/'}>Success Pages</Link></li>
+                <li className='my-3'><Link href={'/blocks/website'} passHref>Single Page</Link></li>
+                <li className='my-3'><Link href={'/'} passHref>Portfolios</Link></li>
+                <li className='my-3'><Link href={'/'} passHref>Error Pages</Link></li> 
+                <li className='my-3'><Link href={'/'} passHref>Success Pages</Link></li>
               </ul>
             </div>
           </div>

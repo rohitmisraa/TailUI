@@ -1,22 +1,12 @@
-import Head from 'next/head'
-import Nav from '../components/layouts/nav'
 import Link from 'next/link'
-import Footer from '../components/layouts/Footer'
+import Nav from "../../components/layouts/nav";
 
 
-export default function Home() {
-  
-  
-  return (
-    <div className="w-full overflow-x-hidden bg-skin-base">
-      <Head>
-        {/* <title>{posts.frontmatter.title}</title> */}
-        <meta name="description" content="Tailui a free and open source components library for Tailwind css." />
-        <link rel="icon" href="/favicon.ico" />
-        
-      </Head>
-      <Nav/>
-      <div className="py-3 px-5 sm:px-20 w-screen flex justify-between pt-44 space-x-4">
+export default function HeroSimple() {
+    return (
+        <div className="w-full overflow-x-hidden bg-skin-base min-h-screen">
+            <Nav />
+            <div className="py-3 px-5 sm:px-20 w-screen flex justify-between pt-44 space-x-4">
                 <div className="w-full lg:w-3/6">
                     <h1 className="lg:text-7xl w-full text-5xl xl:w-[650px] text-skin-dark"><span className="font-bold text-gr_violet-2">Tailui </span>- Tailwind Component library and templates</h1>
                     <p className="text-xl text-skin-light xl:w-[650px] mt-5">A Tailwind library with 50+ components, Make your app using our library without much effort.</p>
@@ -27,8 +17,6 @@ export default function Home() {
                 </div>
                 <img src="/assets/undraw_product_teardown_re_m1pc.svg" alt="Fitness image" className="sm:w-3/6 lg:w-[500px] xl:w-[700px] my-5 xl:my-0 m-auto hidden md:block relative bottom-16" />
             </div>
-      <Footer/>
-    </div>
-  )
+        </div>
+    )
 }
-    
