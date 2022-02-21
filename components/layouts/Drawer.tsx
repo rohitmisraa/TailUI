@@ -40,7 +40,6 @@ export default function Drawer() {
                 <li className='my-3'><Link href={'/components/footers'} passHref>Footer</Link></li>
                 <li className='my-3'><Link href={'/components/input-fields'} passHref>Input</Link></li>
                 <li className='my-3'><Link href={'/components/navbars'} passHref>Navbar</Link></li>
-                <li className='my-3'><Link href={'/blocks/hero'} passHref>Hero</Link></li>
               </ul>
             </div>
           </div>
@@ -55,8 +54,8 @@ export default function Drawer() {
               </div>
             <div className='ml-20 font-Rubik'>
               <ul className='list-disc text-xl font-Rubik text-skin-light'>
-                <li className='my-3'><Link href={'/blocks/website'} passHref>Single Page</Link></li>
-                <li className='my-3'><Link href={'/'} passHref>Portfolios</Link></li>
+                <li className='my-3'><Link href={'/blocks/hero'} passHref>Hero</Link></li>
+                <li className='my-3'><Link href={'/blocks/portfolios'} passHref>Portfolios</Link></li>
                 <li className='my-3'><Link href={'/'} passHref>Error Pages</Link></li> 
                 <li className='my-3'><Link href={'/'} passHref>Success Pages</Link></li>
               </ul>

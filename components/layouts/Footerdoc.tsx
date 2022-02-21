@@ -5,8 +5,8 @@ export default function Footerdoc() {
     <div className='lg:ml-[330px] py-3 px-3 pt-3 bg-gray-400/10'>
             <div className='grid sm:grid-cols-4 grid-cols-2 md:px-40 max-w-[1400px] m-auto'>
                 <div className="h-10 w-32 flex my-4">
-                    <img src="/assets/icon.png" alt="Logo" className="object-contain h-8 w-h-8"/>
-                    <span className="text-xl ml-3 relative top-1 text-skin-dark">Tailui</span>
+                    <img src="/assets/tailui-icon.svg" alt="Logo" className="object-contain h-8 w-h-8"/>
+                    <span className="text-xl ml-3 relative top-1 text-skin-dark">TailUI</span>
                 </div>
                 <div className="grid  rounded-lg py-1 w-max my-4 px-2">
                     <span className="py-1 px-2 md:px-10 text-skin-dark text-left font-medium">HELP AND SUPPORT</span>

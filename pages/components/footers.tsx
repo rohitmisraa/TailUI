@@ -13,7 +13,7 @@ export default function Footers() {
             <Head>
                 {/* <title>{posts.frontmatter.title}</title> */}
                 <meta name="description" content="Tailui a free and open source components library for Tailwind css." />
-                <link rel="icon" href="/favicon.ico" />
+                <link rel="icon" href="/assets/favicon.ico" />
                 
             </Head>
             <Nav />

@@ -3,7 +3,7 @@ import Drawer from "../../components/layouts/Drawer";
 import Footer from "../../components/layouts/Footer";
 import Stamps from "../../components/layouts/Stamps";
 import Nav from "../../components/layouts/nav";
-import Content from "../../components/content/blocks/block1";
+import Content from "../../components/content/blocks/block";
 
 
 
@@ -12,9 +12,9 @@ export default function HeroPay() {
         <div className="w-full overflow-x-hidden bg-skin-bas bg-[#EBEBEB]">
             <div className="py-3 px-5 sm:px-20 w-screen flex justify-between pt-5 fixed z-40">
                 <div className="h-10 w-32 flex">
-                    <img src="/assets/icon.png" alt="Logo" className="object-contain h-8 w-h-8" />
+                    <img src="/assets/TailUI-icon.svg" alt="Logo" className="object-contain h-8 w-h-8" />
                     <span className="text-xl ml-3 relative top-1 text-cl-black-carbon">
-                        Tailui</span>
+                        TailUI Pay</span>
                 </div>
                 <div className="py-1 w-max px-2 text-lg font-medium hidden sm:flex">
                     <button className="py-1 px-6 text-cl-black-carbon  hover:relative hover:bottom-2">

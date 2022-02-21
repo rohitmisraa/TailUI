@@ -69,7 +69,7 @@ export default function Navbars() {
             <div className='overflow-auto pb-10 sm:pb-0'>
             <div className="py-3 px-20 w-full bg-gray-100 flex justify-between">
                 <div className="h-10 w-32 flex">
-                    <img src="/assets/icon.png" alt="Logo" className="object-contain h-8 w-h-8" />
+                    <img src="/assets/tailui-icon.svg" alt="Logo" className="object-contain h-8 w-h-8" />
                     <span className="text-xl ml-3 relative top-1">Tailui</span>
                 </div>
                 <div className="flex py-1 w-max px-2 text-lg font-medium">
@@ -91,7 +91,7 @@ export default function Navbars() {
 
                         &lt;div className=&quot;py-3 px-20 w-screen bg-white flex justify-between&quot;&gt;<br />
                         &lt;div className=&quot;h-10 w-32 flex&quot;&gt;<br />
-                        &lt;img src=&quot;/assets/icon.png&quot; alt=&quot;Logo&quot; className=&quot;object-contain h-8 w-h-8&quot; /&gt;<br />
+                        &lt;img src=&quot;/assets/tailui-icon.svg&quot; alt=&quot;Logo&quot; className=&quot;object-contain h-8 w-h-8&quot; /&gt;<br />
                         &lt;span className=&quot;text-xl ml-3 relative top-1&quot;&gt;<br />Tailui&lt;/span&gt;<br />
                         &lt;/div&gt;<br />
                         &lt;div className=&quot;flex py-1 w-max px-2 text-lg font-medium&quot;&gt;<br />
@@ -117,7 +117,7 @@ export default function Navbars() {
             <div className='overflow-auto pb-10 sm:pb-0'>
             <div className="py-3 px-20 w-full bg-gray-100 flex justify-between">
                 <div className="h-10 w-32 flex">
-                    <img src="/assets/icon.png" alt="Logo" className="object-contain h-8 w-h-8" />
+                    <img src="/assets/tailui-icon.svg" alt="Logo" className="object-contain h-8 w-h-8" />
                     <span className="text-xl ml-3 relative top-1">Tailui</span>
                 </div>
                 <div className="flex py-1 w-max px-2 text-lg font-medium">
@@ -140,7 +140,7 @@ export default function Navbars() {
 
                         &lt;div className=&quot;py-3 px-20 w-screen bg-white flex justify-between&quot;&gt;<br />
                         &lt;div className=&quot;h-10 w-32 flex&quot;&gt;<br />
-                        &lt;img src=&quot;/assets/icon.png&quot; alt=&quot;Logo&quot; className=&quot;object-contain h-8 w-h-8&quot; /&gt;<br />
+                        &lt;img src=&quot;/assets/tailui-icon.svg&quot; alt=&quot;Logo&quot; className=&quot;object-contain h-8 w-h-8&quot; /&gt;<br />
                         &lt;span className=&quot;text-xl ml-3 relative top-1&quot;&gt;<br />Tailui&lt;/span&gt;<br />
                         &lt;/div&gt;<br />
                         &lt;div className=&quot;flex py-1 w-max px-2 text-lg font-medium&quot;&gt;<br />
@@ -168,7 +168,7 @@ export default function Navbars() {
             <div className="py-3 px-5 w-full bg-gray-100 flex justify-between">
                 <div className='flex'>
                     <div className="h-10 w-32 flex">
-                        <img src="/assets/icon.png" alt="Logo" className="object-contain h-8 w-h-8" />
+                        <img src="/assets/tailui-icon.svg" alt="Logo" className="object-contain h-8 w-h-8" />
                         <span className="text-xl ml-3 relative top-1">Tailui</span>
                     </div>
                     <div className="flex py-1 w-max px-2 text-lg font-medium">
@@ -205,7 +205,7 @@ export default function Navbars() {
                         &lt;div className=&quot;py-3 px-20 w-screen bg-white flex justify-between&quot;&gt;<br />
                         &lt;div className=&quot;flex&quot;&gt;<br />
                         &lt;div className=&quot;h-10 w-32 flex&quot;&gt;<br />
-                        &lt;img src=&quot;/assets/icon.png&quot; alt=&quot;Logo&quot; className=&quot;object-contain h-8 w-h-8&quot; /&gt;<br />
+                        &lt;img src=&quot;/assets/tailui-icon.svg&quot; alt=&quot;Logo&quot; className=&quot;object-contain h-8 w-h-8&quot; /&gt;<br />
                         &lt;span className=&quot;text-xl ml-3 relative top-1&quot;&gt;<br />Tailui&lt;/span&gt;<br />
                         &lt;/div&gt;<br />
                         &lt;div className=&quot;flex py-1 w-max px-2 text-lg font-medium&quot;&gt;<br />
@@ -341,7 +341,7 @@ export default function Navbars() {
             <div className="py-3 px-10 w-full bg-gray-100 flex justify-between rounded-full shadow-xl">
                 <div className='flex'>
                     <div className="h-10 w-32 flex">
-                        <img src="/assets/icon.png" alt="Logo" className="object-contain h-8 w-h-8" />
+                        <img src="/assets/tailui-icon.svg" alt="Logo" className="object-contain h-8 w-h-8" />
                         <span className="text-xl ml-3 relative top-1">Tailui</span>
                     </div>
                     <div className="flex py-1 w-max px-2 text-lg font-medium">
@@ -378,7 +378,7 @@ export default function Navbars() {
                         &lt;div className=&quot;py-3 px-20 w-screen bg-white flex justify-between rounded-full shadow-xl&quot;&gt;<br />
                         &lt;div className=&quot;flex&quot;&gt;<br />
                         &lt;div className=&quot;h-10 w-32 flex&quot;&gt;<br />
-                        &lt;img src=&quot;/assets/icon.png&quot; alt=&quot;Logo&quot; className=&quot;object-contain h-8 w-h-8&quot; /&gt;<br />
+                        &lt;img src=&quot;/assets/tailui-icon.svg&quot; alt=&quot;Logo&quot; className=&quot;object-contain h-8 w-h-8&quot; /&gt;<br />
                         &lt;span className=&quot;text-xl ml-3 relative top-1&quot;&gt;<br />Tailui&lt;/span&gt;<br />
                         &lt;/div&gt;<br />
                         &lt;div className=&quot;flex py-1 w-max px-2 text-lg font-medium&quot;&gt;<br />

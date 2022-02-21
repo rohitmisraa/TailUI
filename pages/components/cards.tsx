@@ -3,11 +3,11 @@ import Drawer from "../../components/layouts/Drawer";
 import Footer from "../../components/layouts/Footerdoc";
 import Stamps from "../../components/layouts/Stamps";
 import Nav from "../../components/layouts/nav";
-import NavbarD from "../../components/content/components/navbars";
+import InputD from "../../components/content/components/Cards";
 
 
 
-export default function Navbars() {
+export default function Cards() {
     return (
         <div className="w-full overflow-x-hidden bg-skin-base ">
             <Head>
@@ -21,9 +21,9 @@ export default function Navbars() {
             <div className="w-1/3 lg:w-[300px] hidden xl:w-[300px] lg:block h-full border-r-[1px] border-gray-400 pl-5 pr-3 pt-10 overflow-scroll fixed z-10">
                     <Drawer />
                 </div>
-                <div className='w-full xl:w-7/12 overflow-auto h-auto lg:ml-[300px] xl:ml-[300px]'>
+                <div className='w-full xl:w-7/12 h-auto lg:ml-[300px] xl:ml-[300px]'>
 
-                    <NavbarD />
+                    <InputD />
 
                 </div>
                 <div className="h-full w-[350px] hidden xl:block">
