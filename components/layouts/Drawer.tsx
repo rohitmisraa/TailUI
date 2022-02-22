@@ -15,11 +15,11 @@ export default function Drawer() {
               </div>
             <div className='ml-20 font-Rubik'>
               <ul className='list-disc text-xl font-Rubik text-skin-light'>
-                <li className='text-skin-dark font-medium my-3'><Link href={'/'}>Getting Started</Link></li>
+                <li className='text-skin-dark font-medium my-3'><Link href={'/documentation/getting-started'}>Getting Started</Link></li>
                 
-                  <li className='my-3'><Link href={'/'} passHref>Theme Guide</Link></li>
-                <li className='my-3'><Link href={'/'} passHref>About TailUI</Link></li>
-                <li className='my-3'><Link href={'/'} passHref>How to contribute?</Link></li>
+                  <li className='my-3'><Link href={'/documentation/theme-guide'} passHref>Theme Guide</Link></li>
+                <li className='my-3'><Link href={'/documentation/about-tailui'} passHref>About TailUI</Link></li>
+                <li className='my-3'><Link href={'/documentation/how-to-contribute'} passHref>How to contribute?</Link></li>
               </ul>
             </div>
           </div>
