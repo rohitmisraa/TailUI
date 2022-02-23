@@ -27,7 +27,14 @@ export default function Cards() {
 
                 </div>
                 <div className="h-full w-[350px] hidden xl:block">
-                    <Stamps />
+                    <Stamps  list={[
+                        {title:"Card with Image", code:"card-with-image"},
+                        {title:"Empty Card", code:"empty-card"},
+                        {title:"Text with button", code:"text-with-button"},
+                        {title:"Social Media Card", code:"social-media-card"},
+                        {title:"Payment Card", code:"payment-card"},
+                        {title:"Project Card", code:"project-card"},
+                    ]}/>
 
                 </div>
 

@@ -26,7 +26,19 @@ export default function ButtonGroups() {
 
                 </div>
                 <div className="h-full w-[350px] hidden xl:block">
-                    <Stamps />
+                    <Stamps  list={[
+                        {title:"Button Groups", code:"button-groups"},
+                        {title:"Secondary Button Group", code:"secondary-button-group"},
+                        {title:"No-border button group", code:"no-border-button-group"},
+                        {title:"Rounded Button Group", code:"rounded-button-group"},
+                        {title:"Un-rounded Btn Group", code:"un-rounded-btn-group"},
+                        {title:"Default Button Group", code:"default-button-group"},
+                        {title:"Gradient button Groups", code:"gradient-button-groups"},
+                        {title:"Gradient Groups unrounded", code:"gradient-group-unrounded"},
+                        {title:"Text Only group", code:"text-only-group"},
+                        {title:"Verticle button Groups", code:"verticle-button-groups"},
+
+                    ]}/>
 
                 </div>
 

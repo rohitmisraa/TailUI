@@ -27,7 +27,9 @@ export default function Portfolios() {
 
                 </div>
                 <div className="h-full w-[350px] hidden xl:block">
-                    <Stamps />
+                    <Stamps  list={[
+                        {title:"Modern Portfolio", code:"Modern-Portfolio"},
+                    ]}/>
 
                 </div>
 

@@ -43,7 +43,7 @@ export default function Blocks() {
         <div className='p-10 min-h-screen'>
             <h1 className='text-4xl font-bold text-skin-dark'>Hero blocks</h1>
             <p className='my-4 text-skin-light'>Hero blocks are the top or the first component user see when come to index page.</p>
-            <h2 className='text-2xl font-medium text-skin-dark my-5'>Simple Tracking app Hero</h2>
+            <h2 className='text-2xl font-medium text-skin-dark my-5' id='Simple-Tracking-app'>Simple Tracking app Hero</h2>
             <p className='my-4 text-skin-light'>This hero is best for simple sites like app landing page, and other simple design websites.</p>
             <Link href={'/blocks/hero-simple'} passHref><a target={'_blank'}>
                 <button className="py-1 px-6 bg-gradient-to-r from-gr_pink-1 to-gr_pink-2 text-white text-base rounded-full">Live Demo</button>
@@ -94,7 +94,7 @@ export default function Blocks() {
 
             {/* --- Hero */}
 
-            <h2 className='text-2xl font-medium text-skin-dark my-5'>Modern with background Hero</h2>
+            <h2 className='text-2xl font-medium text-skin-dark my-5' id='Modern-with-background'>Modern with background Hero</h2>
             <p className='my-4 text-skin-light'>This hero is best for modern sites with background image.</p>
             <Link href={'/blocks/hero-ocean'} passHref><a target={'_blank'}>
                 <button className="py-1 px-6 bg-gradient-to-r from-gr_pink-1 to-gr_pink-2 text-white text-base rounded-full">Live Demo</button>
@@ -147,7 +147,7 @@ export default function Blocks() {
 
             {/* --- Hero */}
 
-            <h2 className='text-2xl font-medium text-skin-dark my-5'>Modern with icons Hero</h2>
+            <h2 className='text-2xl font-medium text-skin-dark my-5' id='Modern-with-icons'>Modern with icons Hero</h2>
             <p className='my-4 text-skin-light'>This hero is for modern web with icons and story telling look.</p>
             <Link href={'/blocks/hero-payment-web'} passHref><a target={'_blank'}>
                 <button className="py-1 px-6 bg-gradient-to-r from-gr_pink-1 to-gr_pink-2 text-white text-base rounded-full">Live Demo</button>
@@ -203,7 +203,7 @@ export default function Blocks() {
 
             {/* --- Hero */}
 
-            <h2 className='text-2xl font-medium text-skin-dark my-5'>Our TailUI Hero</h2>
+            <h2 className='text-2xl font-medium text-skin-dark my-5' id='Our-TailUI-Hero'>Our TailUI Hero</h2>
             <p className='my-4 text-skin-light'>This is our TailUI hero with light and dark theme option.</p>
             <Link href={'/blocks/hero-tailui'} passHref><a target={'_blank'}>
                 <button className="py-1 px-6 bg-gradient-to-r from-gr_pink-1 to-gr_pink-2 text-white text-base rounded-full">Live Demo</button>

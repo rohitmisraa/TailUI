@@ -103,7 +103,7 @@ export default function Buttons() {
             <p className='my-4 text-skin-light'>Buttons allows users to perform on click activities.</p>
             <h2 className='text-2xl font-medium text-skin-dark my-5'>Default Buttons</h2>
             <p className='my-4 text-skin-light'>The buttons have very little rounded corners.</p>
-            <div className="flex justify-between my-10 space-x-3 overflow-auto pb-10 sm:pb-0">
+            <div className="flex justify-between my-10 space-x-3 overflow-auto pb-10 sm:pb-0" id="default-buttons">
                 <button className="py-1 px-6 bg-cl-blue text-white text-base rounded-lg">Default</button>
                 <button className="py-1 px-6 bg-cl-secondary text-cl-blue-dark text-base rounded-lg">Default</button>
                 <button className="py-1 px-6 bg-cl-red text-white text-base rounded-lg">Red</button>
@@ -139,7 +139,7 @@ export default function Buttons() {
             {/* ---Bt 2--- */}
             <h2 className='text-2xl font-medium text-skin-dark my-5'>Rounded Buttons</h2>
             <p className='my-4 text-skin-light'>The buttons have rounded corners.</p>
-            <div className="flex justify-between my-10 space-x-3 overflow-auto pb-10 sm:pb-0">
+            <div className="flex justify-between my-10 space-x-3 overflow-auto pb-10 sm:pb-0"  id="rounded-buttons">
                 <button className="py-1 px-6 bg-cl-blue text-white text-base rounded-full">Default</button>
                 <button className="py-1 px-6 bg-cl-secondary text-cl-blue-dark text-base rounded-full">Secondary</button>
                 <button className="py-1 px-6 bg-cl-red text-white text-base rounded-full">Red</button>
@@ -171,7 +171,7 @@ export default function Buttons() {
             {/* ---Bt 1--- */}
             <h2 className='text-2xl font-medium text-skin-dark my-5'>Un-rounded Buttons</h2>
             <p className='my-4 text-skin-light'>The buttons does not have rounded corners.</p>
-            <div className="flex justify-between my-10 space-x-3 overflow-auto pb-10 sm:pb-0">
+            <div className="flex justify-between my-10 space-x-3 overflow-auto pb-10 sm:pb-0" id="un-rounded-buttons">
                 <button className="py-1 px-6 bg-cl-blue text-white text-base ">Default</button>
                 <button className="py-1 px-6 bg-cl-secondary text-cl-blue-dark text-base ">Secondary</button>
                 <button className="py-1 px-6 bg-cl-red text-white text-base ">Red</button>
@@ -205,7 +205,7 @@ export default function Buttons() {
             <h2 className='text-2xl font-medium text-skin-dark my-5'>Secondary Buttons</h2>
             <p className='my-4 text-skin-light'>The buttons have border and text.</p>
 
-            <div className="flex justify-between my-10  w-max space-x-5 overflow-auto pb-10 sm:pb-0">
+            <div className="flex justify-between my-10  w-max space-x-5 overflow-auto pb-10 sm:pb-0" id="secondary-buttons">
                 <button className="py-1 px-6 border-2 border-cl-blue text-cl-blue text-base rounded-lg">Default</button>
                 <button className="py-1 px-6 border-2 border-cl-blue text-cl-blue text-base rounded-full">Default</button>
                 <button className="py-1 px-6 border-2 border-cl-blue text-cl-blue text-base ">Default</button>
@@ -237,7 +237,7 @@ export default function Buttons() {
             <h2 className='text-2xl font-medium text-skin-dark my-5'>Text only buttons</h2>
             <p className='my-4 text-skin-light'>The buttons have text with transparent background.</p>
 
-            <div className="flex justify-between my-10">
+            <div className="flex justify-between my-10" id="text-only-buttons">
                 <button className="py-1 px-6 text-blue rounded-lg">Default</button>
 
             </div>
@@ -264,7 +264,7 @@ export default function Buttons() {
             <h2 className='text-2xl font-medium text-skin-dark my-5'>Gradient Buttons Default</h2>
             <p className='my-4 text-skin-light'>The buttons have little rounded corners with gradient background.</p>
 
-            <div className="flex justify-between my-10 space-x-3 overflow-auto pb-10 sm:pb-0">
+            <div className="flex justify-between my-10 space-x-3 overflow-auto pb-10 sm:pb-0" id="bradient-buttons-default">
                 <button className="py-1 px-6 bg-gradient-to-r from-gr_blue-1 to-gr_blue-2 text-white text-base rounded-lg">Default</button>
                 <button className="py-1 px-6 bg-gradient-to-r from-gr_red-1 to-gr_red-2 text-white text-base rounded-lg">Red</button>
                 <button className="py-1 px-6 bg-gradient-to-r from-gr_yellow-1 to-gr_yellow-2 text-white text-base rounded-lg">Yellow</button>
@@ -300,7 +300,7 @@ export default function Buttons() {
             <h2 className='text-2xl font-medium text-skin-dark my-5'>Gradient Buttons Rounded</h2>
             <p className='my-4 text-skin-light'>The buttons have rounded corners with gradient background.</p>
 
-            <div className="flex justify-between my-10 space-x-3 overflow-auto pb-10 sm:pb-0">
+            <div className="flex justify-between my-10 space-x-3 overflow-auto pb-10 sm:pb-0" id="gradient-button-rounded">
                 <button className="py-1 px-6 bg-gradient-to-r from-gr_blue-1 to-gr_blue-2 text-white text-base rounded-full">Default</button>
                 <button className="py-1 px-6 bg-gradient-to-r from-gr_pink-1 to-gr_pink-2 text-white text-base rounded-full">Pink</button>
                 <button className="py-1 px-6 bg-gradient-to-r from-gr_orange-1 to-gr_orange-2 text-white text-base rounded-full">Orange</button>
@@ -337,7 +337,7 @@ export default function Buttons() {
             <h2 className='text-2xl font-medium text-skin-dark my-5'>Gradient Buttons unRounded</h2>
             <p className='my-4 text-skin-light'>The buttons does not have rounded corners but has gradient background.</p>
 
-            <div className="flex justify-between my-10 space-x-3 overflow-auto pb-10 sm:pb-0">
+            <div className="flex justify-between my-10 space-x-3 overflow-auto pb-10 sm:pb-0" id="gradient-button-unrounded">
                 <button className="py-1 px-6 bg-gradient-to-r from-gr_blue-1 to-gr_blue-2 text-white text-base ">Default</button>
                 <button className="py-1 px-6 bg-gradient-to-r from-gr_red-1 to-gr_red-2 text-white text-base ">Red</button>
                 <button className="py-1 px-6 bg-gradient-to-r from-gr_yellow-1 to-gr_yellow-2 text-white text-base ">Yellow</button>
@@ -374,7 +374,7 @@ export default function Buttons() {
             {/* ---Bt 1--- */}
             <h2 className='text-2xl font-medium text-skin-dark my-5'>Buttons with right icons</h2>
             <p className='my-4 text-skin-light'>The buttons have icon align to right.</p>
-            <div className='overflow-auto pb-10 sm:pb-0 w-full'>
+            <div className='overflow-auto pb-10 sm:pb-0 w-full' id="buttons-with-icon">
     
                 <div className="flex justify-between my-10 w-max space-x-5 ">
                     <button className="py-1 px-6 bg-gradient-to-r from-gr_blue-1 to-gr_blue-2 text-white text-base rounded-lg">
@@ -440,7 +440,7 @@ export default function Buttons() {
             <h2 className='text-2xl font-medium text-skin-dark my-5'>Buttons with left icons</h2>
             <p className='my-4 text-skin-light'>The buttons have icon align to left.</p>
 
-            <div className='overflow-auto pb-10 sm:pb-0 w-full'>
+            <div className='overflow-auto pb-10 sm:pb-0 w-full' id="">
 
                 <div className="flex justify-between my-10 w-max space-x-5 ">
                     <button className="py-1 px-6 bg-gradient-to-r from-gr_blue-1 to-gr_blue-2 text-white text-base rounded-lg">

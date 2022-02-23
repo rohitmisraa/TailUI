@@ -6,7 +6,7 @@ export default function Themeguide() {
         <div className='p-10 min-h-screen'>
             <h1 className='text-4xl font-bold text-skin-dark'>Theme Guide</h1>
 
-            <h2 className="text-2xl font-medium text-skin-dark my-5">Why them is important</h2>
+            <h2 className="text-2xl font-medium text-skin-dark my-5" id="Why-theme-is-important">Why them is important</h2>
 
             <p className="my-4 text-skin-light">The first thing, a user see and observe is the color, It is the Identity of a website. Choosing the right color or color theme can make or break the UI.</p>
 
@@ -14,7 +14,7 @@ export default function Themeguide() {
 
             <p className="my-4 text-skin-light">No matter, the component is from TailUI or created by you.</p>
 
-            <h2 className="text-2xl font-medium text-skin-dark my-5">TailUI Theme</h2>
+            <h2 className="text-2xl font-medium text-skin-dark my-5" id="TailUI-Theme">TailUI Theme</h2>
 
             <p className="my-4 text-skin-light">We already have 2 theme modes, light and Dark. We also have custom cool colors for your project. And the best part is everything is just copy/paste. You can also customize, add or remove colors or theme mode with one click.</p>
 
@@ -37,7 +37,7 @@ export default function Themeguide() {
 
             <h2 className="text-2xl font-medium text-skin-dark my-5"><strong>[button code]</strong></h2>
 
-            <h2 className="text-2xl font-medium text-skin-dark my-5">Setup TailUI Theme</h2>
+            <h2 className="text-2xl font-medium text-skin-dark my-5" id="set-up">Setup TailUI Theme</h2>
 
             <p className="my-4 text-skin-light">Please do not be confused, above we added custom colors to our project, so we can use TailUI color easily.</p>
 
@@ -51,7 +51,7 @@ export default function Themeguide() {
 
             <p className="my-4 text-skin-light">Now simply copy this code and paste it in your tailwind.config.js file inside extend: []</p>
 
-            <h2 className="text-2xl font-medium text-skin-dark my-5">For More</h2>
+            <h2 className="text-2xl font-medium text-skin-dark my-5" id="For-More">For More</h2>
 
             <p className="my-4 text-skin-light">Please checkout our <Link href={'/documentation/theme-guide'} passHref><a className="text-cl-red">Theme Guide</a></Link> for TailUI, If you face any issue please join our <Link href={'https://discord.gg/KX6DnfQAuj'} passHref><a className="text-cl-red" target={'_blank'}>Discord channel</a></Link>, there you can ask all your doubts. For any correction to the page or project, go to our <Link href={'https://github.com/rohitmra/TailUI'} passHref><a className="text-cl-red" target={'_blank'}>Github Repository</a></Link>.</p>
 

@@ -1066,12 +1066,12 @@ Ensure the default browser behavior of the `hidden` attribute.
   border-radius: 40px;
 }
 
-.rounded-md {
-  border-radius: 0.375rem;
-}
-
 .rounded {
   border-radius: 0.25rem;
+}
+
+.rounded-md {
+  border-radius: 0.375rem;
 }
 
 .rounded-l-full {
@@ -1093,12 +1093,12 @@ Ensure the default browser behavior of the `hidden` attribute.
   border-width: 4px;
 }
 
-.border-2 {
-  border-width: 2px;
-}
-
 .border {
   border-width: 1px;
+}
+
+.border-2 {
+  border-width: 2px;
 }
 
 .border-\[1px\] {

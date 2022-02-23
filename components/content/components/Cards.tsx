@@ -85,7 +85,7 @@ export default function Cards() {
             <h2 className='text-2xl font-medium text-skin-dark my-5'>Card with Image and text</h2>
             <p className='my-4 text-skin-light'>This is a beautiful card has thumbnail image, Heading and paragraph text.</p>
 
-            <div className=' p-2 pb-5 bg-white w-80 rounded-xl'>
+            <div className=' p-2 pb-5 bg-white w-80 rounded-xl' id="card-with-image">
                 <div className='rounded-xl w-full h-52 overflow-hidden'>
                     <img className='min-h-full'
                         src="https://cdn.pixabay.com/photo/2021/11/14/18/36/telework-6795505_960_720.jpg" alt="Tumbnail Image" />
@@ -119,7 +119,7 @@ export default function Cards() {
             <h2 className='text-2xl font-medium text-skin-dark my-5'>Empty Cards</h2>
             <p className='my-4 text-skin-light'>This is a an empty card with our theme so you can easily add other components as your requirements.</p>
 
-            <div className=' p-2 pb-5 bg-white w-80 rounded-xl'>
+            <div className=' p-2 pb-5 bg-white w-80 rounded-xl' id="empty-card">
                 <div className='h-80'></div>
             </div>
 
@@ -147,7 +147,7 @@ export default function Cards() {
             <h2 className='text-2xl font-medium text-skin-dark my-5'>Empty Cards</h2>
             <p className='my-4 text-skin-light'>This is a an empty card with our theme so you can easily add other components as your requirements.</p>
 
-            <div className=' p-5 pb-5 bg-white w-96 rounded-xl'>
+            <div className=' p-5 pb-5 bg-white w-96 rounded-xl' id="text-with-button">
                 <div className='mt-4'>
                     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512" height={25} width={25} fill="currentColor">
                         <path d="M296 160H180.6l42.6-129.8C227.2 15 215.7 0 200 0H56C44 0 33.8 8.9 32.2 20.8l-32 240C-1.7 275.2 9.5 288 24 288h118.7L96.6 482.5c-3.6 15.2 8 29.5 23.3 29.5 8.4 0 16.4-4.4 20.8-12l176-304c9.3-15.9-2.2-36-20.7-36z" /></svg>
@@ -188,7 +188,7 @@ export default function Cards() {
             <h2 className='text-2xl font-medium text-skin-dark my-5'>Empty Cards</h2>
             <p className='my-4 text-skin-light'>This is a an empty card with our theme so you can easily add other components as your requirements.</p>
 
-            <div className=' bg-white w-60 pb-5 rounded-xl overflow-hidden'>
+            <div className=' bg-white w-60 pb-5 rounded-xl overflow-hidden' id="social-media-card">
                 <div className='h-2 w-full bg-gradient-to-r from-gr_cyan-1 to-gr_cyan-2'></div>
                 <h3 className='m-4 mb-2 text-2xl font-medium'>@tailui</h3>
                 <span className='ml-4 text-xl'>7.5k+</span>
@@ -223,7 +223,7 @@ export default function Cards() {
             <h2 className='text-2xl font-medium text-skin-dark my-5'>Empty Cards</h2>
             <p className='my-4 text-skin-light'>This is a an empty card with our theme so you can easily add other components as your requirements.</p>
 
-            <div className=' p-10 bg-white w-96 rounded-xl'>
+            <div className=' p-10 bg-white w-96 rounded-xl' id="payment-card">
                 <h2 className='font-medium text-3xl'>$ 49 <span className='font-normal text-xl'>/month</span></h2>
                 <h3 className='font-medium text-3xl my-2'>Base</h3>
                 <p className='text-lg'>For freelancers and developers, who want to easily create apps.</p>
@@ -266,7 +266,7 @@ export default function Cards() {
                 </div>
             </div>
 
-            <div className=' w-full bg-cl-blue-dark rounded-xl my-3'>
+            <div className=' w-full bg-cl-blue-dark rounded-xl my-3' id="project-card">
                 <div className='h-12 flex justify-between pt-3'>
                     <button className='relative bottom-1 left-4 text-white' onClick={codeshow1}>
                         {code1 ? SVG.down : SVG.arrow_right}
@@ -288,7 +288,7 @@ export default function Cards() {
             {/* ---Default Card--- */}
             <h2 className='text-2xl font-medium text-skin-dark my-5'>Empty Cards</h2>
             <p className='my-4 text-skin-light'>This is a an empty card with our theme so you can easily add other components as your requirements.</p>
-            <div className='w-full overflow-auto py-10'>
+            <div className='w-full overflow-auto py-10' id="">
 
                 <div className='md:h-96 mx-10 md:w-3/4 md:bg-transparent bg-cl-blue-dark xl:w-[1000px] m-auto p-2 rounded-2xl overflow-y-hidden'>
                     <div className='h-96 w-full md:w-[500px] rounded-[40px] overflow-hidden'>
@@ -319,7 +319,7 @@ export default function Cards() {
                 </div>
 
             </div>
-            <div className=' w-full bg-cl-blue-dark rounded-xl my-3'>
+            <div className=' w-full bg-cl-blue-dark rounded-xl my-3' id="">
                 <div className='h-12 flex justify-between pt-3'>
                     <button className='relative bottom-1 left-4 text-white' onClick={codeshow1}>
                         {code1 ? SVG.down : SVG.arrow_right}

@@ -6,15 +6,15 @@ export default function Contribute() {
         <div className='p-10 min-h-screen'>
             <h1 className='text-4xl font-bold text-skin-dark'>How to contribute to Tailui Project?</h1>
 
-            <h2 className="text-2xl font-medium text-skin-dark my-5">Introduction</h2>
+            <h2 className="text-2xl font-medium text-skin-dark my-5" id="Introduction">Introduction</h2>
 
-            <p className="my-4 text-skin-light">TailUI is an open-source, Tailwind components library. This means anyone can contribute to this project. To know more, checkout <Link href={'/documentation/about-tailui'} passHref><a className="text-cl-red">about TailUI</a></Link>. For this project we are managing website part with web components and designing part in Figma. So you can contribute in any of these.</p>
+            <p className="my-4 text-skin-light" id="graphics-designers">TailUI is an open-source, Tailwind components library. This means anyone can contribute to this project. To know more, checkout <Link href={'/documentation/about-tailui'} passHref><a className="text-cl-red">about TailUI</a></Link>. For this project we are managing website part with web components and designing part in Figma. So you can contribute in any of these.</p>
 
-            <h2 className="text-2xl font-medium text-skin-dark my-5">For graphics designers</h2>
+            <h2 className="text-2xl font-medium text-skin-dark my-5" id="graphics-designers">For graphics designers</h2>
 
             <p className="my-4 text-skin-light">If you are a graphics designer and want to contribute to the project, you can do by two ways.</p>
 
-            <h3 className="text-xl font-normal text-skin-dark my-5">1st - Figma Components&nbsp;</h3>
+            <h2 className="text-xl font-normal text-skin-dark my-5" id="Components">1st - Figma Components&nbsp;</h2>
 
             <p className="my-4 text-skin-light">You can help use manage, change or add components to our Figma file.</p>
 
@@ -23,7 +23,7 @@ export default function Contribute() {
 
             <p className="my-4 text-skin-light">You can also contact us at discord, and we may give you direct access to TailUI team at Figma.</p>
 
-            <h2 className="text-2xl font-medium text-skin-dark my-5">2nd - Web design</h2>
+            <h2 className="text-2xl font-medium text-skin-dark my-5" id="Web-design">2nd - Web design</h2>
 
             <p className="my-4 text-skin-light">You can help us to add or changing graphics to our main website or web components.</p>
 
@@ -39,7 +39,7 @@ export default function Contribute() {
 
             <p className="my-4 text-skin-light">We will review your changes and add respectively.</p>
 
-            <h2 className="text-2xl font-medium text-skin-dark my-5">For web developers</h2>
+            <h2 className="text-2xl font-medium text-skin-dark my-5" id="web-developers">For web developers</h2>
 
             <p className="my-4 text-skin-light">You can help us create more useful and cool components, manage GitHub, discord channel and more.</p>
 

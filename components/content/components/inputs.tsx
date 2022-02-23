@@ -77,7 +77,7 @@ export default function Inputs() {
     
     return (
         <div className="p-10">
-            <h1 className='text-4xl font-bold text-skin-dark'>Input fields</h1>
+            <h1 className='text-4xl font-bold text-skin-dark' id="simple-inout-field">Input fields</h1>
             <p className='my-4 text-skin-light'>Input fields allows user to enter data in the form of text.</p>
 
             {/* ---Default Input--- */}
@@ -111,7 +111,7 @@ export default function Inputs() {
             {/* ---Default Input--- */}
 
             {/* ---Default Input--- */}
-            <h2 className='text-2xl font-medium text-skin-dark my-5'>Rounded Input fields</h2>
+            <h2 className='text-2xl font-medium text-skin-dark my-5' id="rounded-input-field">Rounded Input fields</h2>
             <p className='my-4 text-skin-light'>The input field have rounded corners.</p>
 
             <input
@@ -141,7 +141,7 @@ export default function Inputs() {
             {/* ---Default Input--- */}
 
             {/* ---Default Input--- */}
-            <h2 className='text-2xl font-medium text-skin-dark my-5'>Un-Rounded Input fields</h2>
+            <h2 className='text-2xl font-medium text-skin-dark my-5' id="Un-rounded-input-field">Un-Rounded Input fields</h2>
             <p className='my-4 text-skin-light'>The input field does not have rounded corners.</p>
 
             <input
@@ -172,7 +172,7 @@ export default function Inputs() {
 
             <h1 className="text-xl my-5">For darker fields</h1>
             {/* ---Default Input--- */}
-            <h2 className='text-2xl font-medium text-skin-dark my-5'>Simple input field</h2>
+            <h2 className='text-2xl font-medium text-skin-dark my-5' id="no-border-field">Simple input field</h2>
             <p className='my-4 text-skin-light'>The input field have little rounded corners.</p>
 
             <input
@@ -202,7 +202,7 @@ export default function Inputs() {
             {/* ---Default Input--- */}
 
             {/* ---Default Input--- */}
-            <h2 className='text-2xl font-medium text-skin-dark my-5'>Rounded Input fields</h2>
+            <h2 className='text-2xl font-medium text-skin-dark my-5' id="no-border-rounded">Rounded Input fields</h2>
             <p className='my-4 text-skin-light'>The input field have rounded corners.</p>
 
             <input
@@ -233,7 +233,7 @@ export default function Inputs() {
             {/* ---Default Input--- */}
 
             {/* ---Default Input--- */}
-            <h2 className='text-2xl font-medium text-skin-dark my-5'>Un-Rounded Input fields</h2>
+            <h2 className='text-2xl font-medium text-skin-dark my-5' id="no-border-unrounded">Un-Rounded Input fields</h2>
             <p className='my-4 text-skin-light'>The input field does not have rounded corners.</p>
 
             <input
@@ -266,7 +266,7 @@ export default function Inputs() {
             {/* ---Input Cards--- */}
             <h1 className="text-xl my-5">Input Cards</h1>
 
-            <h2 className='text-2xl font-medium text-skin-dark my-5'>Username simple card</h2>
+            <h2 className='text-2xl font-medium text-skin-dark my-5' id="username-card">Username simple card</h2>
             <p className='my-4 text-skin-light'>The card has simple input field.</p>
 
             <div className='overflow-auto pb-10 sm:pb-0'>
@@ -306,7 +306,7 @@ export default function Inputs() {
 
             {/* ---Input Cards--- */}
 
-            <h2 className='text-2xl font-medium text-skin-dark my-5'>Password input card</h2>
+            <h2 className='text-2xl font-medium text-skin-dark my-5' id="password-card">Password input card</h2>
             <p className='my-4 text-skin-light'>The card has simple input field.</p>
 
             <div className='overflow-auto pb-10 sm:pb-0'>

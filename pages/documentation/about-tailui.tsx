@@ -27,7 +27,13 @@ export default function Abouttailui() {
 
                 </div>
                 <div className="h-full w-[350px] hidden xl:block">
-                    <Stamps />
+                    <Stamps  list={[
+                    {title:"Introduction", code:"Introduction"},
+                    {title:"Why we made TailUI", code:"Why-we-made-TailUI"},
+                    {title:"Credits", code:"Credits"},
+                    {title:"Techs used in making", code:"Techs-used-in-making"},
+                    {title:"Do you want to contribute?", code:"contribute"},
+                    ]}/>
 
                 </div>
 

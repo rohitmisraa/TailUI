@@ -63,7 +63,7 @@ export default function Navbars() {
             <p className='my-4 text-skin-light'>Navbars are the top of the container which have links and icons, and is used to perform some activies easily.</p>
 
             {/* ---component--- */}
-            <h2 className='text-2xl font-medium text-skin-dark my-8'>Simple Navbars</h2>
+            <h2 className='text-2xl font-medium text-skin-dark my-8' id="simple-navbar">Simple Navbars</h2>
             <p className='my-7 text-skin-light'>Simple navbars with icon and some links.</p>
 
             <div className='overflow-auto pb-10 sm:pb-0'>
@@ -111,7 +111,7 @@ export default function Navbars() {
 
 
             {/* ---component--- */}
-            <h2 className='text-2xl font-medium text-skin-dark my-8'>Simple navbars with icon</h2>
+            <h2 className='text-2xl font-medium text-skin-dark my-8' id="simple-icon-navbar">Simple navbars with icon</h2>
             <p className='my-8 text-skin-light'>Simple navbars with icon and some links.</p>
 
             <div className='overflow-auto pb-10 sm:pb-0'>
@@ -161,7 +161,7 @@ export default function Navbars() {
 
 
             {/* ---component--- */}
-            <h2 className='text-2xl font-medium text-skin-dark my-8'>Simple navbars with icon and search</h2>
+            <h2 className='text-2xl font-medium text-skin-dark my-8' id="search-and-menus">Simple navbars with icon and search</h2>
             <p className='my-8 text-skin-light'>Simple navbars with icon, search and some menus.</p>
 
             <div className='overflow-auto pb-10 sm:pb-0'>
@@ -238,7 +238,7 @@ export default function Navbars() {
             {/* ---component--- */}
 
             {/* ---component--- */}
-            <h2 className='text-2xl font-medium text-skin-dark my-8'>Simple Navbars</h2>
+            <h2 className='text-2xl font-medium text-skin-dark my-8' id="simple-search-navbar">Simple Navbars</h2>
             <p className='my-8 text-skin-light'>Simple navbars with icon and search.</p>
 
             <div className='overflow-auto pb-10 sm:pb-0'>
@@ -287,7 +287,7 @@ export default function Navbars() {
             {/* ---component--- */}
 
             {/* ---component--- */}
-            <h2 className='text-2xl font-medium text-skin-dark my-8'>Simple Navbar</h2>
+            <h2 className='text-2xl font-medium text-skin-dark my-8' id="search-with-icon">Simple Navbar</h2>
             <p className='my-8 text-skin-light'>Simple navbar with icon and search.</p>
 
             <div className='overflow-auto pb-10 sm:pb-0'>
@@ -334,7 +334,7 @@ export default function Navbars() {
             {/* ---component--- */}
 
             {/* ---component--- */}
-            <h2 className='text-2xl font-medium text-skin-dark my-8'>Simple navbars with  search</h2>
+            <h2 className='text-2xl font-medium text-skin-dark my-8' id="rounded-navbar">Simple navbars with  search</h2>
             <p className='my-8 text-skin-light'>Simple rounder navbar with icon and some search.</p>
 
             <div className='overflow-auto pb-10 sm:pb-0'>

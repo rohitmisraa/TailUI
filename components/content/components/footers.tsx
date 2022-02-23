@@ -60,7 +60,7 @@ export default function Footers() {
             <h2 className='text-2xl font-medium text-skin-dark my-8'>Simple Footer</h2>
             <p className='my-8 text-skin-light'>Simple footer with links.</p>
 
-            <div className='overflow-auto pb-10 sm:pb-0'>
+            <div className='overflow-auto pb-10 sm:pb-0' id="simple-footer">
                 <div className='w-full py-3 bg-white'>
                     <div className="flex py-1 w-max px-2 m-auto">
                         <Link href={'/'} passHref><button className="py-1 px-2 md:px-10 text-cl-grey-dark  hover:text-blue-600">FAQ</button></Link>
@@ -100,7 +100,7 @@ export default function Footers() {
             {/* ---component--- */}
             <h2 className='text-2xl font-medium text-skin-dark my-8'>Simple link Footer</h2>
             <p className='my-8 text-skin-light'>Simple footer with links and copyright tag.</p>
-            <div className='overflow-auto pb-10 sm:pb-0'>
+            <div className='overflow-auto pb-10 sm:pb-0' id="simple-copyright-footer">
                 <div className='w-full py-3 bg-white'>
                     <div className="flex py-1 w-max px-2 m-auto my-3">
                         <Link href={'/'} passHref><button className="py-1 px-2 md:px-10 text-cl-grey-dark  hover:text-blue-600">FAQ</button></Link>
@@ -144,7 +144,7 @@ export default function Footers() {
             {/* ---component--- */}
 
             {/* ---component--- */}
-            <h2 className='text-2xl font-medium text-skin-dark my-8'>Footer with email subscription</h2>
+            <h2 className='text-2xl font-medium text-skin-dark my-8' id="email-sub-footer">Footer with email subscription</h2>
             <p className='my-8 text-skin-light'>Footer with link and email subcription, best for modern web projects.</p>
 
             <div className='overflow-auto pb-10 sm:pb-0'>
@@ -263,7 +263,7 @@ export default function Footers() {
 
 
             {/* ---component--- */}
-            <h2 className='text-2xl font-medium text-skin-dark my-8'>Footer with links</h2>
+            <h2 className='text-2xl font-medium text-skin-dark my-8' id="footer-with-icons">Footer with links</h2>
             <p className='my-8 text-skin-light'>Footer with many links, best for big projects with large number of links.</p>
 
             <div className='overflow-auto pb-10 sm:pb-0'>
@@ -399,7 +399,7 @@ export default function Footers() {
 
 
             {/* ---component--- */}
-            <h2 className='text-2xl font-medium text-skin-dark my-8'>Footer with logo and credit</h2>
+            <h2 className='text-2xl font-medium text-skin-dark my-8' id="footer-with-credit">Footer with logo and credit</h2>
             <p className='my-8 text-skin-light'>Footer with links, logo and credit section, best to credit the author.</p>
 
             <div className='overflow-auto pb-10 sm:pb-0'>

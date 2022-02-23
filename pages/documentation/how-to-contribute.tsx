@@ -27,7 +27,13 @@ export default function Contribute() {
 
                 </div>
                 <div className="h-full w-[350px] hidden xl:block">
-                    <Stamps />
+                    <Stamps  list={[
+                    {title:"Introduction", code:"Introduction"},
+                    {title:"For graphics designers", code:"graphics-designers"},
+                    {title:"Figma Components ", code:"Components"},
+                    {title:"Web design", code:"Web-design"},
+                    {title:"For web developers", code:"web-developers"},
+                    ]}/>
 
                 </div>
 

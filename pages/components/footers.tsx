@@ -27,7 +27,13 @@ export default function Footers() {
 
                 </div>
                 <div className="h-full w-[350px] hidden xl:block">
-                    <Stamps />
+                    <Stamps  list={[
+                        {title:"Simple Footer", code:"simple-footer"},
+                        {title:"Simple Copyright Footer", code:"simple-copyright-footer"},
+                        {title:"Email Sub Footer", code:"email-sub-footer"},
+                        {title:"Footer with icons", code:"footer-with-icons"},
+                        {title:"Footer with credit", code:"footer-with-credit"},
+                    ]}/>
 
                 </div>
 

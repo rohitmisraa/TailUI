@@ -113,7 +113,7 @@ export default function Buttongroups() {
 
             <h2 className='text-2xl font-medium text-skin-dark my-5'>Button Groups</h2>
             <p className='my-4 text-skin-light'>The buttons groups have very less rounded corners.</p>
-            <div className='overflow-auto pb-10 sm:pb-0'>
+            <div className='overflow-auto pb-10 sm:pb-0' id="button-groups">
                 <div className="flex rounded-lg bg-cl-blue py-1 w-max my-10">
                     <button className="py-1 px-6 text-white rounded-lg">Button 1</button>
                     <button className="py-1 px-6 text-white rounded-lg">Button 2</button>
@@ -146,7 +146,7 @@ export default function Buttongroups() {
 
             <h2 className='text-2xl font-medium text-skin-dark my-5'>Secondary Button Groups</h2>
             <p className='my-4 text-skin-light'>The buttons have rounded corners.</p>
-            <div className='overflow-auto pb-10 sm:pb-0'>
+            <div className='overflow-auto pb-10 sm:pb-0' id="secondary-button-group">
                 <div className="flex rounded-lg bg-white py-1 w-max my-10">
                     <button className="py-1 px-6 text-cl-blue-dark font-semibold rounded-l-lg border-2 border-cl-blue-dark">Button 1</button>
                     <button className="py-1 px-6 text-cl-blue-dark font-semibold border-2 border-cl-blue-dark">Button 2</button>
@@ -178,7 +178,7 @@ export default function Buttongroups() {
             {/* ---Default Buttons--- */}
             <h2 className='text-2xl font-medium text-skin-dark my-5'>No-border Button Groups</h2>
             <p className='my-4 text-skin-light'>The button group have no border.</p>
-            <div className='overflow-auto pb-10 sm:pb-0'>
+            <div className='overflow-auto pb-10 sm:pb-0' id="no-border-button-group">
                 <div className="flex rounded-lg bg-cl-secondary w-max py-1 my-10">
                     <button className="py-1 px-6 text-cl-blue-dark font-semibold rounded-lg">Button 1</button>
                     <button className="py-1 px-6 text-cl-blue-dark font-semibold rounded-lg">Button 2</button>
@@ -212,7 +212,7 @@ export default function Buttongroups() {
             <h2 className='text-2xl font-medium text-skin-dark my-5'>Rounded Button Groups</h2>
             <p className='my-4 text-skin-light'>The button group have rounded corners.</p>
 
-            <div className='overflow-auto pb-10 sm:pb-0'>
+            <div className='overflow-auto pb-10 sm:pb-0' id="rounded-button-group">
                 <div className="flex rounded-full bg-cl-blue py-1 w-max my-10">
                     <button className="py-1 px-6 text-white rounded-lg">Button 1</button>
                     <button className="py-1 px-6 text-white rounded-lg">Button 2</button>
@@ -245,7 +245,7 @@ export default function Buttongroups() {
             <h2 className='text-2xl font-medium text-skin-dark my-5'>Un-Rounded Button Groups</h2>
             <p className='my-4 text-skin-light'>The button group have no-rounded corners.</p>
 
-            <div className='overflow-auto pb-10 sm:pb-0'>
+            <div className='overflow-auto pb-10 sm:pb-0' id="un-rounded-btn-group">
                 <div className="flex bg-cl-blue py-1 w-max my-10">
                     <button className="py-1 px-6 text-white rounded-lg">Button 1</button>
                     <button className="py-1 px-6 text-white rounded-lg">Button 2</button>
@@ -278,7 +278,7 @@ export default function Buttongroups() {
             {/* ---Default Buttons--- */}
             <h2 className='text-2xl font-medium text-skin-dark my-5'>Default Button Groups</h2>
             <p className='my-4 text-skin-light'>The button group have less rounded corners with gradient background.</p>
-            <div className='overflow-auto pb-10 sm:pb-0'>
+            <div className='overflow-auto pb-10 sm:pb-0' id="default-button-group">
                 <div className="flex bg-gradient-to-r from-gr_blue-1 to-gr_blue-2 rounded-lg py-1 w-max my-10">
                     <button className="py-1 px-6 text-white rounded-lg  hover:bg-blue-600">Button 1</button>
                     <button className="py-1 px-6 text-white rounded-lg  hover:bg-blue-600">Button 2</button>
@@ -312,7 +312,7 @@ export default function Buttongroups() {
             <h2 className='text-2xl font-medium text-skin-dark my-5'>Rounded Button Groups</h2>
             <p className='my-4 text-skin-light'>The button group have rounded corners with gradient background.</p>
 
-            <div className='overflow-auto pb-10 sm:pb-0'>
+            <div className='overflow-auto pb-10 sm:pb-0' id="gradient-button-groups">
                 <div className="flex bg-gradient-to-r from-gr_orange-1 to-gr_orange-2 rounded-full py-1 w-max my-10 px-2">
                     <button className="py-1 px-6 text-white rounded-lg  hover:bg-orange-600">Button 1</button>
                     <button className="py-1 px-6 text-white rounded-lg  hover:bg-orange-600">Button 2</button>
@@ -345,7 +345,7 @@ export default function Buttongroups() {
             <h2 className='text-2xl font-medium text-skin-dark my-5'>Un-Rounded Button Groups</h2>
             <p className='my-4 text-skin-light'>The button group have no-rounded corners with gradient background.</p>
 
-            <div className='overflow-auto pb-10 sm:pb-0'>
+            <div className='overflow-auto pb-10 sm:pb-0' id="gradient-group-unrounded">
                 <div className="flex bg-gradient-to-r from-gr_violet-1 to-gr_violet-2 py-1 w-max my-10 px-2">
                     <button className="py-1 px-6 text-white  hover:bg-violet-600">Button 1</button>
                     <button className="py-1 px-6 text-white  hover:bg-violet-600">Button 2</button>
@@ -377,7 +377,7 @@ export default function Buttongroups() {
             <h2 className='text-2xl font-medium text-skin-dark my-5'>Text only Button Groups</h2>
             <p className='my-4 text-skin-light'>The buttons have transparent background with only text.</p>
 
-            <div className='overflow-auto pb-10 sm:pb-0'>
+            <div className='overflow-auto pb-10 sm:pb-0' id="text-only-group">
                 <div className="flex py-1 w-max my-10 px-2">
                     <button className="py-1 px-6 text-cl-blue  hover:bg-violet-600">Button 1</button>
                     <button className="py-1 px-6 text-cl-blue  hover:bg-violet-600">Button 2</button>
@@ -410,7 +410,7 @@ export default function Buttongroups() {
             <p className='my-4 text-skin-light'>The button group have rounded corners and aligned vertically.</p>
 
             <h2 className="text-base">Verticles</h2>
-            <div className='overflow-auto pb-10 sm:pb-0'>
+            <div className='overflow-auto pb-10 sm:pb-0' id="verticle-button-groups">
                 <div className="flex justify-between  w-min  space-x-5">
                     <div className="grid bg-gradient-to-r from-gr_orange-1 to-gr_orange-2 rounded-lg py-1 w-max my-10 px-2">
                         <button className="py-1 px-6 text-white rounded-lg  hover:bg-orange-600">Button 1</button>
@@ -427,7 +427,7 @@ export default function Buttongroups() {
                 </div>
             </div>
 
-            <div className=' w-full bg-cl-blue-dark rounded-xl'>
+            <div className=' w-full bg-cl-blue-dark rounded-xl' id="">
                 <div className='h-12 flex justify-between pt-3'>
                     <button className='relative bottom-1 left-4 text-white' onClick={codeshow10}>
                         {code10 ? SVG.down : SVG.arrow_right}
@@ -461,7 +461,7 @@ export default function Buttongroups() {
             <h2 className='text-2xl font-medium text-skin-dark my-5'>Verticle button group</h2>
             <p className='my-4 text-skin-light'>The button group have rounded corners and aligned vertically with transparent background.</p>
 
-            <div className='overflow-auto pb-10 sm:pb-0'>
+            <div className='overflow-auto pb-10 sm:pb-0' id="">
                 <div className="flex justify-between  w-min  space-x-5">
                     <div className="grid bg-white rounded-lg py-1 w-max my-10 px-2 shadow-lg">
                         <button className="py-1 px-6 text-cl-grey-dark rounded-lg  hover:bg-cl-grey-light">Button 1</button>

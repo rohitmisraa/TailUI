@@ -27,7 +27,17 @@ export default function Buttons() {
 
                 </div>
                 <div className="h-full w-[350px] hidden xl:block">
-                    <Stamps />
+                    <Stamps list={[{
+                        title:"Default Buttons",code:"default-buttons"},
+                        {title:"Rounded Buttons",code:"rounded-buttons"},
+                        {title:"Un-rounded Buttons", code:"un-rounded-buttons"},
+                        {title:"Secondary Buttons", code:"secondary-buttons"},
+                        {title:"Text Only buttons", code:"text-only-buttons"},
+                        {title:"Gradient Buttons Default", code:"bradient-buttons-default"},
+                        {title:"Gradient Button Rounded", code:"gradient-button-rounded"},
+                        {title:"Gradient Button unrounded", code:"gradient-button-unrounded"},
+                        {title:"Buttons with icon", code:"buttons-with-icon"},
+                        ]}/>
 
                 </div>
 

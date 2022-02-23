@@ -27,7 +27,12 @@ export default function HeroFitness() {
 
                 </div>
                 <div className="h-full w-[350px] hidden xl:block">
-                    <Stamps />
+                    <Stamps list={[
+                        {title:"Simple Tracking app Hero", code:"Simple-Tracking-app"},
+                        {title:"Modern with background Hero", code:"Modern-with-background"},
+                        {title:"Modern with icons Hero", code:"Modern-with-icons"},
+                        {title:"Our TailUI Hero", code:"Our-TailUI-Hero"},
+                    ]}/>
 
                 </div>
 

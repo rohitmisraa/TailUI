@@ -27,7 +27,12 @@ export default function ThemeGuide() {
 
                 </div>
                 <div className="h-full w-[350px] hidden xl:block">
-                    <Stamps />
+                    <Stamps list={[
+                    {title:"Why theme is important", code:"Why-theme-is-important"},
+                    {title:"TailUI Theme", code:"TailUI-Theme"},
+                    {title:"How to set up TailUI theme.", code:"set-up."},
+                    {title:"For More", code:"For-More"},
+                    ]}/>
 
                 </div>
 

@@ -27,7 +27,15 @@ export default function GettingStarted() {
 
                 </div>
                 <div className="h-full w-[350px] hidden xl:block">
-                    <Stamps />
+                    <Stamps  list={[
+                        {title:"Why TailUI", code:"Why-TailUI"},
+                        {title:"How to use?", code:"How-to-use"},
+                        {title:"Install and setup Tailwind css", code:"Install"},
+                        {title:"Use CDN", code:"Use-CDN"},
+                        {title:"Watch this video", code:"Watch-this-video"},
+                        {title:"Use TailUI Components", code:"Use-TailUI-Components"},
+                        {title:"For more", code:"For-more"},
+                    ]}/>
 
                 </div>
 

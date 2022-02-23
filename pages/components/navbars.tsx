@@ -27,7 +27,14 @@ export default function Navbars() {
 
                 </div>
                 <div className="h-full w-[350px] hidden xl:block">
-                    <Stamps />
+                    <Stamps  list={[
+                        {title:"Simple navbar", code:"simple-navbar"},
+                        {title:"Simple icon navbar", code:"simple-icon-navbar"},
+                        {title:"Search and menus", code:"search-and-menus"},
+                        {title:"Simple search navbar", code:"simple-search-navbar"},
+                        {title:"Search with icon", code:"search-with-icon"},
+                        {title:"Rounded navbar", code:"rounded-navbar"},
+                    ]}/>
 
                 </div>
 

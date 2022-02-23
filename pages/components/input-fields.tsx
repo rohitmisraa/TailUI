@@ -27,7 +27,16 @@ export default function InputFields() {
 
                 </div>
                 <div className="h-full w-[350px] hidden xl:block">
-                    <Stamps />
+                    <Stamps  list={[
+                        {title:"Simple inout field", code:"simple-inout-field"},
+                        {title:"Rounded input field", code:"rounded-input-field"},
+                        {title:"Un-rounded input field", code:"Un-rounded-input-field"},
+                        {title:"No border field", code:"no-border-field"},
+                        {title:"No border rounded", code:"no-border-rounded"},
+                        {title:"No border unrounded", code:"no-border-unrounded"},
+                        {title:"Username card", code:"username-card"},
+                        {title:"Password card", code:"password-card"},
+                    ]}/>
 
                 </div>
 
