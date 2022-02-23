@@ -8,7 +8,7 @@ function MyApp({ Component, pageProps }) {
     <Head>
     {/* <script src="https://cdn.tailwindcss.com"></script> */}
     </Head>
-    <div className='theme-dark font-Rubik'>
+    <div className='theme-dark font-Rubik scroll-smooth'>
       
     <Component {...pageProps} />
 

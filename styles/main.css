@@ -19,3 +19,7 @@
         --fill-dark: #ffffff;
     }
 }
+
+html {
+    scroll-behavior: smooth;
+}
