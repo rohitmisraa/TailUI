@@ -13,7 +13,7 @@ export default function Home() {
         {/* <title>{posts.frontmatter.title}</title> */}
         <meta name="description" content="TailUI a free and open source components library for Tailwind css." />
         <link rel="icon" href="/assets/favicon.ico" />
-        
+        <meta name="google-site-verification" content="smyq3-pqQ7dVbS_QyEozcAGqf5_PdVZG9RqB8BGB7JE" />
       </Head>
       <Nav/>
       <div className="py-3 px-5 sm:px-20 w-screen flex justify-between pt-44 space-x-4">

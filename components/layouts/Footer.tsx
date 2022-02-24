@@ -10,26 +10,26 @@ export default function Footer() {
                 </div>
                 <div className="grid  rounded-lg py-1 w-max my-10 px-2">
                     <span className="py-1 px-2 md:px-10 text-skin-dark text-left font-medium">HELP AND SUPPORT</span>
-                    <Link href={'/'} passHref><button className="py-2 px-2 md:px-10 text-skin-light text-left hover:text-blue-600">Documentation</button></Link>
-                    <Link href={'/'} passHref><button className="py-2 px-2 md:px-10 text-skin-light text-left hover:text-blue-600">Components</button></Link>
-                    <Link href={'/'} passHref><button className="py-2 px-2 md:px-10 text-skin-light text-left hover:text-blue-600">Contact</button></Link>
+                    <Link href={'/documentation/getting-started'} passHref><a><button className="py-2 px-2 md:px-10 text-skin-light text-left hover:text-blue-600">Documentation</button></a></Link>
+                    <Link href={'/components/buttons'} passHref><a><button className="py-2 px-2 md:px-10 text-skin-light text-left hover:text-blue-600">Components</button></a></Link>
+                    <Link href={'/'} passHref><a><button className="py-2 px-2 md:px-10 text-skin-light text-left hover:text-blue-600">Contact</button></a></Link>
                 </div>
                 <div className="grid  rounded-lg py-1 w-max my-10 px-2">
                     <span className="py-1 px-2 md:px-10 text-skin-dark text-left font-medium">FOLLOW US</span>
-                    <Link href={'/'} passHref><button className="py-1 px-2 md:px-10 text-skin-light text-left hover:text-blue-600">Github</button></Link>
-                    <Link href={'/'} passHref><button className="py-1 px-2 md:px-10 text-skin-light text-left hover:text-blue-600">Twitter</button></Link>
-                    <Link href={'/'} passHref><button className="py-1 px-2 md:px-10 text-skin-light text-left hover:text-blue-600">Facebook</button></Link>
+                    <Link href={'https://discord.gg/KX6DnfQAuj'} passHref><a target="_blank"><button className="py-1 px-2 md:px-10 text-skin-light text-left hover:text-blue-600">Discord</button></a></Link>
+                    <Link href={'https://twitter.com/rohitmra '} passHref><a target="_blank"><button className="py-1 px-2 md:px-10 text-skin-light text-left hover:text-blue-600">Twitter</button></a></Link>
+                    <Link href={'https://www.facebook.com/gettailui'} passHref><a target="_blank"><button className="py-1 px-2 md:px-10 text-skin-light text-left hover:text-blue-600">Facebook</button></a></Link>
                 </div>
                 <div className="grid  rounded-lg py-1 w-max my-10 px-2">
                     <span className="py-1 px-2 md:px-10 text-skin-dark text-left font-medium">CONTRIBUTE</span>
-                    <Link href={'/'} passHref><button className="py-1 px-2 md:px-10 text-skin-light text-left hover:text-blue-600">How to contribute?</button></Link>
-                    <Link href={'/'} passHref><button className="py-1 px-2 md:px-10 text-skin-light text-left hover:text-blue-600">Github</button></Link>
+                    <Link href={'/documentation/how-to-contribute'} passHref><a><button className="py-1 px-2 md:px-10 text-skin-light text-left hover:text-blue-600">How to contribute?</button></a></Link>
+                    <Link href={'https://github.com/rohitmra/TailUI'} passHref><a target="_blank"><button className="py-1 px-2 md:px-10 text-skin-light text-left hover:text-blue-600">Github</button></a></Link>
                     <span className='opacity-0'>space</span>
                 </div>
             </div>
             <div className='h-px w-11/12 m-auto bg-cl-grey-light'></div>
             <div className='flex justify-between py-3 w-full'>
-                <span className="py-1 px-2 md:px-10 text-skin-light w-max m-auto">© TailUI 2050 - 5020 All right reserved</span>
+                <span className="py-1 px-2 md:px-10 text-skin-light w-max m-auto">© TailUI 2022</span>
                 <span className="py-1 px-2 md:px-10 text-skin-light w-max m-auto">Created by <Link href={'/'} passHref><button className="py-1 px-1 text-cl-red text-left hover:text-cl-violet">Rohit  Mishra</button></Link></span>
             </div>
         </div>
