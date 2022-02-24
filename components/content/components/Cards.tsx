@@ -142,7 +142,7 @@ export default function Cards() {
                 <div style={{ height: code1 ? '400px' : '0', display: code1 ? 'block' : 'none' }} className='w-full bg-cl-blue-dark rounded-xl'>
                     <pre className='px-5 block overflow-auto whitespace-pr'><code className='px-5 overflow-auto h-96 block text-white language-html' id='code1'>
 
-                        &lt;div className=' p-2 pb-5 bg-white w-80 rounded-xl'&gt;<br />
+                        &lt;div className=&quot; p-2 pb-5 bg-white w-80 rounded-xl&quot;&gt;<br />
 
                         &lt;/div&gt;<br />
 
