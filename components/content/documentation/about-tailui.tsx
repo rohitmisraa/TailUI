@@ -3,7 +3,7 @@ import Link from 'next/link'
 
 export default function About() {
     return (
-        <div className='p-10 min-h-screen'>
+        <div className='p-4 sm:p-10 min-h-screen'>
             <h1 className='text-4xl font-bold text-skin-dark'>About Tailui</h1>
             <h2 className="text-2xl font-medium text-skin-dark my-5" id="Introduction">Introduction</h2>
 
@@ -19,7 +19,7 @@ export default function About() {
 
             <h2 className="text-2xl font-medium text-skin-dark my-5" id="Credits">Credits</h2>
 
-            <p className="my-4 text-skin-light">Founder - Rohit Mishra</p>
+            <p className="my-4 text-skin-light">Creator - <Link href={'https://rohitmishra.tech'} passHref><a className="text-cl-red" target={'_blank'}>Rohit Mishra</a></Link></p>
 
             <p className="my-4 text-skin-light">Images &amp; Icons used from</p>
 
@@ -44,7 +44,7 @@ export default function About() {
 
             <h2 className="text-2xl font-medium text-skin-dark my-5" id="contribute">Do you want to contribute?</h2>
 
-            <p className="my-4 text-skin-light">To contribute to this project, if you are a graphics designer please prefer our <Link href={'https://www.figma.com/file/AecRDddZ9yERdseaj6YGyY/tailui-materials'} passHref><a className="text-cl-red" target={'_blank'}>Figma file</a></Link> and If you are a developer please go to our <Link href={'https://github.com/rohitmra/TailUI'} passHref><a className="text-cl-red" target={'_blank'}>GitHub Repository</a></Link>. To work as a collaborator or have any Idea, doubts, Join our <Link href={'https://discord.gg/KX6DnfQAuj'} passHref><a className="text-cl-red" target={'_blank'}>Discord Channel</a></Link>.</p>
+            <p className="my-4 text-skin-light">To contribute to this project, if you are a graphics designer please prefer our <Link href={'https://www.figma.com/file/AecRDddZ9yERdseaj6YGyY/tailui-materials'} passHref><a className="text-cl-red" target={'_blank'}>Figma file</a></Link> and If you are a developer please go to our <Link href={'https://github.com/rohitmra/TailUI'} passHref><a className="text-cl-red" target={'_blank'}>GitHub Repository</a></Link>. To work as a collaborator or have any Idea, doubts, Join our <Link href={'https://discord.gg/KX6DnfQAuj'} passHref><a className="text-cl-red" target={'_blank'}>Discord server</a></Link>.</p>
 
             <p className="my-4 text-skin-light">Want to know more, checkout <Link href={'/documentation/how-to-contribute'} passHref><a className="text-cl-red">How to Contribute?</a></Link> Page.</p>
 

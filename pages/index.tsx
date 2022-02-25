@@ -16,20 +16,20 @@ export default function Home() {
         <meta name="google-site-verification" content="smyq3-pqQ7dVbS_QyEozcAGqf5_PdVZG9RqB8BGB7JE" />
       </Head>
       <Nav />
-      <div className="py-3 px-5 sm:px-20 w-screen flex justify-between pt-44 space-x-4">
+      <div className="py-3 px-5 sm:px-20 w-screen flex justify-between pt-60 space-x-4">
         <div className="w-full lg:w-3/6">
           <h1 className="lg:text-7xl w-full text-5xl xl:w-[650px] text-skin-dark"><span className="font-bold text-gr_violet-2">TailUI </span>- Tailwind Component library and templates</h1>
           <p className="text-xl text-skin-light xl:w-[650px] mt-5">A Tailwind library with 50+ components, Make your app using our library without much effort.</p>
           <div className="flex space-x-4 mt-10">
             <Link href={'/components/buttons'} passHref><a>
-              <button className="py-3 px-10 bg-gradient-to-r from-gr_violet-1 to-gr_violet-2 text-white text-lg rounded-lg">Components</button>
+              <button className="py-3 px-4 sm:px-10 bg-gradient-to-r from-gr_violet-1 to-gr_violet-2 text-white text-lg rounded-lg">Components</button>
               </a></Link>
             <Link href={'/documentation/getting-started'} passHref><a>
-              <button className="py-3 px-10 bg-cl-secondary text-cl-blue-dark text-lg rounded-lg">Documentation</button>
+              <button className="py-3 px-4 sm:px-10 bg-cl-secondary text-cl-blue-dark text-lg rounded-lg">Documentation</button>
               </a></Link>
           </div>
         </div>
-        <img src="/assets/undraw_product_teardown_re_m1pc.svg" alt="Fitness image" className="sm:w-3/6 lg:w-[500px] xl:w-[700px] my-5 xl:my-0 m-auto hidden md:block relative bottom-16" />
+        <img src="/assets/undraw_product_teardown_re_m1pc.svg" alt="Fitness image" className="sm:w-3/6 lg:w-[500px] xl:w-[700px] my-5 xl:my-0 m-auto hidden md:block relative bottom-10" />
       </div>
       <div className=' w-full px-5 sm:px-20 pt-20'>
         <h1 className="lg:text-7xl w-full text-5xl lg:w-[650px] text-skin-dark">Customize your own <span className="font-bold text-gr_violet-2">Theme </span> color</h1>
@@ -79,7 +79,7 @@ export default function Home() {
         <p className="text-xl text-skin-light xl:w-[650px] mt-5">TailUI provides you ready made option to add light/dark theme, swap botton.</p>
         <div className='w-full md:flex pt-10 pb-28'>
 
-          <div className='h-96 w-full md:w-6/12 xl:w-[650px] sm:mx-4 xl:mx-10 rounded-lg shadow-md bg-cl-blue-dark flex justify-center'>
+          <div className='h-96 w-full md:w-6/12 xl:w-[650px] sm:mx-4 xl:mx-10 rounded-t-lg md:rounded-lg shadow-md bg-cl-blue-dark flex justify-center'>
             <div className=" p-2 pb-5 bg-cl-violet w-80 m-auto rounded-xl sm:mx-5" id="card-with-image">
               <div className="rounded-xl w-full h-52 overflow-hidden">
                 <img className="min-h-full object-cover object-left" src="https://cdn.pixabay.com/photo/2021/11/14/18/36/telework-6795505_960_720.jpg" alt="Tumbnail Image" />
@@ -92,7 +92,7 @@ export default function Home() {
               </div>
             </div>
           </div>
-          <div className='h-96 w-full md:w-6/12 sm:mx-4 xl:mx-10 rounded-lg shadow-md bg-cl-blue-dark '>
+          <div className='h-96 w-full md:w-6/12 sm:mx-4 xl:mx-10 rounded-b-lg md:rounded-lg shadow-md bg-cl-blue-dark '>
             <pre className='px-5 block overflow-auto whitespace-pr '><code className='px-5 overflow-auto h-96 block text-white language-html p-5' id='code1'>
 
               &lt;div class=&quot;<span className=" text-cl-pink shadow-white">dark-theme</span> p-2 pb-5 bg-white w-80 rounded-xl&quot; id=&quot;card-with-image&quot;&gt;<br />
@@ -120,7 +120,7 @@ export default function Home() {
         <p className="text-xl text-skin-light xl:w-[650px] mt-5">TailUI provides you ready made option to add light/dark theme, swap botton.</p>
         <div className='w-full md:flex pt-10 pb-28'>
 
-          <div className='h-96 w-full md:w-6/12 xl:w-[650px] sm:mx-4 xl:mx-10 rounded-lg shadow-md bg-cl-blue-dark flex justify-center'>
+          <div className='h-96 w-full md:w-6/12 xl:w-[650px] sm:mx-4 xl:mx-10  rounded-t-lg md:rounded-lg shadow-md bg-cl-blue-dark flex justify-center'>
             <div className="grid bg-cl-blue rounded-lg py-1 w-max my-10 h-max">
               <button className="py-5 px-20 text-white rounded-lg  hover:bg-blue-700">
                 Server 1</button>
@@ -135,7 +135,7 @@ export default function Home() {
                 Server 4</button>
             </div>
           </div>
-          <div className='h-96 w-full md:w-6/12 sm:mx-4 xl:mx-10 rounded-lg shadow-md bg-cl-blue-dark '>
+          <div className='h-96 w-full md:w-6/12 sm:mx-4 xl:mx-10  rounded-b-lg md:rounded-lg shadow-md bg-cl-blue-dark '>
             <pre className='px-5 block overflow-auto whitespace-pr '><code className='px-5 overflow-auto h-96 block text-white language-html p-5' id='code1'>
 
               &lt;div className=&quot;h-96 w-full md:w-6/12 xl:w-[650px] sm:mx-4 xl:mx-10 rounded-lg shadow-md bg-cl-blue-dark flex justify-center&quot;&gt;<br />
@@ -169,7 +169,7 @@ export default function Home() {
             </div>
             <h3 className="m-4 mb-2 text-2xl font-medium">
               Discord</h3>
-            <span className="ml-4 text-xl">
+            <span className="relative left-4 text-xl">
               For support and fun</span>
             <div className="flex">
               <Link href="https://discord.gg/KX6DnfQAuj" passHref><a target={"_blank"}>
@@ -187,7 +187,7 @@ export default function Home() {
             </div>
             <h3 className="m-4 mb-2 text-2xl font-medium">
               Github</h3>
-            <span className="ml-4 text-xl">
+            <span className="relative left-4 text-xl">
               Let&apos;s Contribute</span>
             <div className="flex">
               <Link href="https://github.com/rohitmra/tailui" passHref><a target={"_blank"}>
@@ -206,7 +206,7 @@ export default function Home() {
             </div>
             <h3 className="m-4 mb-2 text-2xl font-medium">
               Blog</h3>
-            <span className="ml-4 text-xl">
+            <span className="relative left-4 text-xl">
               For more</span>
             <div className="flex">
               <Link href="https://blog.tailui.xyz/" passHref><a target={"_blank"}>

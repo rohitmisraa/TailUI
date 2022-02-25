@@ -3,7 +3,7 @@ import Link from 'next/link'
 
 export default function Themeguide() {
     return (
-        <div className='p-10 min-h-screen'>
+        <div className='p-4 sm:p-10 min-h-screen'>
             <h1 className='text-4xl font-bold text-skin-dark'>Theme Guide</h1>
 
             <h2 className="text-2xl font-medium text-skin-dark my-5" id="Why-theme-is-important">Why them is important</h2>
@@ -26,7 +26,7 @@ export default function Themeguide() {
 
 
             <div className='w-full bg-cl-blue-dark rounded-xl pb-5'>
-                <p className="text-cl-secondary py-3 ml-10">&#47;&#47; tailwind.config.js</p>
+                <p className="text-cl-secondary py-3 ml-10 italic">&#47;&#47; tailwind.config.js</p>
                     <pre className='px-5 block overflow-auto whitespace-pr'><code className='px-5 overflow-auto h-max-96 block text-white language-html' id='code1'>
 
                     
@@ -108,7 +108,6 @@ export default function Themeguide() {
                     </code>
                     </pre>
                 </div>
-            <h2 className="text-2xl font-medium text-skin-dark my-5"><strong>[config.js code]</strong></h2>
 
             <p className="my-4 text-skin-light">Now you have custom colors in your tailwind.config.js file.</p>
 
@@ -116,7 +115,7 @@ export default function Themeguide() {
 
             <h2 className="text-2xl font-medium text-skin-dark my-5">Use our custom color as background</h2><br />
             <div className='w-full bg-cl-blue-dark rounded-xl pb-5'>
-                <p className="text-cl-secondary py-3 ml-10">&#47;&#47; Background color example</p>
+                <p className="text-cl-secondary py-3 ml-10 italic">&#47;&#47; Background color example</p>
                     <pre className='px-5 block overflow-auto whitespace-pr'><code className='px-5 overflow-auto h-max-96 text-white language-html flex' id='code1'>
 
                         &lt;button className=&quot;<div className="w-3 h-3 bg-cl-red relative top-1"></div>bg-cl-red&quot;&gt;Contact me&lt;/button&gt;
@@ -130,7 +129,7 @@ export default function Themeguide() {
             <p className="my-4 text-skin-light">Use our custom color as text color:-</p>
 
             <div className='w-full bg-cl-blue-dark rounded-xl pb-5'>
-                <p className="text-cl-secondary py-3 ml-10">&#47;&#47; Text color example</p>
+                <p className="text-cl-secondary py-3 ml-10  italic">&#47;&#47; Text color example</p>
                     <pre className='px-5 block overflow-auto whitespace-pr'><code className='px-5 overflow-auto h-max-96 text-white language-html flex' id='code1'>
 
                         &lt;p className=&quot;<div className="w-3 h-3 bg-cl-green relative top-1"></div><span className="text-cl-pink">text-cl-green</span>&quot;&gt;Contact me&lt;/p&gt;
@@ -148,7 +147,7 @@ export default function Themeguide() {
             <p className="my-4 text-skin-light">Add this code to your main.css file</p>
 
             <div className='w-full bg-cl-blue-dark rounded-xl pb-5'>
-                <p className="text-cl-secondary py-3 ml-10">&#47;&#47; main.css</p>
+                <p className="text-cl-secondary py-3 ml-10  italic">&#47;&#47; main.css</p>
                     <pre className='px-5 block overflow-auto whitespace-pr'><code className='px-5 overflow-auto h-max-96 block text-white language-html' id='code1'>
 
                         @tailwind base;<br/>
@@ -184,7 +183,7 @@ export default function Themeguide() {
 
             <h2 className="text-2xl font-medium text-skin-dark my-5" id="For-More">For More</h2>
 
-            <p className="my-4 text-skin-light">Please checkout our <Link href={'/documentation/theme-guide'} passHref><a className="text-cl-red">Theme Guide</a></Link> for TailUI, If you face any issue please join our <Link href={'https://discord.gg/KX6DnfQAuj'} passHref><a className="text-cl-red" target={'_blank'}>Discord channel</a></Link>, there you can ask all your doubts. For any correction to the page or project, go to our <Link href={'https://github.com/&#123;mra/TailUI'} passHref><a className="text-cl-red" target={'_blank'}>Github Repository</a></Link>.</p>
+            <p className="my-4 text-skin-light">Please checkout our <Link href={'/documentation/theme-guide'} passHref><a className="text-cl-red">Theme Guide</a></Link> for TailUI, If you face any issue please join our <Link href={'https://discord.gg/KX6DnfQAuj'} passHref><a className="text-cl-red" target={'_blank'}>Discord server</a></Link>, there you can ask all your doubts. For any correction to the page or project, go to our <Link href={'https://github.com/&#123;mra/TailUI'} passHref><a className="text-cl-red" target={'_blank'}>Github Repository</a></Link>.</p>
 
 
 

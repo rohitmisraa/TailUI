@@ -21,10 +21,8 @@ export default function Drawer({data}) {
     const [block2, setblock2] = useState(false)
     const [block3, setblock3] = useState(false)
     const [block4, setblock4] = useState(false)
-    console.log(data);
     
 
-  // if (data.type == "docs") {
     useEffect(() => {
       if (data == 1) {
         setdocs1(true)
@@ -83,12 +81,6 @@ export default function Drawer({data}) {
         setblock(true)
       }
   })
-  // }else if (data.type == "comp") {
-    
-  // }else if (data.type == "block") {
-    
-  // }
-  
   return (
     <div className='text-skin-dark'>
           <div className='my-2'>
@@ -141,8 +133,8 @@ export default function Drawer({data}) {
               <ul className='list-disc text-xl font-Rubik text-skin-light'>
                 <li className={`my-3 ${block1? 'text-skin-dark font-medium': ''}`}><Link href={'/blocks/hero'} passHref>Hero</Link></li>
                 <li className={`my-3 ${block2? 'text-skin-dark font-medium': ''}`}><Link href={'/blocks/portfolios'} passHref>Portfolios</Link></li>
-                <li className={`my-3 ${block3? 'text-skin-dark font-medium': ''}`}><Link href={'/'} passHref>Error Pages</Link></li> 
-                <li className={`my-3 ${block4? 'text-skin-dark font-medium': ''}`}><Link href={'/'} passHref>Success Pages</Link></li>
+                <li className={`my-3 ${block3? 'text-skin-dark font-medium': ''}`}><Link href={'/blocks/coming-soon'} passHref>Error Pages</Link></li> 
+                <li className={`my-3 ${block4? 'text-skin-dark font-medium': ''}`}><Link href={'/blocks/coming-soon'} passHref>Success Pages</Link></li>
               </ul>
             </div>
           </div>

@@ -3,7 +3,7 @@ import Link from 'next/link'
 
 export default function Contribute() {
     return (
-        <div className='p-10 min-h-screen'>
+        <div className='p-4 sm:p-10 min-h-screen'>
             <h1 className='text-4xl font-bold text-skin-dark'>How to contribute to Tailui Project?</h1>
 
             <h2 className="text-2xl font-medium text-skin-dark my-5" id="Introduction">Introduction</h2>
@@ -41,7 +41,7 @@ export default function Contribute() {
 
             <h2 className="text-2xl font-medium text-skin-dark my-5" id="web-developers">For web developers</h2>
 
-            <p className="my-4 text-skin-light">You can help us create more useful and cool components, manage GitHub, discord channel and more.</p>
+            <p className="my-4 text-skin-light">You can help us create more useful and cool components, manage GitHub, discord server and more.</p>
 
             <p className="my-4 text-skin-light">To contribute in this, you must have knowledge of Next.js, JavaScript, and Tailwind CSS. For more, checkout About TailUI technologies.</p>
 
@@ -55,8 +55,8 @@ export default function Contribute() {
 
             <p className="my-4 text-skin-light">Then we will review your changes and add it respectively.</p>
 
-            <p className="my-4 text-skin-light">You can also be a collaborator and help the community becoming a part of TailUI. For that, join our Discord channel.</p>
-            <p className="my-4 text-skin-light">Please checkout our <Link href={'/documentation/theme-guide'} passHref><a className="text-cl-red">Theme Guide</a></Link> for TailUI, If you face any issue please join our <Link href={'https://discord.gg/KX6DnfQAuj'} passHref><a className="text-cl-red" target={'_blank'}>Discord channel</a></Link>, there you can ask all your doubts. For any correction to the page or project, go to our <Link href={'https://github.com/rohitmra/TailUI'} passHref><a className="text-cl-red" target={'_blank'}>Github Repository</a></Link>.</p>
+            <p className="my-4 text-skin-light">You can also be a collaborator and help the community becoming a part of TailUI. For that, join our Discord server.</p>
+            <p className="my-4 text-skin-light">Please checkout our <Link href={'/documentation/theme-guide'} passHref><a className="text-cl-red">Theme Guide</a></Link> for TailUI, If you face any issue please join our <Link href={'https://discord.gg/KX6DnfQAuj'} passHref><a className="text-cl-red" target={'_blank'}>Discord server</a></Link>, there you can ask all your doubts. For any correction to the page or project, go to our <Link href={'https://github.com/rohitmra/TailUI'} passHref><a className="text-cl-red" target={'_blank'}>Github Repository</a></Link>.</p>
 
 
             

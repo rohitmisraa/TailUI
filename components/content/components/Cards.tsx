@@ -77,7 +77,7 @@ export default function Cards() {
     }
 
     return (
-        <div className="p-10">
+        <div className="p-4 sm:p-10">
             <h1 className='text-4xl font-bold text-skin-dark'>Cards</h1>
             <p className='my-4 text-skin-light'>Cards are the container which hold or group many element to one place.</p>
 
@@ -139,8 +139,8 @@ export default function Cards() {
                         {code2 ? SVG.down : SVG.arrow_right}
                     </button>
                 </div>
-                <div style={{ height: code2 ? '400px' : '0', display: code2 ? 'block' : 'none' }} className='w-full bg-cl-blue-dark rounded-xl'>
-                    <pre className='px-5 block overflow-auto whitespace-pr'><code className='px-5 overflow-auto h-96 block text-white language-html' id='code1'>
+                <div style={{ maxHeight: code2 ? '400px' : '0', display: code2 ? 'block' : 'none' }} className='w-full bg-cl-blue-dark rounded-xl pb-5'>
+                    <pre className='px-5 block overflow-auto whitespace-pr'><code className='px-5 pb-5 overflow-auto h-max-96 block text-white language-html' id='code1'>
 
                         &lt;div class=&quot; p-2 pb-5 bg-white w-80 rounded-xl&quot;&gt;<br />
 

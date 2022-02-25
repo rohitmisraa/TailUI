@@ -76,7 +76,7 @@ export default function Inputs() {
     }
     
     return (
-        <div className="p-10">
+        <div className="p-4 sm:p-10">
             <h1 className='text-4xl font-bold text-skin-dark' id="simple-inout-field">Input fields</h1>
             <p className='my-4 text-skin-light'>Input fields allows user to enter data in the form of text.</p>
 
@@ -170,7 +170,7 @@ export default function Inputs() {
 
             {/* ---Default Input--- */}
 
-            <h1 className="text-xl my-5">For darker fields</h1>
+            <h1 className="my-5 mt-10 text-skin-dark text-3xl">For darker fields</h1>
             {/* ---Default Input--- */}
             <h2 className='text-2xl font-medium text-skin-dark my-5' id="no-border-field">Simple input field</h2>
             <p className='my-4 text-skin-light'>The input field have little rounded corners.</p>
@@ -264,7 +264,7 @@ export default function Inputs() {
             {/* ---Default Input--- */}
 
             {/* ---Input Cards--- */}
-            <h1 className="text-xl my-5">Input Cards</h1>
+            <h1 className="my-5 mt-10 text-skin-dark text-3xl">Input Cards</h1>
 
             <h2 className='text-2xl font-medium text-skin-dark my-5' id="username-card">Username simple card</h2>
             <p className='my-4 text-skin-light'>The card has simple input field.</p>

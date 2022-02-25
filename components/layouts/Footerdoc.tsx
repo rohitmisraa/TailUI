@@ -30,7 +30,7 @@ export default function Footerdoc() {
 
             <div className='h-px w-11/12 m-auto bg-cl-grey-light'></div>
             <div className='flex justify-between py-3 w-full'>
-            <span className="py-1 px-2 md:px-10 text-skin-light w-max m-auto">© TailUI 2022</span>
+            <span className="py-1 px-2 md:px-10 text-skin-light w-max m-auto">© TailUI 2022 - Open Source (MIT)</span>
                 <span className="py-1 px-2 md:px-10 text-skin-light w-max m-auto">Created by <Link href="https://rohitmishra.tech" passHref>
                     <a target={"_blank"} className="py-1 px-1 text-cl-red text-left hover:text-cl-violet">Rohit  Mishra</a>
                     </Link></span>

@@ -105,7 +105,7 @@ export default function Buttongroups() {
         }
     }
     return (
-        <div className="p-10">
+        <div className="p-4 sm:p-10">
             <h1 className='text-4xl font-bold text-skin-dark'>Button Groups</h1>
             <p className='my-4 text-skin-light'>Buttons allows users to perform on click activities and button groups can be good for many buttons like navigations.</p>
 
@@ -127,8 +127,8 @@ export default function Buttongroups() {
                         {code1 ? SVG.down : SVG.arrow_right}
                     </button>
                 </div>
-                <div style={{ height: code1 ? '400px' : '0', display: code1 ? 'block' : 'none' }} className='w-full bg-cl-blue-dark rounded-xl'>
-                    <pre className='px-5 block overflow-auto whitespace-pr'><code className='px-5 overflow-auto h-96 block text-white language-html' id='code1'>
+                <div style={{ maxHeight: code1 ? '400px' : '0', display: code1 ? 'block' : 'none' }} className='w-full bg-cl-blue-dark rounded-xl pb-5'>
+                    <pre className='px-5 block overflow-auto whitespace-pr'><code className='px-5 pb-5 overflow-auto h-max-96 block text-white language-html' id='code1'>
 
                         &lt;div class=&quot;flex rounded-lg bg-cl-blue py-1 w-max my-10&quot;&gt;<br />
                         &lt;button class=&quot;py-1 px-6 text-white rounded-lg&quot;&gt;<br />Button 1&lt;/button&gt;<br />
@@ -159,8 +159,8 @@ export default function Buttongroups() {
                         {code2 ? SVG.down : SVG.arrow_right}
                     </button>
                 </div>
-                <div style={{ height: code2 ? '400px' : '0', display: code2 ? 'block' : 'none' }} className='w-full bg-cl-blue-dark rounded-xl'>
-                    <pre className='px-5 block overflow-auto whitespace-pr'><code className='px-5 overflow-auto h-96 block text-white language-html' id='code1'>
+                <div style={{ maxHeight: code2 ? '400px' : '0', display: code2 ? 'block' : 'none' }} className='w-full bg-cl-blue-dark rounded-xl pb-5'>
+                    <pre className='px-5 block overflow-auto whitespace-pr'><code className='px-5 pb-5 overflow-auto h-max-96 block text-white language-html' id='code1'>
 
                         &lt;div class=&quot;flex rounded-lg bg-white py-1 w-max my-10&quot;&gt;<br />
                         &lt;button class=&quot;py-1 px-6 text-cl-blue-dark font-semibold rounded-l-lg border-2 border-cl-blue-dark&quot;&gt;<br />Button 1&lt;/button&gt;<br />
@@ -191,8 +191,8 @@ export default function Buttongroups() {
                         {code3 ? SVG.down : SVG.arrow_right}
                     </button>
                 </div>
-                <div style={{ height: code3 ? '400px' : '0', display: code3 ? 'block' : 'none' }} className='w-full bg-cl-blue-dark rounded-xl'>
-                    <pre className='px-5 block overflow-auto whitespace-pr'><code className='px-5 overflow-auto h-96 block text-white language-html' id='code1'>
+                <div style={{ maxHeight: code3 ? '400px' : '0', display: code3 ? 'block' : 'none' }} className='w-full bg-cl-blue-dark rounded-xl pb-5'>
+                    <pre className='px-5 block overflow-auto whitespace-pr'><code className='px-5 pb-5 overflow-auto h-max-96 block text-white language-html' id='code1'>
 
                         &lt;div class=&quot;flex rounded-lg bg-cl-secondary w-max py-1 my-10&quot;&gt;<br />
                         &lt;button class=&quot;py-1 px-6 text-cl-blue-dark font-semibold rounded-lg&quot;&gt;<br />Button 1&lt;/button&gt;<br />
@@ -225,8 +225,8 @@ export default function Buttongroups() {
                         {code4 ? SVG.down : SVG.arrow_right}
                     </button>
                 </div>
-                <div style={{ height: code4 ? '400px' : '0', display: code4 ? 'block' : 'none' }} className='w-full bg-cl-blue-dark rounded-xl'>
-                    <pre className='px-5 block overflow-auto whitespace-pr'><code className='px-5 overflow-auto h-96 block text-white language-html' id='code1'>
+                <div style={{ maxHeight: code4 ? '400px' : '0', display: code4 ? 'block' : 'none' }} className='w-full bg-cl-blue-dark rounded-xl pb-5'>
+                    <pre className='px-5 block overflow-auto whitespace-pr'><code className='px-5 pb-5 overflow-auto h-max-96 block text-white language-html' id='code1'>
 
                         &lt;div class=&quot;flex rounded-full bg-cl-blue py-1 w-max my-10&quot;&gt;<br />
                         &lt;button class=&quot;py-1 px-6 text-white rounded-lg&quot;&gt;<br />Button 1&lt;/button&gt;<br />
@@ -258,8 +258,8 @@ export default function Buttongroups() {
                         {code5 ? SVG.down : SVG.arrow_right}
                     </button>
                 </div>
-                <div style={{ height: code5 ? '400px' : '0', display: code5 ? 'block' : 'none' }} className='w-full bg-cl-blue-dark rounded-xl'>
-                    <pre className='px-5 block overflow-auto whitespace-pr'><code className='px-5 overflow-auto h-96 block text-white language-html' id='code1'>
+                <div style={{ maxHeight: code5 ? '400px' : '0', display: code5 ? 'block' : 'none' }} className='w-full bg-cl-blue-dark rounded-xl pb-5'>
+                    <pre className='px-5 block overflow-auto whitespace-pr'><code className='px-5 pb-5 overflow-auto h-max-96 block text-white language-html' id='code1'>
 
                         &lt;div class=&quot;flex bg-cl-blue py-1 w-max my-10&quot;&gt;<br />
                         &lt;button class=&quot;py-1 px-6 text-white rounded-lg&quot;&gt;<br />Button 1&lt;/button&gt;<br />
@@ -273,7 +273,7 @@ export default function Buttongroups() {
 
             {/* ---Default Buttons--- */}
 
-            <h1 className="text-2xl my-5">Gradient Button Groups</h1>
+            <h1 className="my-5 mt-10 text-skin-dark text-3xl">Gradient Button Groups</h1>
 
             {/* ---Default Buttons--- */}
             <h2 className='text-2xl font-medium text-skin-dark my-5'>Default Button Groups</h2>
@@ -292,8 +292,8 @@ export default function Buttongroups() {
                         {code6 ? SVG.down : SVG.arrow_right}
                     </button>
                 </div>
-                <div style={{ height: code6 ? '400px' : '0', display: code6 ? 'block' : 'none' }} className='w-full bg-cl-blue-dark rounded-xl'>
-                    <pre className='px-5 block overflow-auto whitespace-pr'><code className='px-5 overflow-auto h-96 block text-white language-html' id='code1'>
+                <div style={{ maxHeight: code6 ? '400px' : '0', display: code6 ? 'block' : 'none' }} className='w-full bg-cl-blue-dark rounded-xl pb-5'>
+                    <pre className='px-5 block overflow-auto whitespace-pr'><code className='px-5 pb-5 overflow-auto h-max-96 block text-white language-html' id='code1'>
 
                         &lt;div class=&quot;flex bg-gradient-to-r from-gr_blue-1 to-gr_blue-2 rounded-lg py-1 w-max my-10&quot;&gt;<br />
                         &lt;button class=&quot;py-1 px-6 text-white rounded-lg  hover:bg-blue-600&quot;&gt;<br />Button 1&lt;/button&gt;<br />
@@ -325,8 +325,8 @@ export default function Buttongroups() {
                         {code7 ? SVG.down : SVG.arrow_right}
                     </button>
                 </div>
-                <div style={{ height: code7 ? '400px' : '0', display: code7 ? 'block' : 'none' }} className='w-full bg-cl-blue-dark rounded-xl'>
-                    <pre className='px-5 block overflow-auto whitespace-pr'><code className='px-5 overflow-auto h-96 block text-white language-html' id='code1'>
+                <div style={{ maxHeight: code7 ? '400px' : '0', display: code7 ? 'block' : 'none' }} className='w-full bg-cl-blue-dark rounded-xl pb-5'>
+                    <pre className='px-5 block overflow-auto whitespace-pr'><code className='px-5 pb-5 overflow-auto h-max-96 block text-white language-html' id='code1'>
 
                         &lt;div class=&quot;flex bg-gradient-to-r from-gr_orange-1 to-gr_orange-2 rounded-full py-1 w-max my-10 px-2&quot;&gt;<br />
                         &lt;button class=&quot;py-1 px-6 text-white rounded-lg  hover:bg-orange-600&quot;&gt;<br />Button 1&lt;/button&gt;<br />
@@ -358,8 +358,8 @@ export default function Buttongroups() {
                         {code8 ? SVG.down : SVG.arrow_right}
                     </button>
                 </div>
-                <div style={{ height: code8 ? '400px' : '0', display: code8 ? 'block' : 'none' }} className='w-full bg-cl-blue-dark rounded-xl'>
-                    <pre className='px-5 block overflow-auto whitespace-pr'><code className='px-5 overflow-auto h-96 block text-white language-html' id='code1'>
+                <div style={{ maxHeight: code8 ? '400px' : '0', display: code8 ? 'block' : 'none' }} className='w-full bg-cl-blue-dark rounded-xl pb-5'>
+                    <pre className='px-5 block overflow-auto whitespace-pr'><code className='px-5 pb-5 overflow-auto h-max-96 block text-white language-html' id='code1'>
 
                         &lt;div class=&quot;flex bg-gradient-to-r from-gr_violet-1 to-gr_violet-2 py-1 w-max my-10 px-2&quot;&gt;<br />
                         &lt;button class=&quot;py-1 px-6 text-white  hover:bg-violet-600&quot;&gt;<br />Button 1&lt;/button&gt;<br />
@@ -390,8 +390,8 @@ export default function Buttongroups() {
                         {code9 ? SVG.down : SVG.arrow_right}
                     </button>
                 </div>
-                <div style={{ height: code9 ? '400px' : '0', display: code9 ? 'block' : 'none' }} className='w-full bg-cl-blue-dark rounded-xl'>
-                    <pre className='px-5 block overflow-auto whitespace-pr'><code className='px-5 overflow-auto h-96 block text-white language-html' id='code1'>
+                <div style={{ maxHeight: code9 ? '400px' : '0', display: code9 ? 'block' : 'none' }} className='w-full bg-cl-blue-dark rounded-xl pb-5'>
+                    <pre className='px-5 block overflow-auto whitespace-pr'><code className='px-5 pb-5 overflow-auto h-max-96 block text-white language-html' id='code1'>
 
                         &lt;div class=&quot;flex py-1 w-max my-10 px-2&quot;&gt;<br />
                         &lt;button class=&quot;py-1 px-6 text-cl-blue  hover:bg-violet-600&quot;&gt;<br />Button 1&lt;/button&gt;<br />
@@ -409,7 +409,6 @@ export default function Buttongroups() {
             <h2 className='text-2xl font-medium text-skin-dark my-5'>Verticle button group</h2>
             <p className='my-4 text-skin-light'>The button group have rounded corners and aligned vertically.</p>
 
-            <h2 className="text-base">Verticles</h2>
             <div className='overflow-auto pb-10 sm:pb-0' id="verticle-button-groups">
                 <div className="flex justify-between  w-min  space-x-5">
                     <div className="grid bg-gradient-to-r from-gr_orange-1 to-gr_orange-2 rounded-lg py-1 w-max my-10 px-2">
@@ -433,8 +432,8 @@ export default function Buttongroups() {
                         {code10 ? SVG.down : SVG.arrow_right}
                     </button>
                 </div>
-                <div style={{ height: code10 ? '400px' : '0', display: code10 ? 'block' : 'none' }} className='w-full bg-cl-blue-dark rounded-xl'>
-                    <pre className='px-5 block overflow-auto whitespace-pr'><code className='px-5 overflow-auto h-96 block text-white language-html' id='code1'>
+                <div style={{ maxHeight: code10 ? '400px' : '0', display: code10 ? 'block' : 'none' }} className='w-full bg-cl-blue-dark rounded-xl pb-5 overflow-auto'>
+                    <pre className='px-5 block whitespace-pr'><code className='px-5 pb-5 h-max-96 block text-white language-html' id='code1'>
 
                         &lt;div class=&quot;flex justify-between &quot;&gt;<br />
                         &lt;div class=&quot;grid bg-gradient-to-r from-gr_orange-1 to-gr_orange-2 rounded-lg py-1 w-max my-10 px-2&quot;&gt;<br />
@@ -478,8 +477,8 @@ export default function Buttongroups() {
                         {code11 ? SVG.down : SVG.arrow_right}
                     </button>
                 </div>
-                <div style={{ height: code11 ? '400px' : '0', display: code11 ? 'block' : 'none' }} className='w-full bg-cl-blue-dark rounded-xl'>
-                    <pre className='px-5 block overflow-auto whitespace-pr'><code className='px-5 overflow-auto h-96 block text-white language-html' id='code1'>
+                <div style={{ maxHeight: code11 ? '400px' : '0', display: code11 ? 'block' : 'none' }} className='w-full bg-cl-blue-dark rounded-xl pb-5'>
+                    <pre className='px-5 block overflow-auto whitespace-pr'><code className='px-5 pb-5 overflow-auto h-max-96 block text-white language-html' id='code1'>
 
                         &lt;div class=&quot;flex justify-between&quot;&gt;<br />
                         &lt;div class=&quot;grid bg-white rounded-lg py-1 w-max my-10 px-2 shadow-lg&quot;&gt;<br />

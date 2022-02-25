@@ -3,23 +3,23 @@ import Drawer from "../../components/layouts/Drawer";
 import Footer from "../../components/layouts/Footerdoc";
 import Stamps from "../../components/layouts/Stamps";
 import Nav from "../../components/layouts/nav";
-import Content from "../../components/content/documentation/theme_guide";
+import Content from "../../components/content/blocks/coming";
 
 
 
-export default function ThemeGuide() {
+export default function Portfolios() {
     return (
         <div className="w-full overflow-x-hidden bg-skin-base ">
             <Head>
                 {/* <title>{posts.frontmatter.title}</title> */}
-                <meta name="description" content="Tailui a free and open source components library for Tailwind css." />
+                <meta name="description" content="TailUI a free and open source components library for Tailwind css." />
                 <link rel="icon" href="/assets/favicon.ico" />
                 
             </Head>
             <Nav />
             <div className='xl:w-[1480px] h-full flex pt-16 m-auto'>
                 <div className="w-1/3 lg:w-[300px] hidden xl:w-[300px] lg:block h-full border-r-[1px] border-gray-400 pl-5 pr-3 pt-10 overflow-scroll fixed z-10">
-                    <Drawer data={2}/>
+                    <Drawer data={13}/>
                 </div>
                 <div className='w-full xl:w-7/12 h-auto lg:ml-[300px] xl:ml-[300px]'>
 
@@ -27,11 +27,8 @@ export default function ThemeGuide() {
 
                 </div>
                 <div className="h-full w-[350px] hidden xl:block">
-                    <Stamps list={[
-                    {title:"Why theme is important", code:"Why-theme-is-important"},
-                    {title:"TailUI Theme", code:"TailUI-Theme"},
-                    {title:"How to set up TailUI theme.", code:"set-up"},
-                    {title:"For More", code:"For-More"},
+                    <Stamps  list={[
+                        {title:"", code:""},
                     ]}/>
 
                 </div>

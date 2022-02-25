@@ -552,8 +552,12 @@ Ensure the default browser behavior of the `hidden` attribute.
   position: relative;
 }
 
-.bottom-16 {
-  bottom: 4rem;
+.bottom-10 {
+  bottom: 2.5rem;
+}
+
+.left-4 {
+  left: 1rem;
 }
 
 .left-20 {
@@ -562,6 +566,10 @@ Ensure the default browser behavior of the `hidden` attribute.
 
 .top-1 {
   top: 0.25rem;
+}
+
+.bottom-16 {
+  bottom: 4rem;
 }
 
 .top-3 {
@@ -610,10 +618,6 @@ Ensure the default browser behavior of the `hidden` attribute.
 
 .bottom-1 {
   bottom: 0.25rem;
-}
-
-.left-4 {
-  left: 1rem;
 }
 
 .bottom-12 {
@@ -1087,10 +1091,6 @@ Ensure the default browser behavior of the `hidden` attribute.
   scroll-behavior: smooth;
 }
 
-.whitespace-pre-line {
-  white-space: pre-line;
-}
-
 .rounded-lg {
   border-radius: 0.5rem;
 }
@@ -1117,6 +1117,16 @@ Ensure the default browser behavior of the `hidden` attribute.
 
 .rounded-md {
   border-radius: 0.375rem;
+}
+
+.rounded-t-lg {
+  border-top-left-radius: 0.5rem;
+  border-top-right-radius: 0.5rem;
+}
+
+.rounded-b-lg {
+  border-bottom-right-radius: 0.5rem;
+  border-bottom-left-radius: 0.5rem;
 }
 
 .rounded-l-full {
@@ -1408,6 +1418,10 @@ Ensure the default browser behavior of the `hidden` attribute.
   padding: 2.5rem;
 }
 
+.p-4 {
+  padding: 1rem;
+}
+
 .py-3 {
   padding-top: 0.75rem;
   padding-bottom: 0.75rem;
@@ -1418,9 +1432,9 @@ Ensure the default browser behavior of the `hidden` attribute.
   padding-right: 1.25rem;
 }
 
-.px-10 {
-  padding-left: 2.5rem;
-  padding-right: 2.5rem;
+.px-4 {
+  padding-left: 1rem;
+  padding-right: 1rem;
 }
 
 .py-10 {
@@ -1463,6 +1477,11 @@ Ensure the default browser behavior of the `hidden` attribute.
   padding-bottom: 0.5rem;
 }
 
+.px-10 {
+  padding-left: 2.5rem;
+  padding-right: 2.5rem;
+}
+
 .px-1 {
   padding-left: 0.25rem;
   padding-right: 0.25rem;
@@ -1483,13 +1502,8 @@ Ensure the default browser behavior of the `hidden` attribute.
   padding-right: 3rem;
 }
 
-.px-4 {
-  padding-left: 1rem;
-  padding-right: 1rem;
-}
-
-.pt-44 {
-  padding-top: 11rem;
+.pt-60 {
+  padding-top: 15rem;
 }
 
 .pt-20 {
@@ -1524,8 +1538,8 @@ Ensure the default browser behavior of the `hidden` attribute.
   padding-top: 7rem;
 }
 
-.pt-60 {
-  padding-top: 15rem;
+.pt-44 {
+  padding-top: 11rem;
 }
 
 .pt-5 {
@@ -1546,10 +1560,6 @@ Ensure the default browser behavior of the `hidden` attribute.
 
 .pt-8 {
   padding-top: 2rem;
-}
-
-.pb-40 {
-  padding-bottom: 10rem;
 }
 
 .pr-10 {
@@ -1935,9 +1945,18 @@ html {
     grid-template-columns: repeat(4, minmax(0, 1fr));
   }
 
+  .sm\:p-10 {
+    padding: 2.5rem;
+  }
+
   .sm\:px-20 {
     padding-left: 5rem;
     padding-right: 5rem;
+  }
+
+  .sm\:px-10 {
+    padding-left: 2.5rem;
+    padding-right: 2.5rem;
   }
 
   .sm\:px-32 {
@@ -2037,6 +2056,10 @@ html {
 
   .md\:grid-cols-2 {
     grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  .md\:rounded-lg {
+    border-radius: 0.5rem;
   }
 
   .md\:rounded-tr-\[100px\] {

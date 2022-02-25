@@ -39,7 +39,7 @@ export default function Nav() {
       <meta name="description" content="TailUI a free and open source components library for Tailwind css." />
       <link rel="icon" href="/assets/favicon.ico" />
 
-    </Head><div className="py-3 px-10 lg:px-20 w-screen flex justify-between fixed max-h-20  z-20 bg-white/5 backdrop-blur-md">
+    </Head><div className="py-3 px-5 lg:px-20 w-screen flex justify-between fixed max-h-20  z-20 bg-white/5 backdrop-blur-md">
         <div className='flex text-skin-dark'>
           <button className="py-1 px-2  hover:relative hover:text-cl-violet hover:font-medium hover:bottom-1 block lg:hidden" onClick={showMenu}>
             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" width="30" height="30" fill='currentColor'><path d="M16 132h416c8.837 0 16-7.163 16-16V76c0-8.837-7.163-16-16-16H16C7.163 60 0 67.163 0 76v40c0 8.837 7.163 16 16 16zm0 160h416c8.837 0 16-7.163 16-16v-40c0-8.837-7.163-16-16-16H16c-8.837 0-16 7.163-16 16v40c0 8.837 7.163 16 16 16zm0 160h416c8.837 0 16-7.163 16-16v-40c0-8.837-7.163-16-16-16H16c-8.837 0-16 7.163-16 16v40c0 8.837 7.163 16 16 16z" /></svg>
@@ -69,7 +69,7 @@ export default function Nav() {
           <Link href={'/components/buttons'} passHref><a>
             <button className="py-1 px-6 top-1 relative hover:text-cl-violet hover:font-medium hover:top-0 hidden lg:block">Components</button>
             </a></Link>
-          <button onClick={theme} className="py-1 px-2 w-16  relative hover:text-cl-violet top-1 hover:font-medium hover:top-0">
+          <button onClick={theme} className="py-1 px-2 w-16 overflow-hidden relative hover:text-cl-violet top-1 hover:font-medium hover:top-0">
             {
               (darktheme === "true")?
               SVG.light_btn:
@@ -99,7 +99,7 @@ export default function Nav() {
             </div>
             <div className='ml-20 font-Rubik'>
               <ul className='list-disc text-xl font-Rubik text-skin-light'>
-                <li className='my-3'><Link href={'/'} passHref>Home</Link></li>
+                <li className='my-3'><Link href={'https://blog.tailui.xyz'} passHref><a target={"_blank"}>Blog</a></Link></li>
                 <li className='my-3'><Link href={'/'} passHref>Documentations</Link></li>
                 <li className='my-3'><Link href={'/components/buttons'} passHref>Components</Link></li>
               </ul>

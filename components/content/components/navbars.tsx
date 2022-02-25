@@ -58,7 +58,7 @@ export default function Navbars() {
         }
     }
     return (
-        <div className="p-10 pb-40 font-Rubik">
+        <div className="p-4 sm:p-10 font-Rubik">
             <h1 className='text-4xl font-bold text-skin-dark'>Navbars</h1>
             <p className='my-4 text-skin-light'>Navbars are the top of the container which have links and icons, and is used to perform some activies easily.</p>
 
