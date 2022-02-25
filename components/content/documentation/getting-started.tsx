@@ -29,15 +29,26 @@ export default function GettingStarted() {
 
             <p className="my-4 text-skin-light">Note:- Please do not use this for your production app.</p>
 
-            <p className="my-4 text-skin-light"><span className="font-size:36px"><strong>[cdn code]</strong></span></p>
+            <div className='w-full bg-cl-blue-dark rounded-xl pb-5'>
+                <p className="text-cl-secondary py-3 ml-10">// tailwind cdn</p>
+                    <pre className='px-5 block overflow-auto whitespace-pr'><code className='px-5 overflow-auto h-max-96 block text-white language-html' id='code1'>
+
+                    &lt;script src=&quot;https://cdn.tailwindcss.com&quot;&gt;&lt;/script&gt;
+
+                    </code>
+                    </pre>
+                </div>
+
 
             <p className="my-4 text-skin-light">Place this cdn code to your header</p>
 
             <h2 className="text-2xl font-medium text-skin-dark my-5" id="Watch-this-video">Watch this video</h2>
 
             <p className="my-4 text-skin-light">If you find any problem reading Tailwind Documentations or just do not want, then you can watch this video.</p>
+            <div className="aspect-w-16 aspect-h-9">
+            <iframe src="https://www.youtube.com/embed/L2KHCWJ3gjs" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>    
+            </div>
 
-            <p className="my-4 text-skin-light"><span className="font-size:36px"><strong>[talwind video]</strong></span></p>
 
             <h2 className="text-2xl font-medium text-skin-dark my-5" id="Use-TailUI-Components">Use TailUI Components</h2>
 
@@ -52,13 +63,25 @@ export default function GettingStarted() {
             <p className="my-4 text-skin-light"><span className="font-size:36px"><strong>[Component image]</strong></span><br />
             First sep is select the component or block you want from 50+ options.</p>
 
-            <p className="my-4 text-skin-light"><span className="font-size:36px"><strong>[Code image]</strong></span></p>
+            <div className="aspect-w-16 aspect-h-9 border-2 border-gray-400">
+                <img src="/assets/posts/copy_code_tailui.png" alt="Code copy image" />
+            </div>
 
             <p className="my-4 text-skin-light">Now copy the code available below the component.</p>
+            <br/>
+            <br/>
 
-            <p className="my-4 text-skin-light"><span className="font-size:36px"><strong>[Code image]</strong></span></p>
+            <div className="aspect-w-16 aspect-h-9 border-2 border-gray-400">
+                <img src="/assets/posts/code_editor.png" alt="Code copy image" />
+            </div>
 
             <p className="my-4 text-skin-light">paste it to wherever you want it in your project.</p>
+            <br/>
+            <br/>
+
+            <div className="aspect-w-16 aspect-h-9 border-2 border-gray-400">
+                <img src="/assets/posts/component_preview.png" alt="Code copy image" />
+            </div>
 
             <p className="my-4 text-skin-light">HOORAY! You are now officially a TailUI user.</p>
 

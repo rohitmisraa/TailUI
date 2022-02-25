@@ -135,11 +135,11 @@ export default function Cards() {
 
             <div className=' w-full bg-cl-blue-dark rounded-xl my-3'>
                 <div className='h-12 flex justify-between pt-3'>
-                    <button className='relative bottom-1 left-4 text-white' onClick={codeshow1}>
-                        {code1 ? SVG.down : SVG.arrow_right}
+                    <button className='relative bottom-1 left-4 text-white' onClick={codeshow2}>
+                        {code2 ? SVG.down : SVG.arrow_right}
                     </button>
                 </div>
-                <div style={{ height: code1 ? '400px' : '0', display: code1 ? 'block' : 'none' }} className='w-full bg-cl-blue-dark rounded-xl'>
+                <div style={{ height: code2 ? '400px' : '0', display: code2 ? 'block' : 'none' }} className='w-full bg-cl-blue-dark rounded-xl'>
                     <pre className='px-5 block overflow-auto whitespace-pr'><code className='px-5 overflow-auto h-96 block text-white language-html' id='code1'>
 
                         &lt;div class=&quot; p-2 pb-5 bg-white w-80 rounded-xl&quot;&gt;<br />
@@ -178,11 +178,11 @@ export default function Cards() {
 
             <div className=' w-full bg-cl-blue-dark rounded-xl my-3'>
                 <div className='h-12 flex justify-between pt-3'>
-                    <button className='relative bottom-1 left-4 text-white' onClick={codeshow1}>
-                        {code1 ? SVG.down : SVG.arrow_right}
+                    <button className='relative bottom-1 left-4 text-white' onClick={codeshow3}>
+                        {code3 ? SVG.down : SVG.arrow_right}
                     </button>
                 </div>
-                <div style={{ height: code1 ? '400px' : '0', display: code1 ? 'block' : 'none' }} className='w-full bg-cl-blue-dark rounded-xl'>
+                <div style={{ height: code3 ? '400px' : '0', display: code3 ? 'block' : 'none' }} className='w-full bg-cl-blue-dark rounded-xl'>
                     <pre className='px-5 block overflow-auto whitespace-pr'><code className='px-5 overflow-auto h-96 block text-white language-html' id='code1'>
 
                         &lt;div class=&quot; p-5 pb-5 bg-white w-96 rounded-xl&quot; id=&quot;text-with-button&quot;&gt;<br />
@@ -230,11 +230,11 @@ export default function Cards() {
 
             <div className=' w-full bg-cl-blue-dark rounded-xl my-3'>
                 <div className='h-12 flex justify-between pt-3'>
-                    <button className='relative bottom-1 left-4 text-white' onClick={codeshow1}>
-                        {code1 ? SVG.down : SVG.arrow_right}
+                    <button className='relative bottom-1 left-4 text-white' onClick={codeshow4}>
+                        {code4 ? SVG.down : SVG.arrow_right}
                     </button>
                 </div>
-                <div style={{ height: code1 ? '400px' : '0', display: code1 ? 'block' : 'none' }} className='w-full bg-cl-blue-dark rounded-xl'>
+                <div style={{ height: code4 ? '400px' : '0', display: code4 ? 'block' : 'none' }} className='w-full bg-cl-blue-dark rounded-xl'>
                     <pre className='px-5 block overflow-auto whitespace-pr'><code className='px-5 overflow-auto h-96 block text-white language-html' id='code1'>
 
                         &lt;div class=&quot; bg-white w-60 pb-5 rounded-xl overflow-hidden&quot; id=&quot;social-media-card&quot;&gt;<br />
@@ -306,11 +306,11 @@ export default function Cards() {
 
             <div className=' w-full bg-cl-blue-dark rounded-xl my-3' id="project-card">
                 <div className='h-12 flex justify-between pt-3'>
-                    <button className='relative bottom-1 left-4 text-white' onClick={codeshow1}>
-                        {code1 ? SVG.down : SVG.arrow_right}
+                    <button className='relative bottom-1 left-4 text-white' onClick={codeshow5}>
+                        {code5 ? SVG.down : SVG.arrow_right}
                     </button>
                 </div>
-                <div style={{ height: code1 ? '400px' : '0', display: code1 ? 'block' : 'none' }} className='w-full bg-cl-blue-dark rounded-xl'>
+                <div style={{ height: code5 ? '400px' : '0', display: code5 ? 'block' : 'none' }} className='w-full bg-cl-blue-dark rounded-xl'>
                     <pre className='px-5 block overflow-auto whitespace-pr'><code className='px-5 overflow-auto h-96 block text-white language-html' id='code1'>
 
                         &lt;div class=&quot; p-10 bg-white w-96 rounded-xl&quot; id=&quot;payment-card&quot;&gt;<br />
@@ -400,11 +400,11 @@ export default function Cards() {
             </div>
             <div className=' w-full bg-cl-blue-dark rounded-xl my-3' id="">
                 <div className='h-12 flex justify-between pt-3'>
-                    <button className='relative bottom-1 left-4 text-white' onClick={codeshow1}>
-                        {code1 ? SVG.down : SVG.arrow_right}
+                    <button className='relative bottom-1 left-4 text-white' onClick={codeshow6}>
+                        {code6 ? SVG.down : SVG.arrow_right}
                     </button>
                 </div>
-                <div style={{ height: code1 ? '400px' : '0', display: code1 ? 'block' : 'none' }} className='w-full bg-cl-blue-dark rounded-xl'>
+                <div style={{ height: code6 ? '400px' : '0', display: code6 ? 'block' : 'none' }} className='w-full bg-cl-blue-dark rounded-xl'>
                     <pre className='px-5 block overflow-auto whitespace-pr'><code className='px-5 overflow-auto h-96 block text-white language-html' id='code1'>
 
                         &lt;div class=&quot;w-full overflow-auto py-10&quot;&gt;<br />
