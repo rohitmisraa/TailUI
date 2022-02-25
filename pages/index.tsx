@@ -139,17 +139,17 @@ export default function Home() {
             <pre className='px-5 block overflow-auto whitespace-pr '><code className='px-5 overflow-auto h-96 block text-white language-html p-5' id='code1'>
 
               &lt;div className=&quot;h-96 w-full md:w-6/12 xl:w-[650px] sm:mx-4 xl:mx-10 rounded-lg shadow-md bg-cl-blue-dark flex justify-center&quot;&gt;<br />
-              &lt;div className="grid bg-cl-blue rounded-lg py-1 w-max my-10 h-max"&gt;<br />
-              &lt;button className="py-5 px-20 text-white rounded-lg  hover:bg-blue-700"&gt;<br />
+              &lt;div className=`&quot;grid bg-cl-blue rounded-lg py-1 w-max my-10 h-max`&quot;&gt;<br />
+              &lt;button className=`&quot;py-5 px-20 text-white rounded-lg  hover:bg-blue-700`&quot;&gt;<br />
               Server 1&lt;/button&gt;<br />
               &lt;div className=&quot;h-1 w-full bg-cl-blue-dark&quot;&gt;<br />&lt;/div&gt;<br />
-              &lt;button className="py-5 px-20 text-white rounded-lg  hover:bg-blue-700"&gt;<br />
+              &lt;button className=`&quot;py-5 px-20 text-white rounded-lg  hover:bg-blue-700`&quot;&gt;<br />
               Server 2&lt;/button&gt;<br />
               &lt;div className=&quot;h-1 w-full bg-cl-blue-dark&quot;&gt;<br />&lt;/div&gt;<br />
-              &lt;button className="py-5 px-20 text-white rounded-lg  hover:bg-blue-700"&gt;<br />
+              &lt;button className=`&quot;py-5 px-20 text-white rounded-lg  hover:bg-blue-700`&quot;&gt;<br />
               Server 3&lt;/button&gt;<br />
               &lt;div className=&quot;h-1 w-full bg-cl-blue-dark&quot;&gt;<br />&lt;/div&gt;<br />
-              &lt;button className="py-5 px-20 text-white rounded-lg  hover:bg-blue-700"&gt;<br />
+              &lt;button className=`&quot;py-5 px-20 text-white rounded-lg  hover:bg-blue-700`&quot;&gt;<br />
               Server 4&lt;/button&gt;<br />
               &lt;/div&gt;<br />
               &lt;/div&gt;<br />
