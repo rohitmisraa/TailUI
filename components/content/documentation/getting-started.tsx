@@ -30,7 +30,7 @@ export default function GettingStarted() {
             <p className="my-4 text-skin-light">Note:- Please do not use this for your production app.</p>
 
             <div className='w-full bg-cl-blue-dark rounded-xl pb-5'>
-                <p className="text-cl-secondary py-3 ml-10">// tailwind cdn</p>
+                <p className="text-cl-secondary py-3 ml-10">&#47;&#47; tailwind cdn</p>
                     <pre className='px-5 block overflow-auto whitespace-pr'><code className='px-5 overflow-auto h-max-96 block text-white language-html' id='code1'>
 
                     &lt;script src=&quot;https://cdn.tailwindcss.com&quot;&gt;&lt;/script&gt;

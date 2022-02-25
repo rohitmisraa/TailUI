@@ -26,79 +26,79 @@ export default function Themeguide() {
 
 
             <div className='w-full bg-cl-blue-dark rounded-xl pb-5'>
-                <p className="text-cl-secondary py-3 ml-10">// tailwind.config.js</p>
+                <p className="text-cl-secondary py-3 ml-10">&#47;&#47; tailwind.config.js</p>
                     <pre className='px-5 block overflow-auto whitespace-pr'><code className='px-5 overflow-auto h-max-96 block text-white language-html' id='code1'>
 
                     
                         module.exports = &#123;<br/>
-                            content: ['*'],<br/>
+                            content: [&apos;*&apos;],<br/>
                             theme: &#123;<br/>
                             extend: &#123;<br/>
                                 textColor: &#123;<br/>
                                     skin: &#123;<br/>
-                                    light: 'var(--color-text-light)',<br/>
-                                    dark: 'var(--color-text-dark)',<br/>
-                                    auto: 'var(--color-social)',<br/>
+                                    light: &apos;var(--color-text-light)&apos;,<br/>
+                                    dark: &apos;var(--color-text-dark)&apos;,<br/>
+                                    auto: &apos;var(--color-social)&apos;,<br/>
                                     &#125;,<br/>
                                 &#125;,<br/>
                                 backgroundColor: &#123;<br/>
                                     skin: &#123;<br/>
-                                    fill: 'var(--fill-dark)',<br/>
-                                    base: 'var(--color-background)'<br/>
+                                    fill: &apos;var(--fill-dark)&apos;,<br/>
+                                    base: &apos;var(--color-background)&apos;<br/>
                                     &#125;<br/>
                                 &#125;,<br/>
                                 fontFamily: &#123;<br/>
-                                'Rubik': ['Rubik', 'sans-serif'],<br/>
+                                &apos;Rubik&apos;: [&apos;Rubik&apos;, &apos;sans-serif&apos;],<br/>
                                 &#125;,<br/>
                                 colors: &#123;<br/>
-                                'cl-black-carbon': '#16192C',<br/>
-                                'cl-grey-light': '#D0CECE',<br/>
-                                'cl-grey-dark': '#5E5E5E',<br/>
-                                'cl-blue': '#3B82F6',<br/>
-                                'cl-secondary': '#D3DEF0',<br/>
-                                'cl-red': '#EF233C',<br/>
-                                'cl-blue-dark': '#061C3F',<br/>
-                                'cl-green': '#25A244',<br/>
-                                'cl-pink': '#F72585',<br/>
-                                'cl-yellow': '#FFAA00',<br/>
-                                'cl-cyan': '#00B4D8',<br/>
-                                'cl-orange': '#FF4800',<br/>
-                                'cl-violet': '#7209B7',<br/>
+                                &apos;cl-black-carbon&apos;: &apos;#16192C&apos;,<br/>
+                                &apos;cl-grey-light&apos;: &apos;#D0CECE&apos;,<br/>
+                                &apos;cl-grey-dark&apos;: &apos;#5E5E5E&apos;,<br/>
+                                &apos;cl-blue&apos;: &apos;#3B82F6&apos;,<br/>
+                                &apos;cl-secondary&apos;: &apos;#D3DEF0&apos;,<br/>
+                                &apos;cl-red&apos;: &apos;#EF233C&apos;,<br/>
+                                &apos;cl-blue-dark&apos;: &apos;#061C3F&apos;,<br/>
+                                &apos;cl-green&apos;: &apos;#25A244&apos;,<br/>
+                                &apos;cl-pink&apos;: &apos;#F72585&apos;,<br/>
+                                &apos;cl-yellow&apos;: &apos;#FFAA00&apos;,<br/>
+                                &apos;cl-cyan&apos;: &apos;#00B4D8&apos;,<br/>
+                                &apos;cl-orange&apos;: &apos;#FF4800&apos;,<br/>
+                                &apos;cl-violet&apos;: &apos;#7209B7&apos;,<br/>
                                 <br/>
-                                // gradients<br/>
+                                &#47;&#47; gradients<br/>
                                 <br/>
-                                'gr_blue': &#123;<br/>
-                                    1 : "rgba(59,130,246,1)",<br/>
-                                    2 : "rgba(81,196,233,1)"<br/>
+                                &apos;gr_blue&apos;: &#123;<br/>
+                                    1 : &quot;rgba(59,130,246,1)&quot;,<br/>
+                                    2 : &quot;rgba(81,196,233,1)&quot;<br/>
                                 &#125;,<br/>
                                 <br/>
-                                'gr_red': &#123;<br/>
-                                    1 : "rgba(239,35,60,1)",<br/>
-                                    2 : "rgba(239,84,35,1)"<br/>
+                                &apos;gr_red&apos;: &#123;<br/>
+                                    1 : &quot;rgba(239,35,60,1)&quot;,<br/>
+                                    2 : &quot;rgba(239,84,35,1)&quot;<br/>
                                 &#125;,<br/>
-                                'gr_pink': &#123;<br/>
-                                    1 : "rgba(251,10,40,1)",<br/>
-                                    2 : "rgba(249,39,203,1)"<br/>
+                                &apos;gr_pink&apos;: &#123;<br/>
+                                    1 : &quot;rgba(251,10,40,1)&quot;,<br/>
+                                    2 : &quot;rgba(249,39,203,1)&quot;<br/>
                                 &#125;,<br/>
-                                'gr_cyan': &#123;<br/>
-                                    1 : "rgba(0,180,216,1)",<br/>
-                                    2 : "rgba(61,242,231,1)"<br/>
+                                &apos;gr_cyan&apos;: &#123;<br/>
+                                    1 : &quot;rgba(0,180,216,1)&quot;,<br/>
+                                    2 : &quot;rgba(61,242,231,1)&quot;<br/>
                                 &#125;,<br/>
-                                'gr_orange': &#123;<br/>
-                                    1 : "rgba(255,72,0,1)",<br/>
-                                    2 : "rgba(255,187,13,1)"<br/>
+                                &apos;gr_orange&apos;: &#123;<br/>
+                                    1 : &quot;rgba(255,72,0,1)&quot;,<br/>
+                                    2 : &quot;rgba(255,187,13,1)&quot;<br/>
                                 &#125;,<br/>
-                                'gr_yellow': &#123;<br/>
-                                    1 : "rgba(255,170,0,1)",<br/>
-                                    2 : "rgba(240,210,54,1)"<br/>
+                                &apos;gr_yellow&apos;: &#123;<br/>
+                                    1 : &quot;rgba(255,170,0,1)&quot;,<br/>
+                                    2 : &quot;rgba(240,210,54,1)&quot;<br/>
                                 &#125;,<br/>
-                                'gr_green': &#123;<br/>
-                                    1 s "rgba(37,162,68,1)",<br/>
-                                    2 : "rgba(91,223,45,1)"<br/>
+                                &apos;gr_green&apos;: &#123;<br/>
+                                    1 s &quot;rgba(37,162,68,1)&quot;,<br/>
+                                    2 : &quot;rgba(91,223,45,1)&quot;<br/>
                                 &#125;,<br/>
-                                'gr_violet': &#123;<br/>
-                                    1 : "rgba(114,9,183,1)",<br/>
-                                    2 : "rgba(180,9,183,1)"<br/>
+                                &apos;gr_violet&apos;: &#123;<br/>
+                                    1 : &quot;rgba(114,9,183,1)&quot;,<br/>
+                                    2 : &quot;rgba(180,9,183,1)&quot;<br/>
                                 &#125;,<br/>
                                 &#125;,<br/>
                             &#125;,<br/>
@@ -116,7 +116,7 @@ export default function Themeguide() {
 
             <h2 className="text-2xl font-medium text-skin-dark my-5">Use our custom color as background</h2><br />
             <div className='w-full bg-cl-blue-dark rounded-xl pb-5'>
-                <p className="text-cl-secondary py-3 ml-10">// Background color example</p>
+                <p className="text-cl-secondary py-3 ml-10">&#47;&#47; Background color example</p>
                     <pre className='px-5 block overflow-auto whitespace-pr'><code className='px-5 overflow-auto h-max-96 text-white language-html flex' id='code1'>
 
                         &lt;button className=&quot;<div className="w-3 h-3 bg-cl-red relative top-1"></div>bg-cl-red&quot;&gt;Contact me&lt;/button&gt;
@@ -130,7 +130,7 @@ export default function Themeguide() {
             <p className="my-4 text-skin-light">Use our custom color as text color:-</p>
 
             <div className='w-full bg-cl-blue-dark rounded-xl pb-5'>
-                <p className="text-cl-secondary py-3 ml-10">// Text color example</p>
+                <p className="text-cl-secondary py-3 ml-10">&#47;&#47; Text color example</p>
                     <pre className='px-5 block overflow-auto whitespace-pr'><code className='px-5 overflow-auto h-max-96 text-white language-html flex' id='code1'>
 
                         &lt;p className=&quot;<div className="w-3 h-3 bg-cl-green relative top-1"></div><span className="text-cl-pink">text-cl-green</span>&quot;&gt;Contact me&lt;/p&gt;
@@ -148,7 +148,7 @@ export default function Themeguide() {
             <p className="my-4 text-skin-light">Add this code to your main.css file</p>
 
             <div className='w-full bg-cl-blue-dark rounded-xl pb-5'>
-                <p className="text-cl-secondary py-3 ml-10">// main.css</p>
+                <p className="text-cl-secondary py-3 ml-10">&#47;&#47; main.css</p>
                     <pre className='px-5 block overflow-auto whitespace-pr'><code className='px-5 overflow-auto h-max-96 block text-white language-html' id='code1'>
 
                         @tailwind base;<br/>
