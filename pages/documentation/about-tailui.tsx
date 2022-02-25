@@ -19,7 +19,7 @@ export default function Abouttailui() {
             <Nav />
             <div className='xl:w-[1480px] h-full flex pt-16 m-auto'>
                 <div className="w-1/3 lg:w-[300px] hidden xl:w-[300px] lg:block h-full border-r-[1px] border-gray-400 pl-5 pr-3 pt-10 overflow-scroll fixed z-10">
-                    <Drawer />
+                    <Drawer data={3}/>
                 </div>
                 <div className='w-full xl:w-7/12 h-auto lg:ml-[300px] xl:ml-[300px]'>
 

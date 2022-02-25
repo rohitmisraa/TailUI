@@ -1,5 +1,5 @@
 import Link from 'next/link'
-import Nav from "../../components/layouts/nav";
+import Nav from "../../../components/layouts/nav";
 
 
 export default function HeroSimple() {

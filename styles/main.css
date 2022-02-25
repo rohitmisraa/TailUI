@@ -5,11 +5,12 @@
 
 @layer base{
     :root {
-        --color-background: #ffffff;
+        --color-background: #ede8ea;
         --color-text-light: #5E5E5E;
         --color-text-dark: #16192C;
         --color-text-red: #EF233C;
         --fill-dark: #16192C;
+        --color-social: #ebebeb;
     }
     .theme-dark {
         --color-background: #16192C;
@@ -17,6 +18,7 @@
         --color-text-dark: #ffffff;
         --color-text-red: #EF233C;
         --fill-dark: #ffffff;
+        --color-social: #000000;
     }
 }
 

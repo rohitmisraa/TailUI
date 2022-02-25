@@ -1,10 +1,4 @@
-import Head from "next/head";
-import Drawer from "../../components/layouts/Drawer";
 import Link from "next/link";
-import Stamps from "../../components/layouts/Stamps";
-import Nav from "../../components/layouts/nav";
-import Content from "../../components/content/blocks/block";
-
 
 
 export default function Portfolio() {

@@ -119,18 +119,18 @@ export default function Buttons() {
                 </div>
                 <div style={{ height: code1 ? '400px' : '0', display: code1 ? 'block' : 'none' }} className='w-full bg-cl-blue-dark rounded-xl'>
                     <pre className='px-5 block overflow-auto whitespace-pr'><code className='px-5 overflow-auto h-96 block text-white language-html' id='code1'>
-                        &lt;button className=&quot;py-1 px-6 bg-cl-blue text-white text-base rounded-lg&quot;&gt;Default&lt;/button&gt;<br />
-                        &lt;button className=&quot;py-1 px-6 bg-cl-secondary text-cl-blue-dark text-base rounded-lg&quot;&gt;Default&lt;/button&gt;<br />
-                        &lt;button className=&quot;py-1 px-6 bg-cl-red text-white text-base rounded-lg&quot;&gt;Red&lt;/button&gt;<br />
-                        &lt;button className=&quot;py-1 px-6 bg-cl-pink text-white text-base rounded-lg&quot;&gt;Pink&lt;/button&gt;<br />
-                        &lt;button className=&quot;py-1 px-6 bg-cl-orange text-white text-base rounded-lg&quot;&gt;Orange&lt;/button&gt;<br />
-                        &lt;button className=&quot;py-1 px-6 bg-cl-red text-white text-base rounded-lg&quot;&gt;Red&lt;/button&gt;<br />
-                        &lt;button className=&quot;py-1 px-6 bg-cl-pink text-white text-base rounded-lg&quot;&gt;Pink&lt;/button&gt;<br />
-                        &lt;button className=&quot;py-1 px-6 bg-cl-orange text-white text-base rounded-lg&quot;&gt;Orange&lt;/button&gt;<br />
-                        &lt;button className=&quot;py-1 px-6 bg-cl-red text-white text-base rounded-lg&quot;&gt;Red&lt;/button&gt;<br />
-                        &lt;button className=&quot;py-1 px-6 bg-cl-pink text-white text-base rounded-lg&quot;&gt;Pink&lt;/button&gt;<br />
-                        &lt;button className=&quot;py-1 px-6 bg-cl-orange text-white text-base rounded-lg&quot;&gt;Orange&lt;/button&gt;<br />
-                        &lt;button className=&quot;py-1 px-6 bg-cl-yellow text-white text-base rounded-lg&quot;&gt;Yellow&lt;/button&gt;<br />
+                        &lt;button class=&quot;py-1 px-6 bg-cl-blue text-white text-base rounded-lg&quot;&gt;Default&lt;/button&gt;<br />
+                        &lt;button class=&quot;py-1 px-6 bg-cl-secondary text-cl-blue-dark text-base rounded-lg&quot;&gt;Default&lt;/button&gt;<br />
+                        &lt;button class=&quot;py-1 px-6 bg-cl-red text-white text-base rounded-lg&quot;&gt;Red&lt;/button&gt;<br />
+                        &lt;button class=&quot;py-1 px-6 bg-cl-pink text-white text-base rounded-lg&quot;&gt;Pink&lt;/button&gt;<br />
+                        &lt;button class=&quot;py-1 px-6 bg-cl-orange text-white text-base rounded-lg&quot;&gt;Orange&lt;/button&gt;<br />
+                        &lt;button class=&quot;py-1 px-6 bg-cl-red text-white text-base rounded-lg&quot;&gt;Red&lt;/button&gt;<br />
+                        &lt;button class=&quot;py-1 px-6 bg-cl-pink text-white text-base rounded-lg&quot;&gt;Pink&lt;/button&gt;<br />
+                        &lt;button class=&quot;py-1 px-6 bg-cl-orange text-white text-base rounded-lg&quot;&gt;Orange&lt;/button&gt;<br />
+                        &lt;button class=&quot;py-1 px-6 bg-cl-red text-white text-base rounded-lg&quot;&gt;Red&lt;/button&gt;<br />
+                        &lt;button class=&quot;py-1 px-6 bg-cl-pink text-white text-base rounded-lg&quot;&gt;Pink&lt;/button&gt;<br />
+                        &lt;button class=&quot;py-1 px-6 bg-cl-orange text-white text-base rounded-lg&quot;&gt;Orange&lt;/button&gt;<br />
+                        &lt;button class=&quot;py-1 px-6 bg-cl-yellow text-white text-base rounded-lg&quot;&gt;Yellow&lt;/button&gt;<br />
                     </code>
                     </pre>
                 </div>
@@ -155,12 +155,12 @@ export default function Buttons() {
                 </div>
                 <div style={{ height: code2 ? '400px' : '0', display: code2 ? 'block' : 'none' }} className='w-full bg-cl-blue-dark rounded-xl'>
                     <pre className='px-5 block overflow-auto whitespace-pre-line'><code className='px-5 overflow-auto h-96 block text-white language-html' id='code1'>
-                        &lt;button className=&quot;py-1 px-6 bg-cl-blue text-white text-base rounded-full&quot;&gt;Default&lt;/button&gt;<br />
-                        &lt;button className=&quot;py-1 px-6 bg-cl-secondary text-cl-blue-dark text-base rounded-full&quot;&gt;Secondary&lt;/button&gt;<br />
-                        &lt;button className=&quot;py-1 px-6 bg-cl-red text-white text-base rounded-full&quot;&gt;Red&lt;/button&gt;<br />
-                        &lt;button className=&quot;py-1 px-6 bg-cl-orange text-white text-base rounded-full&quot;&gt;Orange&lt;/button&gt;<br />
-                        &lt;button className=&quot;py-1 px-6 bg-cl-green text-white text-base rounded-full&quot;&gt;Green&lt;/button&gt;<br />
-                        &lt;button className=&quot;py-1 px-6 bg-cl-violet text-white text-base rounded-full&quot;&gt;Purple&lt;/button&gt;<br />
+                        &lt;button class=&quot;py-1 px-6 bg-cl-blue text-white text-base rounded-full&quot;&gt;Default&lt;/button&gt;<br />
+                        &lt;button class=&quot;py-1 px-6 bg-cl-secondary text-cl-blue-dark text-base rounded-full&quot;&gt;Secondary&lt;/button&gt;<br />
+                        &lt;button class=&quot;py-1 px-6 bg-cl-red text-white text-base rounded-full&quot;&gt;Red&lt;/button&gt;<br />
+                        &lt;button class=&quot;py-1 px-6 bg-cl-orange text-white text-base rounded-full&quot;&gt;Orange&lt;/button&gt;<br />
+                        &lt;button class=&quot;py-1 px-6 bg-cl-green text-white text-base rounded-full&quot;&gt;Green&lt;/button&gt;<br />
+                        &lt;button class=&quot;py-1 px-6 bg-cl-violet text-white text-base rounded-full&quot;&gt;Purple&lt;/button&gt;<br />
                     </code>
                     </pre>
                 </div>
@@ -188,12 +188,12 @@ export default function Buttons() {
                 <div style={{ height: code3 ? '400px' : '0', display: code3 ? 'block' : 'none' }} className='w-full bg-cl-blue-dark rounded-xl'>
                     <pre className='px-5 block overflow-auto whitespace-pr'><code className='px-5 overflow-auto h-96 block text-white language-html' id='code1'>
                         
-                        &lt;button className=&quot;py-1 px-6 bg-cl-blue text-white text-base &quot;&gt;Default&lt;/button&gt;<br />
-                        &lt;button className=&quot;py-1 px-6 bg-cl-secondary text-cl-blue-dark text-base &quot;&gt;Secondary&lt;/button&gt;<br />
-                        &lt;button className=&quot;py-1 px-6 bg-cl-red text-white text-base &quot;&gt;Red&lt;/button&gt;<br />
-                        &lt;button className=&quot;py-1 px-6 bg-cl-orange text-white text-base rounded-full&quot;&gt;Orange&lt;/button&gt;<br />
-                        &lt;button className=&quot;py-1 px-6 bg-cl-green text-white text-base &quot;&gt;Green&lt;/button&gt;<br />
-                        &lt;button className=&quot;py-1 px-6 bg-cl-violet text-white text-base &quot;&gt;Purple&lt;/button&gt;<br />
+                        &lt;button class=&quot;py-1 px-6 bg-cl-blue text-white text-base &quot;&gt;Default&lt;/button&gt;<br />
+                        &lt;button class=&quot;py-1 px-6 bg-cl-secondary text-cl-blue-dark text-base &quot;&gt;Secondary&lt;/button&gt;<br />
+                        &lt;button class=&quot;py-1 px-6 bg-cl-red text-white text-base &quot;&gt;Red&lt;/button&gt;<br />
+                        &lt;button class=&quot;py-1 px-6 bg-cl-orange text-white text-base rounded-full&quot;&gt;Orange&lt;/button&gt;<br />
+                        &lt;button class=&quot;py-1 px-6 bg-cl-green text-white text-base &quot;&gt;Green&lt;/button&gt;<br />
+                        &lt;button class=&quot;py-1 px-6 bg-cl-violet text-white text-base &quot;&gt;Purple&lt;/button&gt;<br />
                         
                     </code>
                     </pre>
@@ -221,9 +221,9 @@ export default function Buttons() {
                 <div style={{ height: code4 ? '400px' : '0', display: code4 ? 'block' : 'none' }} className='w-full bg-cl-blue-dark rounded-xl'>
                     <pre className='px-5 block overflow-auto whitespace-pr'><code className='px-5 overflow-auto h-96 block text-white language-html' id='code1'>
                         
-                        &lt;button className=&quot;py-1 px-6 border-2 border-cl-blue text-cl-blue text-base rounded-lg&quot;&gt;Default&lt;/button&gt;<br />
-                        &lt;button className=&quot;py-1 px-6 border-2 border-cl-blue text-cl-blue text-base rounded-full&quot;&gt;Default&lt;/button&gt;<br />
-                        &lt;button className=&quot;py-1 px-6 border-2 border-cl-blue text-cl-blue text-base &quot;&gt;Default&lt;/button&gt;<br />
+                        &lt;button class=&quot;py-1 px-6 border-2 border-cl-blue text-cl-blue text-base rounded-lg&quot;&gt;Default&lt;/button&gt;<br />
+                        &lt;button class=&quot;py-1 px-6 border-2 border-cl-blue text-cl-blue text-base rounded-full&quot;&gt;Default&lt;/button&gt;<br />
+                        &lt;button class=&quot;py-1 px-6 border-2 border-cl-blue text-cl-blue text-base &quot;&gt;Default&lt;/button&gt;<br />
 
 
                     </code>
@@ -251,7 +251,7 @@ export default function Buttons() {
                 <div style={{ height: code5 ? '400px' : '0', display: code5 ? 'block' : 'none' }} className='w-full bg-cl-blue-dark rounded-xl'>
                     <pre className='px-5 block overflow-auto whitespace-pr'><code className='px-5 overflow-auto h-96 block text-white language-html' id='code1'>
 
-                        &lt;button className=&quot;py-1 px-6 text-blue rounded-lg&quot;&gt;Default&lt;/button&gt;
+                        &lt;button class=&quot;py-1 px-6 text-blue rounded-lg&quot;&gt;Default&lt;/button&gt;
 
                     </code>
                     </pre>
@@ -283,12 +283,12 @@ export default function Buttons() {
                 <div style={{ height: code6 ? '400px' : '0', display: code6 ? 'block' : 'none' }} className='w-full bg-cl-blue-dark rounded-xl'>
                     <pre className='px-5 block overflow-auto whitespace-pr'><code className='px-5 overflow-auto h-96 block text-white language-html' id='code1'>
 
-                        &lt;button className=&quot;py-1 px-6 bg-gradient-to-r from-gr_blue-1 to-gr_blue-2 text-white text-base rounded-lg&quot;&gt;Default&lt;/button&gt;<br />
-                        &lt;button className=&quot;py-1 px-6 bg-gradient-to-r from-gr_red-1 to-gr_red-2 text-white text-base rounded-lg&quot;&gt;Red&lt;/button&gt;<br />
-                        &lt;button className=&quot;py-1 px-6 bg-gradient-to-r from-gr_yellow-1 to-gr_yellow-2 text-white text-base rounded-lg&quot;&gt;Yellow&lt;/button&gt;<br />
-                        &lt;button className=&quot;py-1 px-6 bg-gradient-to-r from-gr_cyan-1 to-gr_cyan-2 text-white text-base rounded-lg&quot;&gt;Cyan&lt;/button&gt;<br />
-                        &lt;button className=&quot;py-1 px-6 bg-gradient-to-r from-gr_green-1 to-gr_green-2 text-white text-base rounded-lg&quot;&gt;Green&lt;/button&gt;<br />
-                        &lt;button className=&quot;py-1 px-6 bg-gradient-to-r from-gr_violet-1 to-gr_violet-2 text-white text-base rounded-lg&quot;&gt;Violet&lt;/button&gt;<br />
+                        &lt;button class=&quot;py-1 px-6 bg-gradient-to-r from-gr_blue-1 to-gr_blue-2 text-white text-base rounded-lg&quot;&gt;Default&lt;/button&gt;<br />
+                        &lt;button class=&quot;py-1 px-6 bg-gradient-to-r from-gr_red-1 to-gr_red-2 text-white text-base rounded-lg&quot;&gt;Red&lt;/button&gt;<br />
+                        &lt;button class=&quot;py-1 px-6 bg-gradient-to-r from-gr_yellow-1 to-gr_yellow-2 text-white text-base rounded-lg&quot;&gt;Yellow&lt;/button&gt;<br />
+                        &lt;button class=&quot;py-1 px-6 bg-gradient-to-r from-gr_cyan-1 to-gr_cyan-2 text-white text-base rounded-lg&quot;&gt;Cyan&lt;/button&gt;<br />
+                        &lt;button class=&quot;py-1 px-6 bg-gradient-to-r from-gr_green-1 to-gr_green-2 text-white text-base rounded-lg&quot;&gt;Green&lt;/button&gt;<br />
+                        &lt;button class=&quot;py-1 px-6 bg-gradient-to-r from-gr_violet-1 to-gr_violet-2 text-white text-base rounded-lg&quot;&gt;Violet&lt;/button&gt;<br />
 
 
                     </code>
@@ -319,12 +319,12 @@ export default function Buttons() {
                 <div style={{ height: code7 ? '400px' : '0', display: code7 ? 'block' : 'none' }} className='w-full bg-cl-blue-dark rounded-xl'>
                     <pre className='px-5 block overflow-auto whitespace-pr'><code className='px-5 overflow-auto h-96 block text-white language-html' id='code1'>
 
-                        &lt;button className=&quot;py-1 px-6 bg-gradient-to-r from-gr_blue-1 to-gr_blue-2 text-white text-base rounded-full&quot;&gt;Default&lt;/button&gt;<br />
-                        &lt;button className=&quot;py-1 px-6 bg-gradient-to-r from-gr_pink-1 to-gr_pink-2 text-white text-base rounded-full&quot;&gt;Pink&lt;/button&gt;<br />
-                        &lt;button className=&quot;py-1 px-6 bg-gradient-to-r from-gr_orange-1 to-gr_orange-2 text-white text-base rounded-full&quot;&gt;Orange&lt;/button&gt;<br />
-                        &lt;button className=&quot;py-1 px-6 bg-gradient-to-r from-gr_cyan-1 to-gr_cyan-2 text-white text-base rounded-full&quot;&gt;Cyan&lt;/button&gt;<br />
-                        &lt;button className=&quot;py-1 px-6 bg-gradient-to-r from-gr_green-1 to-gr_green-2 text-white text-base rounded-full&quot;&gt;Green&lt;/button&gt;<br />
-                        &lt;button className=&quot;py-1 px-6 bg-gradient-to-r from-gr_violet-1 to-gr_violet-2 text-white text-base rounded-full&quot;&gt;Violet&lt;/button&gt;<br />
+                        &lt;button class=&quot;py-1 px-6 bg-gradient-to-r from-gr_blue-1 to-gr_blue-2 text-white text-base rounded-full&quot;&gt;Default&lt;/button&gt;<br />
+                        &lt;button class=&quot;py-1 px-6 bg-gradient-to-r from-gr_pink-1 to-gr_pink-2 text-white text-base rounded-full&quot;&gt;Pink&lt;/button&gt;<br />
+                        &lt;button class=&quot;py-1 px-6 bg-gradient-to-r from-gr_orange-1 to-gr_orange-2 text-white text-base rounded-full&quot;&gt;Orange&lt;/button&gt;<br />
+                        &lt;button class=&quot;py-1 px-6 bg-gradient-to-r from-gr_cyan-1 to-gr_cyan-2 text-white text-base rounded-full&quot;&gt;Cyan&lt;/button&gt;<br />
+                        &lt;button class=&quot;py-1 px-6 bg-gradient-to-r from-gr_green-1 to-gr_green-2 text-white text-base rounded-full&quot;&gt;Green&lt;/button&gt;<br />
+                        &lt;button class=&quot;py-1 px-6 bg-gradient-to-r from-gr_violet-1 to-gr_violet-2 text-white text-base rounded-full&quot;&gt;Violet&lt;/button&gt;<br />
 
 
                     </code>
@@ -356,12 +356,12 @@ export default function Buttons() {
                 <div style={{ height: code8 ? '400px' : '0', display: code8 ? 'block' : 'none' }} className='w-full bg-cl-blue-dark rounded-xl'>
                     <pre className='px-5 block overflow-auto whitespace-pr'><code className='px-5 overflow-auto h-96 block text-white language-html' id='code1'>
 
-                            &lt;button className=&quot;py-1 px-6 bg-gradient-to-r from-gr_blue-1 to-gr_blue-2 text-white text-base &quot;&gt;Default&lt;/button&gt;<br />
-                            &lt;button className=&quot;py-1 px-6 bg-gradient-to-r from-gr_red-1 to-gr_red-2 text-white text-base &quot;&gt;Red&lt;/button&gt;<br />
-                            &lt;button className=&quot;py-1 px-6 bg-gradient-to-r from-gr_yellow-1 to-gr_yellow-2 text-white text-base &quot;&gt;Yellow&lt;/button&gt;<br />
-                            &lt;button className=&quot;py-1 px-6 bg-gradient-to-r from-gr_cyan-1 to-gr_cyan-2 text-white text-base &quot;&gt;Cyan&lt;/button&gt;<br />
-                            &lt;button className=&quot;py-1 px-6 bg-gradient-to-r from-gr_green-1 to-gr_green-2 text-white text-base &quot;&gt;Green&lt;/button&gt;<br />
-                            &lt;button className=&quot;py-1 px-6 bg-gradient-to-r from-gr_violet-1 to-gr_violet-2 text-white text-base &quot;&gt;Violet&lt;/button&gt;<br />
+                            &lt;button class=&quot;py-1 px-6 bg-gradient-to-r from-gr_blue-1 to-gr_blue-2 text-white text-base &quot;&gt;Default&lt;/button&gt;<br />
+                            &lt;button class=&quot;py-1 px-6 bg-gradient-to-r from-gr_red-1 to-gr_red-2 text-white text-base &quot;&gt;Red&lt;/button&gt;<br />
+                            &lt;button class=&quot;py-1 px-6 bg-gradient-to-r from-gr_yellow-1 to-gr_yellow-2 text-white text-base &quot;&gt;Yellow&lt;/button&gt;<br />
+                            &lt;button class=&quot;py-1 px-6 bg-gradient-to-r from-gr_cyan-1 to-gr_cyan-2 text-white text-base &quot;&gt;Cyan&lt;/button&gt;<br />
+                            &lt;button class=&quot;py-1 px-6 bg-gradient-to-r from-gr_green-1 to-gr_green-2 text-white text-base &quot;&gt;Green&lt;/button&gt;<br />
+                            &lt;button class=&quot;py-1 px-6 bg-gradient-to-r from-gr_violet-1 to-gr_violet-2 text-white text-base &quot;&gt;Violet&lt;/button&gt;<br />
 
 
                     </code>
@@ -409,21 +409,21 @@ export default function Buttons() {
                 <div style={{ height: code9 ? '400px' : '0', display: code9 ? 'block' : 'none' }} className='w-full bg-cl-blue-dark rounded-xl'>
                     <pre className='px-5 block overflow-auto whitespace-pr'><code className='px-5 overflow-auto h-96 block text-white language-html' id='code1'>
 
-                            &lt;button className=&quot;py-1 px-6 bg-gradient-to-r from-gr_blue-1 to-gr_blue-2 text-white text-base rounded-lg&quot;&gt;<br />
+                            &lt;button class=&quot;py-1 px-6 bg-gradient-to-r from-gr_blue-1 to-gr_blue-2 text-white text-base rounded-lg&quot;&gt;<br />
                                 Default
-                                &lt;span className=&quot;float-right relative top-1 ml-3&quot;&gt;
+                                &lt;span class=&quot;float-right relative top-1 ml-3&quot;&gt;
                                     &lt;svg xmlns=&quot;http://www.w3.org/2000/svg&quot; viewBox=&quot;0 0 448 512&quot; width=&quot;15&quot; height=&quot;15&quot; fill=&quot;white&quot; &gt;&lt;path d=&quot;M190.5 66.9l22.2-22.2c9.4-9.4 24.6-9.4 33.9 0L441 239c9.4 9.4 9.4 24.6 0 33.9L246.6 467.3c-9.4 9.4-24.6 9.4-33.9 0l-22.2-22.2c-9.5-9.5-9.3-25 .4-34.3L311.4 296H24c-13.3 0-24-10.7-24-24v-32c0-13.3 10.7-24 24-24h287.4L190.9 101.2c-9.8-9.3-10-24.8-.4-34.3z&quot; /&gt;&lt;/svg&gt;
                                 &lt;/span&gt;<br />
                             &lt;/button&gt;<br />
-                            &lt;button className=&quot;py-1 px-6 bg-gradient-to-r from-gr_violet-1 to-gr_violet-2 text-white text-base rounded-full&quot;&gt;<br />
+                            &lt;button class=&quot;py-1 px-6 bg-gradient-to-r from-gr_violet-1 to-gr_violet-2 text-white text-base rounded-full&quot;&gt;<br />
                                 Default
-                                &lt;span className=&quot;float-right relative top-1 ml-3&quot;&gt;<br />
+                                &lt;span class=&quot;float-right relative top-1 ml-3&quot;&gt;<br />
                                     &lt;svg xmlns=&quot;http://www.w3.org/2000/svg&quot; viewBox=&quot;0 0 448 512&quot; width=&quot;15&quot; height=&quot;15&quot; fill=&quot;white&quot; &gt;&lt;path d=&quot;M190.5 66.9l22.2-22.2c9.4-9.4 24.6-9.4 33.9 0L441 239c9.4 9.4 9.4 24.6 0 33.9L246.6 467.3c-9.4 9.4-24.6 9.4-33.9 0l-22.2-22.2c-9.5-9.5-9.3-25 .4-34.3L311.4 296H24c-13.3 0-24-10.7-24-24v-32c0-13.3 10.7-24 24-24h287.4L190.9 101.2c-9.8-9.3-10-24.8-.4-34.3z&quot; /&gt;&lt;/svg&gt;
                                 &lt;/span&gt;<br />
                             &lt;/button&gt;<br />
-                            &lt;button className=&quot;py-1 px-6 bg-gradient-to-r from-gr_orange-1 to-gr_orange-2 text-white text-base&quot;&gt;<br />
+                            &lt;button class=&quot;py-1 px-6 bg-gradient-to-r from-gr_orange-1 to-gr_orange-2 text-white text-base&quot;&gt;<br />
                                 Default
-                                &lt;span className=&quot;float-right relative top-1 ml-3&quot;&gt;<br />
+                                &lt;span class=&quot;float-right relative top-1 ml-3&quot;&gt;<br />
                                     &lt;svg xmlns=&quot;http://www.w3.org/2000/svg&quot; viewBox=&quot;0 0 448 512&quot; width=&quot;15&quot; height=&quot;15&quot; fill=&quot;white&quot; &gt;&lt;path d=&quot;M190.5 66.9l22.2-22.2c9.4-9.4 24.6-9.4 33.9 0L441 239c9.4 9.4 9.4 24.6 0 33.9L246.6 467.3c-9.4 9.4-24.6 9.4-33.9 0l-22.2-22.2c-9.5-9.5-9.3-25 .4-34.3L311.4 296H24c-13.3 0-24-10.7-24-24v-32c0-13.3 10.7-24 24-24h287.4L190.9 101.2c-9.8-9.3-10-24.8-.4-34.3z&quot; /&gt;&lt;/svg&gt;
                                 &lt;/span&gt;<br />
                             &lt;/button&gt;<br />
@@ -473,21 +473,21 @@ export default function Buttons() {
                 <div style={{ height: code10 ? '400px' : '0', display: code10 ? 'block' : 'none' }} className='w-full bg-cl-blue-dark rounded-xl'>
                     <pre className='px-5 block overflow-auto whitespace-pr'><code className='px-5 overflow-auto h-96 block text-white language-html' id='code1'>
 
-                            &lt;button className=&quot;py-1 px-6 bg-gradient-to-r from-gr_blue-1 to-gr_blue-2 text-white text-base rounded-lg&quot;&gt;<br />
+                            &lt;button class=&quot;py-1 px-6 bg-gradient-to-r from-gr_blue-1 to-gr_blue-2 text-white text-base rounded-lg&quot;&gt;<br />
                                 Default
-                                &lt;span className=&quot;float-left relative top-1 mr-3&quot;&gt;<br />
+                                &lt;span class=&quot;float-left relative top-1 mr-3&quot;&gt;<br />
                                     &lt;svg xmlns=&quot;http://www.w3.org/2000/svg&quot; viewBox=&quot;0 0 448 512&quot; width=&quot;15&quot; height=&quot;15&quot; fill=&quot;white&quot; &gt;&lt;path d=&quot;M190.5 66.9l22.2-22.2c9.4-9.4 24.6-9.4 33.9 0L441 239c9.4 9.4 9.4 24.6 0 33.9L246.6 467.3c-9.4 9.4-24.6 9.4-33.9 0l-22.2-22.2c-9.5-9.5-9.3-25 .4-34.3L311.4 296H24c-13.3 0-24-10.7-24-24v-32c0-13.3 10.7-24 24-24h287.4L190.9 101.2c-9.8-9.3-10-24.8-.4-34.3z&quot; /&gt;&lt;/svg&gt;
                                 &lt;/span&gt;<br />
                             &lt;/button&gt;<br />
-                            &lt;button className=&quot;py-1 px-6 bg-gradient-to-r from-gr_green-1 to-gr_green-2 text-white text-base rounded-full&quot;&gt;<br />
+                            &lt;button class=&quot;py-1 px-6 bg-gradient-to-r from-gr_green-1 to-gr_green-2 text-white text-base rounded-full&quot;&gt;<br />
                                 Default
-                                &lt;span className=&quot;float-right relative top-1 ml-3&quot;&gt;<br />
+                                &lt;span class=&quot;float-right relative top-1 ml-3&quot;&gt;<br />
                                     &lt;svg xmlns=&quot;http://www.w3.org/2000/svg&quot; viewBox=&quot;0 0 448 512&quot; width=&quot;15&quot; height=&quot;15&quot; fill=&quot;white&quot; &gt;&lt;path d=&quot;M190.5 66.9l22.2-22.2c9.4-9.4 24.6-9.4 33.9 0L441 239c9.4 9.4 9.4 24.6 0 33.9L246.6 467.3c-9.4 9.4-24.6 9.4-33.9 0l-22.2-22.2c-9.5-9.5-9.3-25 .4-34.3L311.4 296H24c-13.3 0-24-10.7-24-24v-32c0-13.3 10.7-24 24-24h287.4L190.9 101.2c-9.8-9.3-10-24.8-.4-34.3z&quot; /&gt;&lt;/svg&gt;
                                 &lt;/span&gt;<br />
                             &lt;/button&gt;<br />
-                            &lt;button className=&quot;py-1 px-6 bg-gradient-to-r from-gr_red-1 to-gr_red-2 text-white text-base&quot;&gt;<br />
+                            &lt;button class=&quot;py-1 px-6 bg-gradient-to-r from-gr_red-1 to-gr_red-2 text-white text-base&quot;&gt;<br />
                                 Default
-                                &lt;span className=&quot;float-right relative top-1 ml-3&quot;&gt;<br />
+                                &lt;span class=&quot;float-right relative top-1 ml-3&quot;&gt;<br />
                                     &lt;svg xmlns=&quot;http://www.w3.org/2000/svg&quot; viewBox=&quot;0 0 448 512&quot; width=&quot;15&quot; height=&quot;15&quot; fill=&quot;white&quot; &gt;&lt;path d=&quot;M190.5 66.9l22.2-22.2c9.4-9.4 24.6-9.4 33.9 0L441 239c9.4 9.4 9.4 24.6 0 33.9L246.6 467.3c-9.4 9.4-24.6 9.4-33.9 0l-22.2-22.2c-9.5-9.5-9.3-25 .4-34.3L311.4 296H24c-13.3 0-24-10.7-24-24v-32c0-13.3 10.7-24 24-24h287.4L190.9 101.2c-9.8-9.3-10-24.8-.4-34.3z&quot; /&gt;&lt;/svg&gt;
                                 &lt;/span&gt;<br />
                             &lt;/button&gt;<br />

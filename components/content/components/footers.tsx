@@ -80,12 +80,12 @@ export default function Footers() {
                 <div style={{ maxHeight: code1 ? '400px' : '0', display: code1 ? 'block' : 'none' }} className='w-full bg-cl-blue-dark rounded-xl pb-5 overflow-auto'>
                     <pre className='px-5 block whitespace-pr'><code className='px-5 pb-5 h-max-96 block text-white language-html' id='code1'>
 
-                        &lt;div className=&quot;w-full py-3 bg-white&quot;&gt;<br />
-                        &lt;div className=&quot;flex py-1 w-max px-2 m-auto&quot;&gt;<br />
-                        &lt;a href=&quot;/&quot;&gt;<br />&lt;button className=&quot;py-1 px-2 md:px-10 text-cl-grey-dark  hover:text-blue-600&quot;&gt;<br />FAQ&lt;/button&gt;<br />&lt;/a&gt;<br />
-                        &lt;a href=&quot;/&quot;&gt;<br />&lt;button className=&quot;py-1 px-2 md:px-10 text-cl-grey-dark  hover:text-blue-600&quot;&gt;<br />Contact us&lt;/button&gt;<br />&lt;/a&gt;<br />
-                        &lt;a href=&quot;/&quot;&gt;<br />&lt;button className=&quot;py-1 px-2 md:px-10 text-cl-grey-dark  hover:text-blue-600&quot;&gt;<br />Github&lt;/button&gt;<br />&lt;/a&gt;<br />
-                        &lt;a href=&quot;/&quot;&gt;<br />&lt;button className=&quot;py-1 px-2 md:px-10 text-cl-grey-dark  hover:text-blue-600&quot;&gt;<br />LinkedIn&lt;/button&gt;<br />&lt;/a&gt;<br />
+                        &lt;div class=&quot;w-full py-3 bg-white&quot;&gt;<br />
+                        &lt;div class=&quot;flex py-1 w-max px-2 m-auto&quot;&gt;<br />
+                        &lt;a href=&quot;/&quot;&gt;<br />&lt;button class=&quot;py-1 px-2 md:px-10 text-cl-grey-dark  hover:text-blue-600&quot;&gt;<br />FAQ&lt;/button&gt;<br />&lt;/a&gt;<br />
+                        &lt;a href=&quot;/&quot;&gt;<br />&lt;button class=&quot;py-1 px-2 md:px-10 text-cl-grey-dark  hover:text-blue-600&quot;&gt;<br />Contact us&lt;/button&gt;<br />&lt;/a&gt;<br />
+                        &lt;a href=&quot;/&quot;&gt;<br />&lt;button class=&quot;py-1 px-2 md:px-10 text-cl-grey-dark  hover:text-blue-600&quot;&gt;<br />Github&lt;/button&gt;<br />&lt;/a&gt;<br />
+                        &lt;a href=&quot;/&quot;&gt;<br />&lt;button class=&quot;py-1 px-2 md:px-10 text-cl-grey-dark  hover:text-blue-600&quot;&gt;<br />LinkedIn&lt;/button&gt;<br />&lt;/a&gt;<br />
                         &lt;/div&gt;<br />
                         &lt;/div&gt;<br />
 
@@ -123,16 +123,16 @@ export default function Footers() {
                 <div style={{ maxHeight: code2 ? '400px' : '0', display: code2 ? 'block' : 'none' }} className='w-full bg-cl-blue-dark rounded-xl pb-5 overflow-auto'>
                     <pre className='px-5 block whitespace-pr'><code className='px-5 pb-5 h-max-96 block text-white language-html' id='code1'>
 
-                        &lt;div className=&quot;w-full py-3 bg-white&quot;&gt;<br />
-                        &lt;div className=&quot;flex py-1 w-max px-2 m-auto my-3&quot;&gt;<br />
-                        &lt;a href=&quot;/&quot;&gt;<br />&lt;button className=&quot;py-1 px-2 md:px-10 text-cl-grey-dark  hover:text-blue-600&quot;&gt;<br />FAQ&lt;/button&gt;<br />&lt;/a&gt;<br />
-                        &lt;a href=&quot;/&quot;&gt;<br />&lt;button className=&quot;py-1 px-2 md:px-10 text-cl-grey-dark  hover:text-blue-600&quot;&gt;<br />Contact us&lt;/button&gt;<br />&lt;/a&gt;<br />
-                        &lt;a href=&quot;/&quot;&gt;<br />&lt;button className=&quot;py-1 px-2 md:px-10 text-cl-grey-dark  hover:text-blue-600&quot;&gt;<br />Github&lt;/button&gt;<br />&lt;/a&gt;<br />
-                        &lt;a href=&quot;/&quot;&gt;<br />&lt;button className=&quot;py-1 px-2 md:px-10 text-cl-grey-dark  hover:text-blue-600&quot;&gt;<br />LinkedIn&lt;/button&gt;<br />&lt;/a&gt;<br />
+                        &lt;div class=&quot;w-full py-3 bg-white&quot;&gt;<br />
+                        &lt;div class=&quot;flex py-1 w-max px-2 m-auto my-3&quot;&gt;<br />
+                        &lt;a href=&quot;/&quot;&gt;<br />&lt;button class=&quot;py-1 px-2 md:px-10 text-cl-grey-dark  hover:text-blue-600&quot;&gt;<br />FAQ&lt;/button&gt;<br />&lt;/a&gt;<br />
+                        &lt;a href=&quot;/&quot;&gt;<br />&lt;button class=&quot;py-1 px-2 md:px-10 text-cl-grey-dark  hover:text-blue-600&quot;&gt;<br />Contact us&lt;/button&gt;<br />&lt;/a&gt;<br />
+                        &lt;a href=&quot;/&quot;&gt;<br />&lt;button class=&quot;py-1 px-2 md:px-10 text-cl-grey-dark  hover:text-blue-600&quot;&gt;<br />Github&lt;/button&gt;<br />&lt;/a&gt;<br />
+                        &lt;a href=&quot;/&quot;&gt;<br />&lt;button class=&quot;py-1 px-2 md:px-10 text-cl-grey-dark  hover:text-blue-600&quot;&gt;<br />LinkedIn&lt;/button&gt;<br />&lt;/a&gt;<br />
                         &lt;/div&gt;<br />
-                        &lt;div className=&quot;h-px w-11/12 m-auto bg-cl-grey-light&quot;&gt;<br />&lt;/div&gt;<br />
-                        &lt;div className=&quot;flex justify-between py-3&quot;&gt;<br />
-                        &lt;span className=&quot;py-1 px-2 md:px-10 text-cl-grey-dark w-max m-auto&quot;&gt;<br />© Tailui 2050 - 5020 All right reserved&lt;/span&gt;<br />
+                        &lt;div class=&quot;h-px w-11/12 m-auto bg-cl-grey-light&quot;&gt;<br />&lt;/div&gt;<br />
+                        &lt;div class=&quot;flex justify-between py-3&quot;&gt;<br />
+                        &lt;span class=&quot;py-1 px-2 md:px-10 text-cl-grey-dark w-max m-auto&quot;&gt;<br />© Tailui 2050 - 5020 All right reserved&lt;/span&gt;<br />
                         &lt;/div&gt;<br />
                         &lt;/div&gt;<br />
 
@@ -205,17 +205,17 @@ export default function Footers() {
                 <div style={{ maxHeight: code3 ? '400px' : '0', display: code3 ? 'block' : 'none' }} className='w-full bg-cl-blue-dark rounded-xl pb-5 overflow-auto'>
                     <pre className='px-5 block whitespace-pr'><code className='px-5 pb-5 h-max-96 block text-white language-html' id='code1'>
 
-                        &lt;div className=&quot;w-full py-3 bg-white pt-10&quot;&gt;<br />
-                        &lt;h3 className=&quot;py-1 px-2 md:px-10 text-cl-orange font-semibold text-2xl m-auto text-center sm:w-auto w-full&quot;&gt;<br />Sign up to our newsletter list&lt;/h3&gt;<br />
-                        &lt;div className=&quot;flex bg-cl-secondary rounded-full w-max m-auto my-5&quot;&gt;<br />
+                        &lt;div class=&quot;w-full py-3 bg-white pt-10&quot;&gt;<br />
+                        &lt;h3 class=&quot;py-1 px-2 md:px-10 text-cl-orange font-semibold text-2xl m-auto text-center sm:w-auto w-full&quot;&gt;<br />Sign up to our newsletter list&lt;/h3&gt;<br />
+                        &lt;div class=&quot;flex bg-cl-secondary rounded-full w-max m-auto my-5&quot;&gt;<br />
                         &lt;input
-                        type=&quot;text&quot; name=&quot;username&quot; id=&quot;usernamer&quot; placeholder=&quot;enter your email&quot;
-                        className=&quot;bg-cl-secondary placeholder:text-cl-grey-dark appearance-none border-2 border-gray-300 rounded-l-full py-1 px-5 focus:bg-white focus:outline-none focus:ring-2 focus:ring-cl-violet focus:border-transparent &quot;
+                        type=&quot;text&quot; =&quot;user&quot; id=&quot;userr&quot; placeholder=&quot;enter your email&quot;
+                        class=&quot;bg-cl-secondary placeholder:text-cl-grey-dark appearance-none border-2 border-gray-300 rounded-l-full py-1 px-5 focus:bg-white focus:outline-none focus:ring-2 focus:ring-cl-violet focus:border-transparent &quot;
                         /&gt;<br />
-                        &lt;button className=&quot;py-1 px-6 bg-cl-blue text-white text-base rounded-full&quot;&gt;<br />Subscribe&lt;/button&gt;<br />
+                        &lt;button class=&quot;py-1 px-6 bg-cl-blue text-white text-base rounded-full&quot;&gt;<br />Subscribe&lt;/button&gt;<br />
                         &lt;/div&gt;<br />
-                        &lt;h3 className=&quot;py-1 px-2 md:px-10 text-cl-grey-dark my-5 text-center sm:w-auto w-full&quot;&gt;<br />Stay up to date with our space news, updates, special offers and more&lt;/h3&gt;<br />
-                        &lt;div className=&quot;flex w-max m-auto space-x-3 my-4&quot;&gt;<br />
+                        &lt;h3 class=&quot;py-1 px-2 md:px-10 text-cl-grey-dark my-5 text-center sm:w-auto w-full&quot;&gt;<br />Stay up to date with our space news, updates, special offers and more&lt;/h3&gt;<br />
+                        &lt;div class=&quot;flex w-max m-auto space-x-3 my-4&quot;&gt;<br />
                         &lt;a href=&quot;/&quot;&gt;<br />
                         &lt;button&gt;<br />
                         &lt;svg xmlns=&quot;http://www.w3.org/2000/svg&quot; viewBox=&quot;0 0 512 512&quot; width=&quot;30&quot; height=&quot;30&quot; fill=&quot;#061C3F&quot;&gt;<br />&lt;path d=&quot;M504 256C504 119 393 8 256 8S8 119 8 256c0 123.78 90.69 226.38 209.25 245V327.69h-63V256h63v-54.64c0-62.15 37-96.48 93.67-96.48 27.14 0 55.52 4.84 55.52 4.84v61h-31.28c-30.8 0-40.41 19.12-40.41 38.73V256h68.78l-11 71.69h-57.78V501C413.31 482.38 504 379.78 504 256z&quot; /&gt;<br />&lt;/svg&gt;<br />
@@ -238,17 +238,17 @@ export default function Footers() {
                         &lt;/a&gt;<br />
                         &lt;/div&gt;<br />
 
-                        &lt;div className=&quot;flex py-1 w-max px-2 m-auto my-5&quot;&gt;<br />
-                        &lt;a href=&quot;/&quot;&gt;<br />&lt;button className=&quot;py-1 px-2 md:px-10 text-cl-grey-dark  hover:text-blue-600&quot;&gt;<br />Blog&lt;/button&gt;<br />&lt;/a&gt;<br />
-                        &lt;a href=&quot;/&quot;&gt;<br />&lt;button className=&quot;py-1 px-2 md:px-10 text-cl-grey-dark  hover:text-blue-600&quot;&gt;<br />FAQ&lt;/button&gt;<br />&lt;/a&gt;<br />
-                        &lt;a href=&quot;/&quot;&gt;<br />&lt;button className=&quot;py-1 px-2 md:px-10 text-cl-grey-dark  hover:text-blue-600&quot;&gt;<br />Contact us&lt;/button&gt;<br />&lt;/a&gt;<br />
-                        &lt;a href=&quot;/&quot;&gt;<br />&lt;button className=&quot;py-1 px-2 md:px-10 text-cl-grey-dark  hover:text-blue-600&quot;&gt;<br />Github&lt;/button&gt;<br />&lt;/a&gt;<br />
-                        &lt;a href=&quot;/&quot;&gt;<br />&lt;button className=&quot;py-1 px-2 md:px-10 text-cl-grey-dark  hover:text-blue-600&quot;&gt;<br />linkedIn&lt;/button&gt;<br />&lt;/a&gt;<br />
-                        &lt;a href=&quot;/&quot;&gt;<br />&lt;button className=&quot;py-1 px-2 md:px-10 text-cl-grey-dark  hover:text-blue-600&quot;&gt;<br />Privacy Policy&lt;/button&gt;<br />&lt;/a&gt;<br />
+                        &lt;div class=&quot;flex py-1 w-max px-2 m-auto my-5&quot;&gt;<br />
+                        &lt;a href=&quot;/&quot;&gt;<br />&lt;button class=&quot;py-1 px-2 md:px-10 text-cl-grey-dark  hover:text-blue-600&quot;&gt;<br />Blog&lt;/button&gt;<br />&lt;/a&gt;<br />
+                        &lt;a href=&quot;/&quot;&gt;<br />&lt;button class=&quot;py-1 px-2 md:px-10 text-cl-grey-dark  hover:text-blue-600&quot;&gt;<br />FAQ&lt;/button&gt;<br />&lt;/a&gt;<br />
+                        &lt;a href=&quot;/&quot;&gt;<br />&lt;button class=&quot;py-1 px-2 md:px-10 text-cl-grey-dark  hover:text-blue-600&quot;&gt;<br />Contact us&lt;/button&gt;<br />&lt;/a&gt;<br />
+                        &lt;a href=&quot;/&quot;&gt;<br />&lt;button class=&quot;py-1 px-2 md:px-10 text-cl-grey-dark  hover:text-blue-600&quot;&gt;<br />Github&lt;/button&gt;<br />&lt;/a&gt;<br />
+                        &lt;a href=&quot;/&quot;&gt;<br />&lt;button class=&quot;py-1 px-2 md:px-10 text-cl-grey-dark  hover:text-blue-600&quot;&gt;<br />linkedIn&lt;/button&gt;<br />&lt;/a&gt;<br />
+                        &lt;a href=&quot;/&quot;&gt;<br />&lt;button class=&quot;py-1 px-2 md:px-10 text-cl-grey-dark  hover:text-blue-600&quot;&gt;<br />Privacy Policy&lt;/button&gt;<br />&lt;/a&gt;<br />
                         &lt;/div&gt;<br />
-                        &lt;div className=&quot;h-px w-11/12 m-auto bg-cl-grey-light&quot;&gt;<br />&lt;/div&gt;<br />
-                        &lt;div className=&quot;flex justify-between py-3&quot;&gt;<br />
-                        &lt;span className=&quot;py-1 px-2 md:px-10 text-cl-grey-dark w-max m-auto&quot;&gt;<br />© Tailui 2050 - 5020 All right reserved&lt;/span&gt;<br />
+                        &lt;div class=&quot;h-px w-11/12 m-auto bg-cl-grey-light&quot;&gt;<br />&lt;/div&gt;<br />
+                        &lt;div class=&quot;flex justify-between py-3&quot;&gt;<br />
+                        &lt;span class=&quot;py-1 px-2 md:px-10 text-cl-grey-dark w-max m-auto&quot;&gt;<br />© Tailui 2050 - 5020 All right reserved&lt;/span&gt;<br />
                         &lt;/div&gt;<br />
                         &lt;/div&gt;<br />
 
@@ -333,35 +333,35 @@ export default function Footers() {
                 <div style={{ maxHeight: code4 ? '400px' : '0', display: code4 ? 'block' : 'none' }} className='w-full bg-cl-blue-dark rounded-xl pb-5 overflow-auto'>
                     <pre className='px-5 block whitespace-pr'><code className='px-5 pb-5 h-max-96 block text-white language-html' id='code1'>
 
-                        &lt;div className=&quot;w-full py-3 bg-white pt-10&quot;&gt;<br />
-                        &lt;div className=&quot;grid sm:grid-cols-4 grid-cols-2 md:px-40 max-w-[1400px] m-auto&quot;&gt;<br />
-                        &lt;div className=&quot;grid  rounded-lg py-1 w-max my-10 px-2&quot;&gt;<br />
-                        &lt;span className=&quot;py-1 px-2 md:px-10 text-cl-blue-dark text-left font-medium&quot;&gt;<br />CUSTOMERS&lt;/span&gt;<br />
-                        &lt;a href=&quot;/&quot;&gt;<br />&lt;button className=&quot;py-1 px-2 md:px-10 text-cl-grey-dark text-left hover:text-blue-600&quot;&gt;<br />Buyers&lt;/button&gt;<br />&lt;/a&gt;<br />
-                        &lt;a href=&quot;/&quot;&gt;<br />&lt;button className=&quot;py-1 px-2 md:px-10 text-cl-grey-dark text-left hover:text-blue-600&quot;&gt;<br />Suppliers&lt;/button&gt;<br />&lt;/a&gt;<br />
-                        &lt;span className=&quot;opacity-0&quot;&gt;<br />space&lt;/span&gt;<br />
+                        &lt;div class=&quot;w-full py-3 bg-white pt-10&quot;&gt;<br />
+                        &lt;div class=&quot;grid sm:grid-cols-4 grid-cols-2 md:px-40 max-w-[1400px] m-auto&quot;&gt;<br />
+                        &lt;div class=&quot;grid  rounded-lg py-1 w-max my-10 px-2&quot;&gt;<br />
+                        &lt;span class=&quot;py-1 px-2 md:px-10 text-cl-blue-dark text-left font-medium&quot;&gt;<br />CUSTOMERS&lt;/span&gt;<br />
+                        &lt;a href=&quot;/&quot;&gt;<br />&lt;button class=&quot;py-1 px-2 md:px-10 text-cl-grey-dark text-left hover:text-blue-600&quot;&gt;<br />Buyers&lt;/button&gt;<br />&lt;/a&gt;<br />
+                        &lt;a href=&quot;/&quot;&gt;<br />&lt;button class=&quot;py-1 px-2 md:px-10 text-cl-grey-dark text-left hover:text-blue-600&quot;&gt;<br />Suppliers&lt;/button&gt;<br />&lt;/a&gt;<br />
+                        &lt;span class=&quot;opacity-0&quot;&gt;<br />space&lt;/span&gt;<br />
                         &lt;/div&gt;<br />
-                        &lt;div className=&quot;grid  rounded-lg py-1 w-max my-10 px-2&quot;&gt;<br />
-                        &lt;span className=&quot;py-1 px-2 md:px-10 text-cl-blue-dark text-left font-medium&quot;&gt;<br />HELP AND SUPPORT&lt;/span&gt;<br />
-                        &lt;a href=&quot;/&quot;&gt;<br />&lt;button className=&quot;py-1 px-2 md:px-10 text-cl-grey-dark text-left hover:text-blue-600&quot;&gt;<br />Documentation&lt;/button&gt;<br />&lt;/a&gt;<br />
-                        &lt;a href=&quot;/&quot;&gt;<br />&lt;button className=&quot;py-1 px-2 md:px-10 text-cl-grey-dark text-left hover:text-blue-600&quot;&gt;<br />Components&lt;/button&gt;<br />&lt;/a&gt;<br />
-                        &lt;a href=&quot;/&quot;&gt;<br />&lt;button className=&quot;py-1 px-2 md:px-10 text-cl-grey-dark text-left hover:text-blue-600&quot;&gt;<br />Contact&lt;/button&gt;<br />&lt;/a&gt;<br />
+                        &lt;div class=&quot;grid  rounded-lg py-1 w-max my-10 px-2&quot;&gt;<br />
+                        &lt;span class=&quot;py-1 px-2 md:px-10 text-cl-blue-dark text-left font-medium&quot;&gt;<br />HELP AND SUPPORT&lt;/span&gt;<br />
+                        &lt;a href=&quot;/&quot;&gt;<br />&lt;button class=&quot;py-1 px-2 md:px-10 text-cl-grey-dark text-left hover:text-blue-600&quot;&gt;<br />Documentation&lt;/button&gt;<br />&lt;/a&gt;<br />
+                        &lt;a href=&quot;/&quot;&gt;<br />&lt;button class=&quot;py-1 px-2 md:px-10 text-cl-grey-dark text-left hover:text-blue-600&quot;&gt;<br />Components&lt;/button&gt;<br />&lt;/a&gt;<br />
+                        &lt;a href=&quot;/&quot;&gt;<br />&lt;button class=&quot;py-1 px-2 md:px-10 text-cl-grey-dark text-left hover:text-blue-600&quot;&gt;<br />Contact&lt;/button&gt;<br />&lt;/a&gt;<br />
                         &lt;/div&gt;<br />
-                        &lt;div className=&quot;grid  rounded-lg py-1 w-max my-10 px-2&quot;&gt;<br />
-                        &lt;span className=&quot;py-1 px-2 md:px-10 text-cl-blue-dark text-left font-medium&quot;&gt;<br />FOLLOW US&lt;/span&gt;<br />
-                        &lt;a href=&quot;/&quot;&gt;<br />&lt;button className=&quot;py-1 px-2 md:px-10 text-cl-grey-dark text-left hover:text-blue-600&quot;&gt;<br />Github&lt;/button&gt;<br />&lt;/a&gt;<br />
-                        &lt;a href=&quot;/&quot;&gt;<br />&lt;button className=&quot;py-1 px-2 md:px-10 text-cl-grey-dark text-left hover:text-blue-600&quot;&gt;<br />Twitter&lt;/button&gt;<br />&lt;/a&gt;<br />
-                        &lt;a href=&quot;/&quot;&gt;<br />&lt;button className=&quot;py-1 px-2 md:px-10 text-cl-grey-dark text-left hover:text-blue-600&quot;&gt;<br />Facebook&lt;/button&gt;<br />&lt;/a&gt;<br />
+                        &lt;div class=&quot;grid  rounded-lg py-1 w-max my-10 px-2&quot;&gt;<br />
+                        &lt;span class=&quot;py-1 px-2 md:px-10 text-cl-blue-dark text-left font-medium&quot;&gt;<br />FOLLOW US&lt;/span&gt;<br />
+                        &lt;a href=&quot;/&quot;&gt;<br />&lt;button class=&quot;py-1 px-2 md:px-10 text-cl-grey-dark text-left hover:text-blue-600&quot;&gt;<br />Github&lt;/button&gt;<br />&lt;/a&gt;<br />
+                        &lt;a href=&quot;/&quot;&gt;<br />&lt;button class=&quot;py-1 px-2 md:px-10 text-cl-grey-dark text-left hover:text-blue-600&quot;&gt;<br />Twitter&lt;/button&gt;<br />&lt;/a&gt;<br />
+                        &lt;a href=&quot;/&quot;&gt;<br />&lt;button class=&quot;py-1 px-2 md:px-10 text-cl-grey-dark text-left hover:text-blue-600&quot;&gt;<br />Facebook&lt;/button&gt;<br />&lt;/a&gt;<br />
                         &lt;/div&gt;<br />
-                        &lt;div className=&quot;grid  rounded-lg py-1 w-max my-10 px-2&quot;&gt;<br />
-                        &lt;span className=&quot;py-1 px-2 md:px-10 text-cl-blue-dark text-left font-medium&quot;&gt;<br />CONTRIBUTE&lt;/span&gt;<br />
-                        &lt;a href=&quot;/&quot;&gt;<br />&lt;button className=&quot;py-1 px-2 md:px-10 text-cl-grey-dark text-left hover:text-blue-600&quot;&gt;<br />How to contribute?&lt;/button&gt;<br />&lt;/a&gt;<br />
-                        &lt;a href=&quot;/&quot;&gt;<br />&lt;button className=&quot;py-1 px-2 md:px-10 text-cl-grey-dark text-left hover:text-blue-600&quot;&gt;<br />Github&lt;/button&gt;<br />&lt;/a&gt;<br />
-                        &lt;span className=&quot;opacity-0&quot;&gt;<br />space&lt;/span&gt;<br />
+                        &lt;div class=&quot;grid  rounded-lg py-1 w-max my-10 px-2&quot;&gt;<br />
+                        &lt;span class=&quot;py-1 px-2 md:px-10 text-cl-blue-dark text-left font-medium&quot;&gt;<br />CONTRIBUTE&lt;/span&gt;<br />
+                        &lt;a href=&quot;/&quot;&gt;<br />&lt;button class=&quot;py-1 px-2 md:px-10 text-cl-grey-dark text-left hover:text-blue-600&quot;&gt;<br />How to contribute?&lt;/button&gt;<br />&lt;/a&gt;<br />
+                        &lt;a href=&quot;/&quot;&gt;<br />&lt;button class=&quot;py-1 px-2 md:px-10 text-cl-grey-dark text-left hover:text-blue-600&quot;&gt;<br />Github&lt;/button&gt;<br />&lt;/a&gt;<br />
+                        &lt;span class=&quot;opacity-0&quot;&gt;<br />space&lt;/span&gt;<br />
                         &lt;/div&gt;<br />
                         &lt;/div&gt;<br />
 
-                        &lt;div className=&quot;flex w-max m-auto space-x-3 my-4&quot;&gt;<br />
+                        &lt;div class=&quot;flex w-max m-auto space-x-3 my-4&quot;&gt;<br />
                         &lt;a href=&quot;/&quot;&gt;<br />
                         &lt;button&gt;<br />
                         &lt;svg xmlns=&quot;http://www.w3.org/2000/svg&quot; viewBox=&quot;0 0 512 512&quot; width=&quot;30&quot; height=&quot;30&quot; fill=&quot;#061C3F&quot;&gt;<br />&lt;path d=&quot;M504 256C504 119 393 8 256 8S8 119 8 256c0 123.78 90.69 226.38 209.25 245V327.69h-63V256h63v-54.64c0-62.15 37-96.48 93.67-96.48 27.14 0 55.52 4.84 55.52 4.84v61h-31.28c-30.8 0-40.41 19.12-40.41 38.73V256h68.78l-11 71.69h-57.78V501C413.31 482.38 504 379.78 504 256z&quot; /&gt;<br />&lt;/svg&gt;<br />
@@ -383,9 +383,9 @@ export default function Footers() {
                         &lt;/button&gt;<br />
                         &lt;/a&gt;<br />
                         &lt;/div&gt;<br />
-                        &lt;div className=&quot;h-px w-11/12 m-auto bg-cl-grey-light&quot;&gt;<br />&lt;/div&gt;<br />
-                        &lt;div className=&quot;flex justify-between py-3&quot;&gt;<br />
-                        &lt;span className=&quot;py-1 px-2 md:px-10 text-cl-grey-dark w-max m-auto&quot;&gt;<br />© Tailui 2050 - 5020 All right reserved&lt;/span&gt;<br />
+                        &lt;div class=&quot;h-px w-11/12 m-auto bg-cl-grey-light&quot;&gt;<br />&lt;/div&gt;<br />
+                        &lt;div class=&quot;flex justify-between py-3&quot;&gt;<br />
+                        &lt;span class=&quot;py-1 px-2 md:px-10 text-cl-grey-dark w-max m-auto&quot;&gt;<br />© Tailui 2050 - 5020 All right reserved&lt;/span&gt;<br />
                         &lt;/div&gt;<br />
                         &lt;/div&gt;<br />
 
@@ -468,33 +468,33 @@ export default function Footers() {
                 <div style={{ maxHeight: code5 ? '400px' : '0', display: code5 ? 'block' : 'none' }} className='w-full bg-cl-blue-dark rounded-xl pb-5 overflow-auto'>
                     <pre className='px-5 block whitespace-pr'><code className='px-5 pb-5 h-max-96 block text-white language-html' id='code1'>
 
-                        &lt;div className=&quot;w-full py-3 bg-white pt-10&quot;&gt;<br />
-                        &lt;div className=&quot;grid sm:grid-cols-4 grid-cols-2 md:px-40 max-w-[1400px] m-auto&quot;&gt;<br />
-                        &lt;div className=&quot;h-10 w-32 flex my-10&quot;&gt;<br />
-                        &lt;img src=&quot;/assets/icon.png&quot; alt=&quot;Logo&quot; className=&quot;object-contain h-8 w-h-8&quot; /&gt;<br />
-                        &lt;span className=&quot;text-xl ml-3 relative top-1&quot;&gt;<br />Tailui&lt;/span&gt;<br />
+                        &lt;div class=&quot;w-full py-3 bg-white pt-10&quot;&gt;<br />
+                        &lt;div class=&quot;grid sm:grid-cols-4 grid-cols-2 md:px-40 max-w-[1400px] m-auto&quot;&gt;<br />
+                        &lt;div class=&quot;h-10 w-32 flex my-10&quot;&gt;<br />
+                        &lt;img src=&quot;/assets/icon.png&quot; alt=&quot;Logo&quot; class=&quot;object-contain h-8 w-h-8&quot; /&gt;<br />
+                        &lt;span class=&quot;text-xl ml-3 relative top-1&quot;&gt;<br />Tailui&lt;/span&gt;<br />
                         &lt;/div&gt;<br />
-                        &lt;div className=&quot;grid  rounded-lg py-1 w-max my-10 px-2&quot;&gt;<br />
-                        &lt;span className=&quot;py-1 px-2 md:px-10 text-cl-blue-dark text-left font-medium&quot;&gt;<br />HELP AND SUPPORT&lt;/span&gt;<br />
-                        &lt;a href=&quot;/&quot;&gt;<br />&lt;button className=&quot;py-2 px-2 md:px-10 text-cl-grey-dark text-left hover:text-blue-600&quot;&gt;<br />Documentation&lt;/button&gt;<br />&lt;/a&gt;<br />
-                        &lt;a href=&quot;/&quot;&gt;<br />&lt;button className=&quot;py-2 px-2 md:px-10 text-cl-grey-dark text-left hover:text-blue-600&quot;&gt;<br />Components&lt;/button&gt;<br />&lt;/a&gt;<br />
-                        &lt;a href=&quot;/&quot;&gt;<br />&lt;button className=&quot;py-2 px-2 md:px-10 text-cl-grey-dark text-left hover:text-blue-600&quot;&gt;<br />Contact&lt;/button&gt;<br />&lt;/a&gt;<br />
+                        &lt;div class=&quot;grid  rounded-lg py-1 w-max my-10 px-2&quot;&gt;<br />
+                        &lt;span class=&quot;py-1 px-2 md:px-10 text-cl-blue-dark text-left font-medium&quot;&gt;<br />HELP AND SUPPORT&lt;/span&gt;<br />
+                        &lt;a href=&quot;/&quot;&gt;<br />&lt;button class=&quot;py-2 px-2 md:px-10 text-cl-grey-dark text-left hover:text-blue-600&quot;&gt;<br />Documentation&lt;/button&gt;<br />&lt;/a&gt;<br />
+                        &lt;a href=&quot;/&quot;&gt;<br />&lt;button class=&quot;py-2 px-2 md:px-10 text-cl-grey-dark text-left hover:text-blue-600&quot;&gt;<br />Components&lt;/button&gt;<br />&lt;/a&gt;<br />
+                        &lt;a href=&quot;/&quot;&gt;<br />&lt;button class=&quot;py-2 px-2 md:px-10 text-cl-grey-dark text-left hover:text-blue-600&quot;&gt;<br />Contact&lt;/button&gt;<br />&lt;/a&gt;<br />
                         &lt;/div&gt;<br />
-                        &lt;div className=&quot;grid  rounded-lg py-1 w-max my-10 px-2&quot;&gt;<br />
-                        &lt;span className=&quot;py-1 px-2 md:px-10 text-cl-blue-dark text-left font-medium&quot;&gt;<br />FOLLOW US&lt;/span&gt;<br />
-                        &lt;a href=&quot;/&quot;&gt;<br />&lt;button className=&quot;py-1 px-2 md:px-10 text-cl-grey-dark text-left hover:text-blue-600&quot;&gt;<br />Github&lt;/button&gt;<br />&lt;/a&gt;<br />
-                        &lt;a href=&quot;/&quot;&gt;<br />&lt;button className=&quot;py-1 px-2 md:px-10 text-cl-grey-dark text-left hover:text-blue-600&quot;&gt;<br />Twitter&lt;/button&gt;<br />&lt;/a&gt;<br />
-                        &lt;a href=&quot;/&quot;&gt;<br />&lt;button className=&quot;py-1 px-2 md:px-10 text-cl-grey-dark text-left hover:text-blue-600&quot;&gt;<br />Facebook&lt;/button&gt;<br />&lt;/a&gt;<br />
+                        &lt;div class=&quot;grid  rounded-lg py-1 w-max my-10 px-2&quot;&gt;<br />
+                        &lt;span class=&quot;py-1 px-2 md:px-10 text-cl-blue-dark text-left font-medium&quot;&gt;<br />FOLLOW US&lt;/span&gt;<br />
+                        &lt;a href=&quot;/&quot;&gt;<br />&lt;button class=&quot;py-1 px-2 md:px-10 text-cl-grey-dark text-left hover:text-blue-600&quot;&gt;<br />Github&lt;/button&gt;<br />&lt;/a&gt;<br />
+                        &lt;a href=&quot;/&quot;&gt;<br />&lt;button class=&quot;py-1 px-2 md:px-10 text-cl-grey-dark text-left hover:text-blue-600&quot;&gt;<br />Twitter&lt;/button&gt;<br />&lt;/a&gt;<br />
+                        &lt;a href=&quot;/&quot;&gt;<br />&lt;button class=&quot;py-1 px-2 md:px-10 text-cl-grey-dark text-left hover:text-blue-600&quot;&gt;<br />Facebook&lt;/button&gt;<br />&lt;/a&gt;<br />
                         &lt;/div&gt;<br />
-                        &lt;div className=&quot;grid  rounded-lg py-1 w-max my-10 px-2&quot;&gt;<br />
-                        &lt;span className=&quot;py-1 px-2 md:px-10 text-cl-blue-dark text-left font-medium&quot;&gt;<br />CONTRIBUTE&lt;/span&gt;<br />
-                        &lt;a href=&quot;/&quot;&gt;<br />&lt;button className=&quot;py-1 px-2 md:px-10 text-cl-grey-dark text-left hover:text-blue-600&quot;&gt;<br />How to contribute?&lt;/button&gt;<br />&lt;/a&gt;<br />
-                        &lt;a href=&quot;/&quot;&gt;<br />&lt;button className=&quot;py-1 px-2 md:px-10 text-cl-grey-dark text-left hover:text-blue-600&quot;&gt;<br />Github&lt;/button&gt;<br />&lt;/a&gt;<br />
-                        &lt;span className=&quot;opacity-0&quot;&gt;<br />space&lt;/span&gt;<br />
+                        &lt;div class=&quot;grid  rounded-lg py-1 w-max my-10 px-2&quot;&gt;<br />
+                        &lt;span class=&quot;py-1 px-2 md:px-10 text-cl-blue-dark text-left font-medium&quot;&gt;<br />CONTRIBUTE&lt;/span&gt;<br />
+                        &lt;a href=&quot;/&quot;&gt;<br />&lt;button class=&quot;py-1 px-2 md:px-10 text-cl-grey-dark text-left hover:text-blue-600&quot;&gt;<br />How to contribute?&lt;/button&gt;<br />&lt;/a&gt;<br />
+                        &lt;a href=&quot;/&quot;&gt;<br />&lt;button class=&quot;py-1 px-2 md:px-10 text-cl-grey-dark text-left hover:text-blue-600&quot;&gt;<br />Github&lt;/button&gt;<br />&lt;/a&gt;<br />
+                        &lt;span class=&quot;opacity-0&quot;&gt;<br />space&lt;/span&gt;<br />
                         &lt;/div&gt;<br />
                         &lt;/div&gt;<br />
 
-                        &lt;div className=&quot;flex w-max m-auto space-x-3 my-4&quot;&gt;<br />
+                        &lt;div class=&quot;flex w-max m-auto space-x-3 my-4&quot;&gt;<br />
                         &lt;a href=&quot;/&quot;&gt;<br />
                         &lt;button&gt;<br />
                         &lt;svg xmlns=&quot;http://www.w3.org/2000/svg&quot; viewBox=&quot;0 0 512 512&quot; width=&quot;30&quot; height=&quot;30&quot; fill=&quot;#061C3F&quot;&gt;<br />&lt;path d=&quot;M504 256C504 119 393 8 256 8S8 119 8 256c0 123.78 90.69 226.38 209.25 245V327.69h-63V256h63v-54.64c0-62.15 37-96.48 93.67-96.48 27.14 0 55.52 4.84 55.52 4.84v61h-31.28c-30.8 0-40.41 19.12-40.41 38.73V256h68.78l-11 71.69h-57.78V501C413.31 482.38 504 379.78 504 256z&quot; /&gt;<br />&lt;/svg&gt;<br />
@@ -516,10 +516,10 @@ export default function Footers() {
                         &lt;/button&gt;<br />
                         &lt;/a&gt;<br />
                         &lt;/div&gt;<br />
-                        &lt;div className=&quot;h-px w-11/12 m-auto bg-cl-grey-light&quot;&gt;<br />&lt;/div&gt;<br />
-                        &lt;div className=&quot;flex justify-between py-3 w-full&quot;&gt;<br />
-                        &lt;span className=&quot;py-1 px-2 md:px-10 text-cl-grey-dark w-max m-auto&quot;&gt;<br />© Tailui 2050 - 5020 All right reserved&lt;/span&gt;<br />
-                        &lt;span className=&quot;py-1 px-2 md:px-10 text-cl-grey-dark w-max m-auto&quot;&gt;<br />Created by &lt;Link href=&quot;/&quot;&gt;<br />&lt;button className=&quot;py-1 px-1 text-cl-red text-left hover:text-cl-violet&quot;&gt;<br />Rohit  Mishra&lt;/button&gt;<br />&lt;/Link&gt;<br />&lt;/span&gt;<br />
+                        &lt;div class=&quot;h-px w-11/12 m-auto bg-cl-grey-light&quot;&gt;<br />&lt;/div&gt;<br />
+                        &lt;div class=&quot;flex justify-between py-3 w-full&quot;&gt;<br />
+                        &lt;span class=&quot;py-1 px-2 md:px-10 text-cl-grey-dark w-max m-auto&quot;&gt;<br />© Tailui 2050 - 5020 All right reserved&lt;/span&gt;<br />
+                        &lt;span class=&quot;py-1 px-2 md:px-10 text-cl-grey-dark w-max m-auto&quot;&gt;<br />Created by &lt;Link href=&quot;/&quot;&gt;<br />&lt;button className=&quot;py-1 px-1 text-cl-red text-left hover:text-cl-violet&quot;&gt;<br />Rohit  Mishra&lt;/button&gt;<br />&lt;/Link&gt;<br />&lt;/span&gt;<br />
                         &lt;/div&gt;<br />
                         &lt;/div&gt;<br />
 

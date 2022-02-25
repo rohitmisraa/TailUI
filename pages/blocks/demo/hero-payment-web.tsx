@@ -1,9 +1,4 @@
-import Head from "next/head";
-import Drawer from "../../components/layouts/Drawer";
-import Footer from "../../components/layouts/Footer";
-import Stamps from "../../components/layouts/Stamps";
-import Nav from "../../components/layouts/nav";
-import Content from "../../components/content/blocks/block";
+
 
 
 

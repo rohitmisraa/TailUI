@@ -43,6 +43,7 @@ export default function Nav() {
         <div className='flex text-skin-dark'>
           <button className="py-1 px-2  hover:relative hover:text-cl-violet hover:font-medium hover:bottom-1 block lg:hidden" onClick={showMenu}>
             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" width="30" height="30" fill='currentColor'><path d="M16 132h416c8.837 0 16-7.163 16-16V76c0-8.837-7.163-16-16-16H16C7.163 60 0 67.163 0 76v40c0 8.837 7.163 16 16 16zm0 160h416c8.837 0 16-7.163 16-16v-40c0-8.837-7.163-16-16-16H16c-8.837 0-16 7.163-16 16v40c0 8.837 7.163 16 16 16zm0 160h416c8.837 0 16-7.163 16-16v-40c0-8.837-7.163-16-16-16H16c-8.837 0-16 7.163-16 16v40c0 8.837 7.163 16 16 16z" /></svg>
+            
           </button>
           <Link href={'/'} passHref><a>
           <div className="h-10 relative top-2 mx-2 w-auto flex">
@@ -69,7 +70,11 @@ export default function Nav() {
             <button className="py-1 px-6 top-1 relative hover:text-cl-violet hover:font-medium hover:top-0 hidden lg:block">Components</button>
             </a></Link>
           <button onClick={theme} className="py-1 px-2 w-16  relative hover:text-cl-violet top-1 hover:font-medium hover:top-0">
-            {SVG.light_btn}
+            {
+              (darktheme === "true")?
+              SVG.light_btn:
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="30" height="30" fill='currentColor'><path d="M32 256c0-123.8 100.3-224 223.8-224c11.36 0 29.7 1.668 40.9 3.746c9.616 1.777 11.75 14.63 3.279 19.44C245 86.5 211.2 144.6 211.2 207.8c0 109.7 99.71 193 208.3 172.3c9.561-1.805 16.28 9.324 10.11 16.95C387.9 448.6 324.8 480 255.8 480C132.1 480 32 379.6 32 256z"/></svg>
+            }
           </button>
           <Link href={'https://www.figma.com/file/AecRDddZ9yERdseaj6YGyY/tailui-materials'} passHref><a target="_blank">
             <button className="py-1 px-2 pr-5 relative top-1 hover:text-cl-violet hover:font-medium hover:top-0 sm:block hidden">
@@ -100,7 +105,7 @@ export default function Nav() {
               </ul>
             </div>
           </div>
-          <Drawer />
+          <Drawer data={null}/>
 
         </div>
       </div></>

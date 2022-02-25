@@ -130,10 +130,10 @@ export default function Buttongroups() {
                 <div style={{ height: code1 ? '400px' : '0', display: code1 ? 'block' : 'none' }} className='w-full bg-cl-blue-dark rounded-xl'>
                     <pre className='px-5 block overflow-auto whitespace-pr'><code className='px-5 overflow-auto h-96 block text-white language-html' id='code1'>
 
-                        &lt;div className=&quot;flex rounded-lg bg-cl-blue py-1 w-max my-10&quot;&gt;<br />
-                        &lt;button className=&quot;py-1 px-6 text-white rounded-lg&quot;&gt;<br />Button 1&lt;/button&gt;<br />
-                        &lt;button className=&quot;py-1 px-6 text-white rounded-lg&quot;&gt;<br />Button 2&lt;/button&gt;<br />
-                        &lt;button className=&quot;py-1 px-6 text-white rounded-lg&quot;&gt;<br />Button 3&lt;/button&gt;<br />
+                        &lt;div class=&quot;flex rounded-lg bg-cl-blue py-1 w-max my-10&quot;&gt;<br />
+                        &lt;button class=&quot;py-1 px-6 text-white rounded-lg&quot;&gt;<br />Button 1&lt;/button&gt;<br />
+                        &lt;button class=&quot;py-1 px-6 text-white rounded-lg&quot;&gt;<br />Button 2&lt;/button&gt;<br />
+                        &lt;button class=&quot;py-1 px-6 text-white rounded-lg&quot;&gt;<br />Button 3&lt;/button&gt;<br />
                         &lt;/div&gt;<br />
                     </code>
                     </pre>
@@ -162,10 +162,10 @@ export default function Buttongroups() {
                 <div style={{ height: code2 ? '400px' : '0', display: code2 ? 'block' : 'none' }} className='w-full bg-cl-blue-dark rounded-xl'>
                     <pre className='px-5 block overflow-auto whitespace-pr'><code className='px-5 overflow-auto h-96 block text-white language-html' id='code1'>
 
-                        &lt;div className=&quot;flex rounded-lg bg-white py-1 w-max my-10&quot;&gt;<br />
-                        &lt;button className=&quot;py-1 px-6 text-cl-blue-dark font-semibold rounded-l-lg border-2 border-cl-blue-dark&quot;&gt;<br />Button 1&lt;/button&gt;<br />
-                        &lt;button className=&quot;py-1 px-6 text-cl-blue-dark font-semibold border-2 border-cl-blue-dark&quot;&gt;<br />Button 2&lt;/button&gt;<br />
-                        &lt;button className=&quot;py-1 px-6 text-cl-blue-dark font-semibold rounded-r-lg border-2 border-cl-blue-dark&quot;&gt;<br />Button 3&lt;/button&gt;<br />
+                        &lt;div class=&quot;flex rounded-lg bg-white py-1 w-max my-10&quot;&gt;<br />
+                        &lt;button class=&quot;py-1 px-6 text-cl-blue-dark font-semibold rounded-l-lg border-2 border-cl-blue-dark&quot;&gt;<br />Button 1&lt;/button&gt;<br />
+                        &lt;button class=&quot;py-1 px-6 text-cl-blue-dark font-semibold border-2 border-cl-blue-dark&quot;&gt;<br />Button 2&lt;/button&gt;<br />
+                        &lt;button class=&quot;py-1 px-6 text-cl-blue-dark font-semibold rounded-r-lg border-2 border-cl-blue-dark&quot;&gt;<br />Button 3&lt;/button&gt;<br />
                         &lt;/div&gt;<br />
                     </code>
                     </pre>
@@ -194,10 +194,10 @@ export default function Buttongroups() {
                 <div style={{ height: code3 ? '400px' : '0', display: code3 ? 'block' : 'none' }} className='w-full bg-cl-blue-dark rounded-xl'>
                     <pre className='px-5 block overflow-auto whitespace-pr'><code className='px-5 overflow-auto h-96 block text-white language-html' id='code1'>
 
-                        &lt;div className=&quot;flex rounded-lg bg-cl-secondary w-max py-1 my-10&quot;&gt;<br />
-                        &lt;button className=&quot;py-1 px-6 text-cl-blue-dark font-semibold rounded-lg&quot;&gt;<br />Button 1&lt;/button&gt;<br />
-                        &lt;button className=&quot;py-1 px-6 text-cl-blue-dark font-semibold rounded-lg&quot;&gt;<br />Button 2&lt;/button&gt;<br />
-                        &lt;button className=&quot;py-1 px-6 text-cl-blue-dark font-semibold rounded-lg&quot;&gt;<br />Button 3&lt;/button&gt;<br />
+                        &lt;div class=&quot;flex rounded-lg bg-cl-secondary w-max py-1 my-10&quot;&gt;<br />
+                        &lt;button class=&quot;py-1 px-6 text-cl-blue-dark font-semibold rounded-lg&quot;&gt;<br />Button 1&lt;/button&gt;<br />
+                        &lt;button class=&quot;py-1 px-6 text-cl-blue-dark font-semibold rounded-lg&quot;&gt;<br />Button 2&lt;/button&gt;<br />
+                        &lt;button class=&quot;py-1 px-6 text-cl-blue-dark font-semibold rounded-lg&quot;&gt;<br />Button 3&lt;/button&gt;<br />
                         &lt;/div&gt;<br />
                     </code>
                     </pre>
@@ -228,10 +228,10 @@ export default function Buttongroups() {
                 <div style={{ height: code4 ? '400px' : '0', display: code4 ? 'block' : 'none' }} className='w-full bg-cl-blue-dark rounded-xl'>
                     <pre className='px-5 block overflow-auto whitespace-pr'><code className='px-5 overflow-auto h-96 block text-white language-html' id='code1'>
 
-                        &lt;div className=&quot;flex rounded-full bg-cl-blue py-1 w-max my-10&quot;&gt;<br />
-                        &lt;button className=&quot;py-1 px-6 text-white rounded-lg&quot;&gt;<br />Button 1&lt;/button&gt;<br />
-                        &lt;button className=&quot;py-1 px-6 text-white rounded-lg&quot;&gt;<br />Button 2&lt;/button&gt;<br />
-                        &lt;button className=&quot;py-1 px-6 text-white rounded-lg&quot;&gt;<br />Button 3&lt;/button&gt;<br />
+                        &lt;div class=&quot;flex rounded-full bg-cl-blue py-1 w-max my-10&quot;&gt;<br />
+                        &lt;button class=&quot;py-1 px-6 text-white rounded-lg&quot;&gt;<br />Button 1&lt;/button&gt;<br />
+                        &lt;button class=&quot;py-1 px-6 text-white rounded-lg&quot;&gt;<br />Button 2&lt;/button&gt;<br />
+                        &lt;button class=&quot;py-1 px-6 text-white rounded-lg&quot;&gt;<br />Button 3&lt;/button&gt;<br />
                         &lt;/div&gt;<br />
 
                     </code>
@@ -261,10 +261,10 @@ export default function Buttongroups() {
                 <div style={{ height: code5 ? '400px' : '0', display: code5 ? 'block' : 'none' }} className='w-full bg-cl-blue-dark rounded-xl'>
                     <pre className='px-5 block overflow-auto whitespace-pr'><code className='px-5 overflow-auto h-96 block text-white language-html' id='code1'>
 
-                        &lt;div className=&quot;flex bg-cl-blue py-1 w-max my-10&quot;&gt;<br />
-                        &lt;button className=&quot;py-1 px-6 text-white rounded-lg&quot;&gt;<br />Button 1&lt;/button&gt;<br />
-                        &lt;button className=&quot;py-1 px-6 text-white rounded-lg&quot;&gt;<br />Button 2&lt;/button&gt;<br />
-                        &lt;button className=&quot;py-1 px-6 text-white rounded-lg&quot;&gt;<br />Button 3&lt;/button&gt;<br />
+                        &lt;div class=&quot;flex bg-cl-blue py-1 w-max my-10&quot;&gt;<br />
+                        &lt;button class=&quot;py-1 px-6 text-white rounded-lg&quot;&gt;<br />Button 1&lt;/button&gt;<br />
+                        &lt;button class=&quot;py-1 px-6 text-white rounded-lg&quot;&gt;<br />Button 2&lt;/button&gt;<br />
+                        &lt;button class=&quot;py-1 px-6 text-white rounded-lg&quot;&gt;<br />Button 3&lt;/button&gt;<br />
                         &lt;/div&gt;<br />
                     </code>
                     </pre>
@@ -295,10 +295,10 @@ export default function Buttongroups() {
                 <div style={{ height: code6 ? '400px' : '0', display: code6 ? 'block' : 'none' }} className='w-full bg-cl-blue-dark rounded-xl'>
                     <pre className='px-5 block overflow-auto whitespace-pr'><code className='px-5 overflow-auto h-96 block text-white language-html' id='code1'>
 
-                        &lt;div className=&quot;flex bg-gradient-to-r from-gr_blue-1 to-gr_blue-2 rounded-lg py-1 w-max my-10&quot;&gt;<br />
-                        &lt;button className=&quot;py-1 px-6 text-white rounded-lg  hover:bg-blue-600&quot;&gt;<br />Button 1&lt;/button&gt;<br />
-                        &lt;button className=&quot;py-1 px-6 text-white rounded-lg  hover:bg-blue-600&quot;&gt;<br />Button 2&lt;/button&gt;<br />
-                        &lt;button className=&quot;py-1 px-6 text-white rounded-lg  hover:bg-blue-600&quot;&gt;<br />Button 3&lt;/button&gt;<br />
+                        &lt;div class=&quot;flex bg-gradient-to-r from-gr_blue-1 to-gr_blue-2 rounded-lg py-1 w-max my-10&quot;&gt;<br />
+                        &lt;button class=&quot;py-1 px-6 text-white rounded-lg  hover:bg-blue-600&quot;&gt;<br />Button 1&lt;/button&gt;<br />
+                        &lt;button class=&quot;py-1 px-6 text-white rounded-lg  hover:bg-blue-600&quot;&gt;<br />Button 2&lt;/button&gt;<br />
+                        &lt;button class=&quot;py-1 px-6 text-white rounded-lg  hover:bg-blue-600&quot;&gt;<br />Button 3&lt;/button&gt;<br />
                         &lt;/div&gt;<br />
 
                     </code>
@@ -328,10 +328,10 @@ export default function Buttongroups() {
                 <div style={{ height: code7 ? '400px' : '0', display: code7 ? 'block' : 'none' }} className='w-full bg-cl-blue-dark rounded-xl'>
                     <pre className='px-5 block overflow-auto whitespace-pr'><code className='px-5 overflow-auto h-96 block text-white language-html' id='code1'>
 
-                        &lt;div className=&quot;flex bg-gradient-to-r from-gr_orange-1 to-gr_orange-2 rounded-full py-1 w-max my-10 px-2&quot;&gt;<br />
-                        &lt;button className=&quot;py-1 px-6 text-white rounded-lg  hover:bg-orange-600&quot;&gt;<br />Button 1&lt;/button&gt;<br />
-                        &lt;button className=&quot;py-1 px-6 text-white rounded-lg  hover:bg-orange-600&quot;&gt;<br />Button 2&lt;/button&gt;<br />
-                        &lt;button className=&quot;py-1 px-6 text-white rounded-lg  hover:bg-orange-600&quot;&gt;<br />Button 3&lt;/button&gt;<br />
+                        &lt;div class=&quot;flex bg-gradient-to-r from-gr_orange-1 to-gr_orange-2 rounded-full py-1 w-max my-10 px-2&quot;&gt;<br />
+                        &lt;button class=&quot;py-1 px-6 text-white rounded-lg  hover:bg-orange-600&quot;&gt;<br />Button 1&lt;/button&gt;<br />
+                        &lt;button class=&quot;py-1 px-6 text-white rounded-lg  hover:bg-orange-600&quot;&gt;<br />Button 2&lt;/button&gt;<br />
+                        &lt;button class=&quot;py-1 px-6 text-white rounded-lg  hover:bg-orange-600&quot;&gt;<br />Button 3&lt;/button&gt;<br />
                         &lt;/div&gt;<br />
 
                     </code>
@@ -361,10 +361,10 @@ export default function Buttongroups() {
                 <div style={{ height: code8 ? '400px' : '0', display: code8 ? 'block' : 'none' }} className='w-full bg-cl-blue-dark rounded-xl'>
                     <pre className='px-5 block overflow-auto whitespace-pr'><code className='px-5 overflow-auto h-96 block text-white language-html' id='code1'>
 
-                        &lt;div className=&quot;flex bg-gradient-to-r from-gr_violet-1 to-gr_violet-2 py-1 w-max my-10 px-2&quot;&gt;<br />
-                        &lt;button className=&quot;py-1 px-6 text-white  hover:bg-violet-600&quot;&gt;<br />Button 1&lt;/button&gt;<br />
-                        &lt;button className=&quot;py-1 px-6 text-white  hover:bg-violet-600&quot;&gt;<br />Button 2&lt;/button&gt;<br />
-                        &lt;button className=&quot;py-1 px-6 text-white  hover:bg-violet-600&quot;&gt;<br />Button 3&lt;/button&gt;<br />
+                        &lt;div class=&quot;flex bg-gradient-to-r from-gr_violet-1 to-gr_violet-2 py-1 w-max my-10 px-2&quot;&gt;<br />
+                        &lt;button class=&quot;py-1 px-6 text-white  hover:bg-violet-600&quot;&gt;<br />Button 1&lt;/button&gt;<br />
+                        &lt;button class=&quot;py-1 px-6 text-white  hover:bg-violet-600&quot;&gt;<br />Button 2&lt;/button&gt;<br />
+                        &lt;button class=&quot;py-1 px-6 text-white  hover:bg-violet-600&quot;&gt;<br />Button 3&lt;/button&gt;<br />
                         &lt;/div&gt;<br />
 
                     </code>
@@ -393,10 +393,10 @@ export default function Buttongroups() {
                 <div style={{ height: code9 ? '400px' : '0', display: code9 ? 'block' : 'none' }} className='w-full bg-cl-blue-dark rounded-xl'>
                     <pre className='px-5 block overflow-auto whitespace-pr'><code className='px-5 overflow-auto h-96 block text-white language-html' id='code1'>
 
-                        &lt;div className=&quot;flex py-1 w-max my-10 px-2&quot;&gt;<br />
-                        &lt;button className=&quot;py-1 px-6 text-cl-blue  hover:bg-violet-600&quot;&gt;<br />Button 1&lt;/button&gt;<br />
-                        &lt;button className=&quot;py-1 px-6 text-cl-blue  hover:bg-violet-600&quot;&gt;<br />Button 2&lt;/button&gt;<br />
-                        &lt;button className=&quot;py-1 px-6 text-cl-blue  hover:bg-violet-600&quot;&gt;<br />Button 3&lt;/button&gt;<br />
+                        &lt;div class=&quot;flex py-1 w-max my-10 px-2&quot;&gt;<br />
+                        &lt;button class=&quot;py-1 px-6 text-cl-blue  hover:bg-violet-600&quot;&gt;<br />Button 1&lt;/button&gt;<br />
+                        &lt;button class=&quot;py-1 px-6 text-cl-blue  hover:bg-violet-600&quot;&gt;<br />Button 2&lt;/button&gt;<br />
+                        &lt;button class=&quot;py-1 px-6 text-cl-blue  hover:bg-violet-600&quot;&gt;<br />Button 3&lt;/button&gt;<br />
                         &lt;/div&gt;<br />
 
                     </code>
@@ -436,18 +436,18 @@ export default function Buttongroups() {
                 <div style={{ height: code10 ? '400px' : '0', display: code10 ? 'block' : 'none' }} className='w-full bg-cl-blue-dark rounded-xl'>
                     <pre className='px-5 block overflow-auto whitespace-pr'><code className='px-5 overflow-auto h-96 block text-white language-html' id='code1'>
 
-                        &lt;div className=&quot;flex justify-between &quot;&gt;<br />
-                        &lt;div className=&quot;grid bg-gradient-to-r from-gr_orange-1 to-gr_orange-2 rounded-lg py-1 w-max my-10 px-2&quot;&gt;<br />
-                        &lt;button className=&quot;py-1 px-6 text-white rounded-lg  hover:bg-orange-600&quot;&gt;<br />Button 1&lt;/button&gt;<br />
-                        &lt;button className=&quot;py-1 px-6 text-white rounded-lg  hover:bg-orange-600&quot;&gt;<br />Button 2&lt;/button&gt;<br />
-                        &lt;button className=&quot;py-1 px-6 text-white rounded-lg  hover:bg-orange-600&quot;&gt;<br />Button 3&lt;/button&gt;<br />
-                        &lt;button className=&quot;py-1 px-6 text-white rounded-lg  hover:bg-orange-600&quot;&gt;<br />Button 4&lt;/button&gt;<br />
+                        &lt;div class=&quot;flex justify-between &quot;&gt;<br />
+                        &lt;div class=&quot;grid bg-gradient-to-r from-gr_orange-1 to-gr_orange-2 rounded-lg py-1 w-max my-10 px-2&quot;&gt;<br />
+                        &lt;button class=&quot;py-1 px-6 text-white rounded-lg  hover:bg-orange-600&quot;&gt;<br />Button 1&lt;/button&gt;<br />
+                        &lt;button class=&quot;py-1 px-6 text-white rounded-lg  hover:bg-orange-600&quot;&gt;<br />Button 2&lt;/button&gt;<br />
+                        &lt;button class=&quot;py-1 px-6 text-white rounded-lg  hover:bg-orange-600&quot;&gt;<br />Button 3&lt;/button&gt;<br />
+                        &lt;button class=&quot;py-1 px-6 text-white rounded-lg  hover:bg-orange-600&quot;&gt;<br />Button 4&lt;/button&gt;<br />
                         &lt;/div&gt;<br />
-                        &lt;div className=&quot;grid bg-gradient-to-r from-gr_cyan-1 to-gr_cyan-2 rounded-lg py-1 w-max my-10 px-2&quot;&gt;<br />
-                        &lt;button className=&quot;py-1 px-6 text-white rounded-lg  hover:bg-cyan-600&quot;&gt;<br />Button 1&lt;/button&gt;<br />
-                        &lt;button className=&quot;py-1 px-6 text-white rounded-lg  hover:bg-cyan-600&quot;&gt;<br />Button 2&lt;/button&gt;<br />
-                        &lt;button className=&quot;py-1 px-6 text-white rounded-lg  hover:bg-cyan-600&quot;&gt;<br />Button 3&lt;/button&gt;<br />
-                        &lt;button className=&quot;py-1 px-6 text-white rounded-lg  hover:bg-cyan-600&quot;&gt;<br />Button 4&lt;/button&gt;<br />
+                        &lt;div class=&quot;grid bg-gradient-to-r from-gr_cyan-1 to-gr_cyan-2 rounded-lg py-1 w-max my-10 px-2&quot;&gt;<br />
+                        &lt;button class=&quot;py-1 px-6 text-white rounded-lg  hover:bg-cyan-600&quot;&gt;<br />Button 1&lt;/button&gt;<br />
+                        &lt;button class=&quot;py-1 px-6 text-white rounded-lg  hover:bg-cyan-600&quot;&gt;<br />Button 2&lt;/button&gt;<br />
+                        &lt;button class=&quot;py-1 px-6 text-white rounded-lg  hover:bg-cyan-600&quot;&gt;<br />Button 3&lt;/button&gt;<br />
+                        &lt;button class=&quot;py-1 px-6 text-white rounded-lg  hover:bg-cyan-600&quot;&gt;<br />Button 4&lt;/button&gt;<br />
                         &lt;/div&gt;<br />
                         &lt;/div&gt;<br />
 
@@ -481,12 +481,12 @@ export default function Buttongroups() {
                 <div style={{ height: code11 ? '400px' : '0', display: code11 ? 'block' : 'none' }} className='w-full bg-cl-blue-dark rounded-xl'>
                     <pre className='px-5 block overflow-auto whitespace-pr'><code className='px-5 overflow-auto h-96 block text-white language-html' id='code1'>
 
-                        &lt;div className=&quot;flex justify-between&quot;&gt;<br />
-                        &lt;div className=&quot;grid bg-white rounded-lg py-1 w-max my-10 px-2 shadow-lg&quot;&gt;<br />
-                        &lt;button className=&quot;py-1 px-6 text-cl-grey-dark rounded-lg  hover:bg-cl-grey-light&quot;&gt;<br />Button 1&lt;/button&gt;<br />
-                        &lt;button className=&quot;py-1 px-6 text-cl-grey-dark rounded-lg  hover:bg-cl-grey-light&quot;&gt;<br />Button 2&lt;/button&gt;<br />
-                        &lt;button className=&quot;py-1 px-6 text-cl-grey-dark rounded-lg  hover:bg-cl-grey-light&quot;&gt;<br />Button 3&lt;/button&gt;<br />
-                        &lt;button className=&quot;py-1 px-6 text-cl-grey-dark rounded-lg  hover:bg-cl-grey-light&quot;&gt;<br />Button 4&lt;/button&gt;<br />
+                        &lt;div class=&quot;flex justify-between&quot;&gt;<br />
+                        &lt;div class=&quot;grid bg-white rounded-lg py-1 w-max my-10 px-2 shadow-lg&quot;&gt;<br />
+                        &lt;button class=&quot;py-1 px-6 text-cl-grey-dark rounded-lg  hover:bg-cl-grey-light&quot;&gt;<br />Button 1&lt;/button&gt;<br />
+                        &lt;button class=&quot;py-1 px-6 text-cl-grey-dark rounded-lg  hover:bg-cl-grey-light&quot;&gt;<br />Button 2&lt;/button&gt;<br />
+                        &lt;button class=&quot;py-1 px-6 text-cl-grey-dark rounded-lg  hover:bg-cl-grey-light&quot;&gt;<br />Button 3&lt;/button&gt;<br />
+                        &lt;button class=&quot;py-1 px-6 text-cl-grey-dark rounded-lg  hover:bg-cl-grey-light&quot;&gt;<br />Button 4&lt;/button&gt;<br />
                         &lt;/div&gt;<br />
                         &lt;/div&gt;<br />
 

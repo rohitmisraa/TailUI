@@ -7,6 +7,7 @@ module.exports = {
             skin: {
               light: 'var(--color-text-light)',
               dark: 'var(--color-text-dark)',
+              auto: 'var(--color-social)',
             },
           },
           backgroundColor: {
