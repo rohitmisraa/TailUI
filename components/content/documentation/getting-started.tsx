@@ -60,8 +60,12 @@ export default function GettingStarted() {
 
             <p className="my-4 text-skin-light">Steps-&nbsp;</p>
 
-            <p className="my-4 text-skin-light"><span className="font-size:36px"><strong>[Component image]</strong></span><br />
-            First sep is select the component or block you want from 50+ options.</p>
+            <div className="aspect-w-16 aspect-h-9 border-2 border-gray-400">
+                <img src="/assets/posts/tailui-components.gif" alt="Code copy image" />
+            </div>
+            <p className="my-4 text-skin-light">First sep is select the component or block you want from 50+ options.</p>
+            <br />
+            <br />
 
             <div className="aspect-w-16 aspect-h-9 border-2 border-gray-400">
                 <img src="/assets/posts/copy_code_tailui.png" alt="Code copy image" />
