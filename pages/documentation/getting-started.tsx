@@ -11,8 +11,8 @@ export default function GettingStarted() {
     return (
         <div className="w-full xl:max-w-[1550px] m-auto overflow-x-hidden bg-skin-base ">
             <Head>
-                {/* <title>{posts.frontmatter.title}</title> */}
-                <meta name="description" content="Tailui a free and open source components library for Tailwind css." />
+                <title>Getting Started | TailUI</title>
+                <meta name="description" content="We have made TailUI because, there are very less number of web UI component available for free, either they are paid or the quality is not that good. We made TailUI so we can provide free quality components." />
                 <link rel="icon" href="/assets/favicon.ico" />
                 
             </Head>

@@ -11,8 +11,8 @@ export default function Cards() {
     return (
         <div className="w-full xl:max-w-[1550px] m-auto overflow-x-hidden bg-skin-base ">
             <Head>
-                {/* <title>{posts.frontmatter.title}</title> */}
-                <meta name="description" content="Tailui a free and open source components library for Tailwind css." />
+                <title>Cards | TailUI</title>
+                <meta name="description" content="Cards are the container which hold or group many element to one place." />
                 <link rel="icon" href="/assets/favicon.ico" />
                 
             </Head>

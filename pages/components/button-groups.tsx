@@ -11,8 +11,8 @@ export default function ButtonGroups() {
     return (
         <div className="w-full xl:max-w-[1550px] m-auto overflow-x-hidden bg-skin-base ">
             <Head>
-                {/* <title>{posts.frontmatter.title}</title> */}
-                <meta name="description" content="Tailui a free and open source components library for Tailwind css." />
+                <title>Button Groups | TailUI</title>
+                <meta name="description" content="Buttons allows users to perform on click activities and button groups can be good for many buttons like navigations." />
                 <link rel="icon" href="/assets/favicon.ico" />
             </Head>
             <Nav />

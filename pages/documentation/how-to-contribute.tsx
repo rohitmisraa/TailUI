@@ -11,8 +11,8 @@ export default function Contribute() {
     return (
         <div className="w-full xl:max-w-[1550px] m-auto overflow-x-hidden bg-skin-base ">
             <Head>
-                {/* <title>{posts.frontmatter.title}</title> */}
-                <meta name="description" content="Tailui a free and open source components library for Tailwind css." />
+                <title>How to contribute? | TailUI</title>
+                <meta name="description" content="TailUI is an open-source, Tailwind components library. This means anyone can contribute to this project. To know more, checkout about TailUI. For this project we are managing website part with web components and designing part in Figma. So you can contribute in any of these." />
                 <link rel="icon" href="/assets/favicon.ico" />
                 
             </Head>

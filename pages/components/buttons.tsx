@@ -11,8 +11,8 @@ export default function Buttons() {
     return (
         <div className="w-full xl:max-w-[1550px] m-auto overflow-x-hidden bg-skin-base ">
             <Head>
-                {/* <title>{posts.frontmatter.title}</title> */}
-                <meta name="description" content="Tailui a free and open source components library for Tailwind css." />
+                <title>Buttons | TailUI</title>
+                <meta name="description" content="Buttons allows users to perform on click activities. We have tens of options for buttons." />
                 <link rel="icon" href="/assets/favicon.ico" />
                 
             </Head>

@@ -11,8 +11,8 @@ export default function Abouttailui() {
     return (
         <div className="w-full xl:max-w-[1550px] m-auto overflow-x-hidden bg-skin-base ">
             <Head>
-                {/* <title>{posts.frontmatter.title}</title> */}
-                <meta name="description" content="Tailui a free and open source components library for Tailwind css." />
+                <title>About TailUI</title>
+                <meta name="description" content="TailUI is an Open source Tailwind CSS Components library. So all the components are made using Tailwind CSS. We created this TailUI to give some Quality help back to the developer community and anyone can use our components, blocks or Pages. Simply by copying the code." />
                 <link rel="icon" href="/assets/favicon.ico" />
                 
             </Head>

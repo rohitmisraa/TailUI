@@ -11,8 +11,8 @@ export default function InputFields() {
     return (
         <div className="w-full xl:max-w-[1550px] m-auto overflow-x-hidden bg-skin-base ">
             <Head>
-                {/* <title>{posts.frontmatter.title}</title> */}
-                <meta name="description" content="Tailui a free and open source components library for Tailwind css." />
+                <title>Input fields | TailUI</title>
+                <meta name="description" content="Input fields allows user to enter data in the form of text. We many options for input fields." />
                 <link rel="icon" href="/assets/favicon.ico" />
                 
             </Head>

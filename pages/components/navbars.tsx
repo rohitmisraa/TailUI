@@ -11,8 +11,8 @@ export default function Navbars() {
     return (
         <div className="w-full xl:max-w-[1550px] m-auto overflow-x-hidden bg-skin-base ">
             <Head>
-                {/* <title>{posts.frontmatter.title}</title> */}
-                <meta name="description" content="Tailui a free and open source components library for Tailwind css." />
+                <title>Navbars | TailUI</title>
+                <meta name="description" content="Navbars are the top of the container which have links and icons, and is used to perform some activies easily." />
                 <link rel="icon" href="/assets/favicon.ico" />
                 
             </Head>

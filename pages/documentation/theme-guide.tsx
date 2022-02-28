@@ -11,8 +11,8 @@ export default function ThemeGuide() {
     return (
         <div className="w-full xl:max-w-[1550px] m-auto overflow-x-hidden bg-skin-base ">
             <Head>
-                {/* <title>{posts.frontmatter.title}</title> */}
-                <meta name="description" content="Tailui a free and open source components library for Tailwind css." />
+                <title>Theme Guide | TailUI</title>
+                <meta name="description" content="The first thing, a user see and observe is the color, It is the Identity of a website. Choosing the right color or color theme can make or break the UI. And we have made this easy for you, now you can use our ready-made theme and our custom colors in your project." />
                 <link rel="icon" href="/assets/favicon.ico" />
                 
             </Head>

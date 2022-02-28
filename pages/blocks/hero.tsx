@@ -11,8 +11,8 @@ export default function HeroFitness() {
     return (
         <div className="w-full xl:max-w-[1550px] m-auto overflow-x-hidden bg-skin-base ">
             <Head>
-                {/* <title>{posts.frontmatter.title}</title> */}
-                <meta name="description" content="TailUI a free and open source components library for Tailwind css." />
+                <title>Hero | TailUI</title>
+                <meta name="description" content="Hero blocks are the top or the first component user see when come to index page. Simple Tracking app Hero, This hero is best for simple sites like app landing page, and other simple design websites." />
                 <link rel="icon" href="/assets/favicon.ico" />
                 
             </Head>

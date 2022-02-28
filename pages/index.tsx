@@ -10,7 +10,7 @@ export default function Home() {
   return (
     <div className="w-full xl:max-w-[1550px] m-auto overflow-x-hidden bg-skin-base">
       <Head>
-        {/* <title>{posts.frontmatter.title}</title> */}
+        <title>TailUI - A Tailwind Component library</title>
         <meta name="description" content="TailUI a free and open source components library for Tailwind css." />
         <link rel="icon" href="/assets/favicon.ico" />
         <meta name="google-site-verification" content="smyq3-pqQ7dVbS_QyEozcAGqf5_PdVZG9RqB8BGB7JE" />

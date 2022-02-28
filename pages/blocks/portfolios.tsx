@@ -11,8 +11,8 @@ export default function Portfolios() {
     return (
         <div className="w-full xl:max-w-[1550px] m-auto overflow-x-hidden bg-skin-base ">
             <Head>
-                {/* <title>{posts.frontmatter.title}</title> */}
-                <meta name="description" content="TailUI a free and open source components library for Tailwind css." />
+                <title>Portfolios | TailUI</title>
+                <meta name="description" content="Portfolio are personal website for anyone who belongs to any proffession like developer, engineers, doctors, etc." />
                 <link rel="icon" href="/assets/favicon.ico" />
                 
             </Head>
