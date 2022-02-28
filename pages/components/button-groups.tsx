@@ -9,14 +9,14 @@ import ButtonsD from "../../components/content/components/button-groups";
 
 export default function ButtonGroups() {
     return (
-        <div className="w-full overflow-x-hidden bg-skin-base ">
+        <div className="w-full xl:max-w-[1550px] m-auto overflow-x-hidden bg-skin-base ">
             <Head>
                 {/* <title>{posts.frontmatter.title}</title> */}
                 <meta name="description" content="Tailui a free and open source components library for Tailwind css." />
                 <link rel="icon" href="/assets/favicon.ico" />
             </Head>
             <Nav />
-            <div className='xl:w-[1480px] h-full flex pt-16 m-auto'>
+            <div className='h-full flex pt-16'>
                 <div className="w-1/3 lg:w-[300px] hidden xl:w-[300px] lg:block h-full border-r-[1px] border-gray-400 pl-5 pr-3 pt-10 overflow-scroll fixed z-10">
                     <Drawer data={6}/>
                 </div>

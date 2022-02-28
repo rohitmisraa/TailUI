@@ -8,7 +8,7 @@ export default function Home() {
 
 
   return (
-    <div className="w-full overflow-x-hidden bg-skin-base">
+    <div className="w-full xl:max-w-[1550px] m-auto overflow-x-hidden bg-skin-base">
       <Head>
         {/* <title>{posts.frontmatter.title}</title> */}
         <meta name="description" content="TailUI a free and open source components library for Tailwind css." />
@@ -16,7 +16,7 @@ export default function Home() {
         <meta name="google-site-verification" content="smyq3-pqQ7dVbS_QyEozcAGqf5_PdVZG9RqB8BGB7JE" />
       </Head>
       <Nav />
-      <div className="py-3 px-5 sm:px-20 w-screen flex justify-between pt-60 space-x-4">
+      <div className="py-3 px-5 sm:px-20 flex justify-between pt-60 space-x-4">
         <div className="w-full lg:w-3/6">
           <h1 className="lg:text-7xl w-full text-5xl xl:w-[650px] text-skin-dark"><span className="font-bold text-gr_violet-2">TailUI </span>- Tailwind Component library and templates</h1>
           <p className="text-xl text-skin-light xl:w-[650px] mt-5">A Tailwind library with 50+ components, Make your app using our library without much effort.</p>

@@ -39,7 +39,7 @@ export default function Nav() {
       <meta name="description" content="TailUI a free and open source components library for Tailwind css." />
       <link rel="icon" href="/assets/favicon.ico" />
 
-    </Head><div className="py-3 px-5 lg:px-20 w-screen flex justify-between fixed max-h-20  z-20 bg-white/5 backdrop-blur-md">
+    </Head><div className="py-3 px-5 lg:px-20 w-screen 2xl:w-[1550px] 2xl:m-auto flex justify-between fixed max-h-20  z-20 bg-white/5 backdrop-blur-md">
         <div className='flex text-skin-dark'>
           <button className="py-1 px-2  hover:relative hover:text-cl-violet hover:font-medium hover:bottom-1 block lg:hidden" onClick={showMenu}>
             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" width="30" height="30" fill='currentColor'><path d="M16 132h416c8.837 0 16-7.163 16-16V76c0-8.837-7.163-16-16-16H16C7.163 60 0 67.163 0 76v40c0 8.837 7.163 16 16 16zm0 160h416c8.837 0 16-7.163 16-16v-40c0-8.837-7.163-16-16-16H16c-8.837 0-16 7.163-16 16v40c0 8.837 7.163 16 16 16zm0 160h416c8.837 0 16-7.163 16-16v-40c0-8.837-7.163-16-16-16H16c-8.837 0-16 7.163-16 16v40c0 8.837 7.163 16 16 16z" /></svg>

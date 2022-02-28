@@ -903,10 +903,6 @@ Ensure the default browser behavior of the `hidden` attribute.
   width: 100%;
 }
 
-.w-screen {
-  width: 100vw;
-}
-
 .w-80 {
   width: 20rem;
 }
@@ -931,6 +927,10 @@ Ensure the default browser behavior of the `hidden` attribute.
 
 .w-32 {
   width: 8rem;
+}
+
+.w-screen {
+  width: 100vw;
 }
 
 .w-0 {
@@ -2235,10 +2235,6 @@ html {
     width: 700px;
   }
 
-  .xl\:w-\[1480px\] {
-    width: 1480px;
-  }
-
   .xl\:w-\[300px\] {
     width: 300px;
   }
@@ -2263,6 +2259,10 @@ html {
     width: 450px;
   }
 
+  .xl\:max-w-\[1550px\] {
+    max-width: 1550px;
+  }
+
   .xl\:grid-cols-4 {
     grid-template-columns: repeat(4, minmax(0, 1fr));
   }
@@ -2278,5 +2278,15 @@ html {
 
   .xl\:pl-10 {
     padding-left: 2.5rem;
+  }
+}
+
+@media (min-width: 1536px) {
+  .\32xl\:m-auto {
+    margin: auto;
+  }
+
+  .\32xl\:w-\[1550px\] {
+    width: 1550px;
   }
 }

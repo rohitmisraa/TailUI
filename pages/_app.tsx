@@ -15,7 +15,7 @@ function MyApp({ Component, pageProps }) {
     {/* <script src="https://cdn.tailwindcss.com"></script> */}
     <link rel="icon" href="/assets/favicon.ico" />
     </Head>
-    <div className={` ${(darktheme == 'true')?'theme-dark':''} font-Rubik scroll-smooth`}>
+    <div className={` ${(darktheme == 'true')?'theme-dark':''} bg-skin-base font-Rubik scroll-smooth`}>
       
     <Component {...pageProps} />
 
